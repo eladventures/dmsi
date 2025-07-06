@@ -1,7 +1,6 @@
 'use client';
 
 import React from 'react';
-import Link from 'next/link';
 import { HeroHeader } from '@/components/hero-header';
 import { Footer } from '@/components/footer';
 import { PageHero } from '@/components/page-hero';

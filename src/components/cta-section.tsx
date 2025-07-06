@@ -23,7 +23,7 @@ export function CTASection() {
                         viewport={{ once: true }}
                         className="mt-6 text-lg text-muted-foreground max-w-4xl mx-auto"
                     >
-                        Since 1986, we've guided generations of Filipino investors—young professionals, families, entrepreneurs—through the ups and downs of the stock market. At DA Market Securities, investing isn't just about numbers; it's about relationships. Our licensed brokers take the time to understand your goals, answer your questions, and walk you through each step with care. Whether you're just starting out or looking to grow your portfolio, we're here with steady guidance, clear communication, and a personal touch you can count on.
+                        Since 1986, we&apos;ve guided generations of Filipino investors—young professionals, families, entrepreneurs—through the ups and downs of the stock market. At DA Market Securities, investing isn&apos;t just about numbers; it&apos;s about relationships. Our licensed brokers take the time to understand your goals, answer your questions, and walk you through each step with care. Whether you&apos;re just starting out or looking to grow your portfolio, we&apos;re here with steady guidance, clear communication, and a personal touch you can count on.
                     </motion.p>
 
                     <motion.div 
