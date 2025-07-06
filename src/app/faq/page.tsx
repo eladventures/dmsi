@@ -6,7 +6,7 @@ import { Footer } from '@/components/footer'
 import { PageHero } from '@/components/page-hero'
 import { SectionWrapper } from '@/components/section-wrapper'
 import Link from 'next/link'
-import { Info, CreditCard, TrendingUp, BarChart3, Settings, HelpCircle, ChevronDown } from 'lucide-react'
+import { Info, CreditCard, TrendingUp, BarChart3, Settings, HelpCircle, ChevronDown, type LucideIcon } from 'lucide-react'
 
 type CategoryKey = 'about-us' | 'opening-account' | 'account-funding' | 'trading-fees' | 'online-trading' | 'maintaining-account' | 'other-services'
 
@@ -22,7 +22,7 @@ export default function FAQPage() {
         )
     }
 
-    const categories: Array<{ id: CategoryKey; title: string; icon: any }> = [
+    const categories: Array<{ id: CategoryKey; title: string; icon: LucideIcon }> = [
         {
             id: 'about-us',
             title: 'About Us',
