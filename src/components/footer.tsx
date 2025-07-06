@@ -75,9 +75,13 @@ export function Footer() {
                 
                 <div className="border-t border-slate-700 mt-12 pt-8 pb-8">
                     <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-                        <span className="text-slate-400 text-sm">
-                            © {new Date().getFullYear()} DA Market Securities, Inc. All rights reserved.
-                        </span>
+                        <div className="flex flex-col md:flex-row items-center gap-4 text-slate-400 text-sm">
+                            <span>© {new Date().getFullYear()} DA Market Securities, Inc. All rights reserved.</span>
+                            <span className="hidden md:inline">•</span>
+                            <Link href="/privacy" className="hover:text-white transition-colors">
+                                Privacy Policy
+                            </Link>
+                        </div>
                         
                         <div className="flex gap-4">
                             <Link
