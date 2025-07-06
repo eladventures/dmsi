@@ -248,7 +248,7 @@ export default function FAQPage() {
 
                                 <div className="mt-8 p-6 bg-muted/50 rounded-lg">
                                     <p className="text-muted-foreground">
-                                        Can't find what you're looking for? Contact our{' '}
+                                        Can&apos;t find what you&apos;re looking for? Contact our{' '}
                                         <Link
                                             href="#"
                                             className="text-[#40739d] font-medium hover:underline"
