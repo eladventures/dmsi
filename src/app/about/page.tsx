@@ -83,7 +83,7 @@ export default function AboutPage() {
                     className="text-center mb-16"
                 >
                     <h2 className="text-4xl font-medium lg:text-5xl mb-6">
-                        Board of Directors
+                        Board of Directors and Officers
                     </h2>
                     <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
                         Meet the experienced leaders guiding DA Market Securities with vision and integrity.
@@ -126,11 +126,11 @@ export default function AboutPage() {
 
             <SectionWrapper background="muted">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-medium lg:text-5xl mb-6">Our team</h2>
+                    <h2 className="text-4xl font-medium lg:text-5xl mb-6">Our Team</h2>
                 </div>
 
                 <div className="text-center">
-                    <h3 className="mb-2 text-lg font-medium">Research Team</h3>
+                    <h3 className="mb-2 text-2xl font-bold">Research Team</h3>
                     <p className="text-muted-foreground text-sm mb-6">Market analysis and strategy</p>
                     <div className="flex justify-center border-t py-6">
                         <div className="text-center">
@@ -145,7 +145,7 @@ export default function AboutPage() {
 
                 <div className="mt-12 text-center">
                     <div className="border-t pt-6">
-                        <h3 className="mb-2 text-lg font-medium">Sales and Trading Team</h3>
+                        <h3 className="mb-2 text-2xl font-bold">Sales and Trading Team</h3>
                         <p className="text-muted-foreground text-sm mb-6">Execution and client services</p>
                     </div>
                     <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3">
@@ -189,7 +189,7 @@ export default function AboutPage() {
 
                 <div className="mt-12 text-center">
                     <div className="border-t pt-6">
-                        <h3 className="mb-2 text-lg font-medium">Backroom Team</h3>
+                        <h3 className="mb-2 text-2xl font-bold">Backroom Team</h3>
                         <p className="text-muted-foreground text-sm mb-6">Operations and accounting</p>
                     </div>
                     <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
