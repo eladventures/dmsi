@@ -8,8 +8,10 @@ import { SectionWrapper } from '@/components/section-wrapper'
 import Link from 'next/link'
 import { Info, CreditCard, TrendingUp, BarChart3, Settings, HelpCircle, ChevronDown } from 'lucide-react'
 
+type CategoryKey = 'about-us' | 'opening-account' | 'account-funding' | 'trading-fees' | 'online-trading' | 'maintaining-account' | 'other-services'
+
 export default function FAQPage() {
-    const [activeCategory, setActiveCategory] = useState('opening-account')
+    const [activeCategory, setActiveCategory] = useState<CategoryKey>('opening-account')
     const [openAccordions, setOpenAccordions] = useState<string[]>([])
 
     const toggleAccordion = (id: string) => {
@@ -20,7 +22,7 @@ export default function FAQPage() {
         )
     }
 
-    const categories = [
+    const categories: Array<{ id: CategoryKey; title: string; icon: any }> = [
         {
             id: 'about-us',
             title: 'About Us',
