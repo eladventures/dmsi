@@ -67,7 +67,7 @@ export default function FirstNewsPage() {
                                     <AlertCircle className="h-16 w-16 text-muted-foreground mb-4" />
                                     <h3 className="text-xl font-semibold mb-2">PDF Preview Not Available</h3>
                                     <p className="text-muted-foreground mb-6 max-w-md">
-                                        The PDF preview couldn't be loaded. You can still download the full report using the button below.
+                                        The PDF preview couldn&apos;t be loaded. You can still download the full report using the button below.
                                     </p>
                                     <Button
                                         onClick={handleDownload}

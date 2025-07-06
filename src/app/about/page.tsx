@@ -6,7 +6,6 @@ import { Footer } from "@/components/footer";
 import { PageHero } from "@/components/page-hero";
 import { SectionWrapper } from "@/components/section-wrapper";
 import { motion } from "framer-motion";
-import Link from 'next/link';
 
 function AboutContentSection() {
     return (
