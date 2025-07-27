@@ -93,12 +93,11 @@ export default function AboutPage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {[
                         { name: "Mario M. Aguas", position: "Chairman, Independent Director, Member Audit and Compliance Committee", image: "/team/mario-aguas.jpg" },
-                        { name: "Nestor S. Aguila", position: "Director, President, Nominee, Trader", image: "/team/nestor-aguila.jpg" },
-                        { name: "Jocelyn David-Greenlaw", position: "Director, Executive Vice-President, Treasurer", image: "/team/jocelyn-greenlaw.jpg" },
-                        { name: "Teresa David-Carlos", position: "Director, Member Audit and Compliance Committee", image: "/team/teresa-carlos.jpg" },
+                        { name: "Jocelyn David Greenlaw", position: "Director, President, Trader", image: "/team/jocelyn-greenlaw.jpg" },
+                        { name: "Teresa David Carlos", position: "Director, Treasurer, Member Audit and Compliance Committee", image: "/team/teresa-carlos.jpg" },
+                        { name: "Nestor S. Aguila", position: "Director, Nominee, Trader", image: "/team/nestor-aguila.jpg" },
                         { name: "Tomas S. Gomez, IV", position: "Independent Director, Chairman Audit and Compliance Committee", image: "/team/tomas-gomez.jpg" },
-                        { name: "Atty. Rosita C. Cham", position: "Director, Associated Person", image: "/team/rosita-cham.jpg" },
-                        { name: "Fe M. Caling", position: "Operations Manager", image: "/team/fe-caling.jpg" },
+                        { name: "Fe M. Caling", position: "Associated Person, Data Protection Officer", image: "/team/fe-caling.jpg" },
                         { name: "Morrin Abi P. Mabiog", position: "Corporate Secretary, Settlement Assistant", image: "/team/morrin-mabiog.jpg" }
                     ].map((member, index) => (
                         <motion.div
@@ -138,7 +137,7 @@ export default function AboutPage() {
                                 <img className="aspect-square rounded-full object-cover" src="/team/nisha-alicer.jpg" alt="Nisha Ma. Nimfa S. Alicer" height="460" width="460" loading="lazy" />
                             </div>
                             <span className="mt-2 block text-sm">Nisha Ma. Nimfa S. Alicer</span>
-                            <span className="text-muted-foreground block text-xs">Chief Equity Strategist, Trader</span>
+                            <span className="text-muted-foreground block text-xs">Chief Equity Strategist, Certified Equity Securities Salesman</span>
                         </div>
                     </div>
                 </div>
@@ -192,7 +191,7 @@ export default function AboutPage() {
                         <h3 className="mb-2 text-2xl font-bold">Backroom Team</h3>
                         <p className="text-muted-foreground text-sm mb-6">Operations and accounting</p>
                     </div>
-                    <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                    <div className="grid grid-cols-5 gap-8">
                         {[
                             {
                                 name: 'Amalia S. Romualdo',
@@ -201,7 +200,7 @@ export default function AboutPage() {
                             },
                             {
                                 name: 'Joana Marie S. Gomez',
-                                role: 'Accounting Supervisor',
+                                role: 'Accounting Supervisor, Officer-in-charge',
                                 avatar: '/team/joana-gomez.jpg',
                             },
                             {
@@ -214,14 +213,31 @@ export default function AboutPage() {
                                 role: 'Accounting Assistant',
                                 avatar: '/team/rosela-timario.jpg',
                             },
+                            {
+                                name: 'Sherwin C. Serrano',
+                                role: 'Delivery Representative',
+                                avatar: '/team/sherwin-serrano.jpg',
+                            },
                         ].map((member, index) => (
-                            <div key={index} className="text-center">
-                                <div className="bg-background size-48 rounded-full border p-0.5 shadow shadow-zinc-950/5 mx-auto">
-                                    <img className="aspect-square rounded-full object-cover" src={member.avatar} alt={member.name} height="460" width="460" loading="lazy" />
+                            <motion.div
+                                key={index}
+                                initial={{ opacity: 0, y: 20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.6, delay: index * 0.1 }}
+                                viewport={{ once: true }}
+                                className="bg-card rounded-2xl border shadow-sm p-6 text-center group hover:shadow-lg transition-shadow duration-300"
+                            >
+                                <div className="relative mb-4 overflow-hidden rounded-xl">
+                                    <img
+                                        src={member.avatar}
+                                        alt={member.name}
+                                        className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+                                    />
+                                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                                 </div>
-                                <span className="mt-2 block text-sm">{member.name}</span>
-                                <span className="text-muted-foreground block text-xs">{member.role}</span>
-                            </div>
+                                <h3 className="text-lg font-semibold mb-2">{member.name}</h3>
+                                <p className="text-muted-foreground text-sm">{member.role}</p>
+                            </motion.div>
                         ))}
                     </div>
                 </div>
