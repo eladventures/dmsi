@@ -9,13 +9,13 @@ const services = [
     image: '/images/service-trading.png'
   },
   {
-    title: 'Investment Advisory',
-    description: 'Personalized investment strategies crafted by our expert advisors to meet your financial goals.',
+    title: 'Stock Research',
+    description: 'In-depth equity research and market analysis to help you make informed investment decisions.',
     image: '/images/service-advisory.png'
   },
   {
-    title: 'Wealth Management',
-    description: 'Comprehensive wealth management solutions to preserve and grow your assets for the future.',
+    title: 'Client Support',
+    description: 'Dedicated client service and account management to support your trading and investment needs.',
     image: '/images/service-wealth.png'
   }
 ]

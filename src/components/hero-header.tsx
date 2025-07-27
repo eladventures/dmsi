@@ -9,6 +9,7 @@ import { cn } from '@/lib/utils'
 const menuItems = [
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
+    { name: 'Vision', href: '/vision' },
     { name: 'First News', href: '/first-news' },
     { name: 'FAQ', href: '/faq' },
     { name: 'Forms', href: '/forms' },
@@ -81,7 +82,7 @@ export const HeroHeader = () => {
                                 <Button
                                     asChild
                                     size="sm"
-                                    className={cn('border-0 bg-[#40739d] hover:bg-[#40739d]/90', isScrolled ? 'lg:hidden' : '')}>
+                                    className={cn('border-0 bg-brand-primary hover:bg-brand-primary/90', isScrolled ? 'lg:hidden' : '')}>
                                     <Link href="/open-account">
                                         <span>Open Account</span>
                                     </Link>
@@ -89,7 +90,7 @@ export const HeroHeader = () => {
                                 <Button
                                     asChild
                                     size="sm"
-                                    className={cn('bg-[#eed592] hover:bg-[#eed592]/90 text-black', isScrolled ? 'lg:inline-flex' : 'hidden')}>
+                                    className={cn('bg-brand-yellow hover:bg-brand-yellow/90 text-black', isScrolled ? 'lg:inline-flex' : 'hidden')}>
                                     <Link href="/open-account">
                                         <span>Get Started</span>
                                     </Link>

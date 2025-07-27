@@ -192,7 +192,7 @@ export default function FAQPage() {
                                                 onClick={() => setActiveCategory(category.id)}
                                                 className={`w-full flex items-center gap-3 px-4 py-3 rounded-lg text-left transition-colors ${
                                                     activeCategory === category.id
-                                                        ? 'bg-[#40739d] text-white'
+                                                        ? 'bg-brand-primary text-white'
                                                         : 'hover:bg-muted text-muted-foreground hover:text-foreground'
                                                 }`}
                                             >
@@ -253,7 +253,7 @@ export default function FAQPage() {
                                         Can&apos;t find what you&apos;re looking for? Contact our{' '}
                                         <Link
                                             href="#"
-                                            className="text-[#40739d] font-medium hover:underline"
+                                            className="text-brand-primary font-medium hover:underline"
                                         >
                                             customer support team
                                         </Link>

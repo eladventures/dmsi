@@ -23,7 +23,7 @@ export function CTASection() {
                         viewport={{ once: true }}
                         className="mt-6 text-lg text-muted-foreground max-w-4xl mx-auto"
                     >
-                        Since 1986, we&apos;ve guided generations of Filipino investors—young professionals, families, entrepreneurs—through the ups and downs of the stock market. At DA Market Securities, investing isn&apos;t just about numbers; it&apos;s about relationships. Our licensed brokers take the time to understand your goals, answer your questions, and walk you through each step with care. Whether you&apos;re just starting out or looking to grow your portfolio, we&apos;re here with steady guidance, clear communication, and a personal touch you can count on.
+                        Since 1987, we&apos;ve guided generations of Filipino investors—young professionals, families, entrepreneurs—through the ups and downs of the stock market. At DA Market Securities, investing isn&apos;t just about numbers; it&apos;s about relationships. Our licensed brokers take the time to understand your goals, answer your questions, and walk you through each step with care. Whether you&apos;re just starting out or looking to grow your portfolio, we&apos;re here with steady guidance, clear communication, and a personal touch you can count on.
                     </motion.p>
 
                     <motion.div 
@@ -36,7 +36,7 @@ export function CTASection() {
                         <Button
                             asChild
                             size="lg"
-                            className="bg-[#40739d] hover:bg-[#40739d]/90">
+                            className="bg-brand-primary hover:bg-brand-primary/90">
                             <Link href="/open-account">
                                 <span>Get Started</span>
                             </Link>

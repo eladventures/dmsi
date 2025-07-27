@@ -23,6 +23,10 @@
   --color-input: hsl(0 0% 89.8%);
   --color-ring: hsl(0 0% 3.9%);
   --radius: 0.5rem;
+  
+  /* Brand colors */
+  --color-brand-primary: #0272d8; /* Bold blue */
+  --color-brand-yellow: #fdb912; /* Yellow */
 }
 
 /* Dark mode colors */

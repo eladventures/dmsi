@@ -68,7 +68,7 @@ export function ContentSection() {
                             <div>
                                 <h3 className="text-lg font-semibold mb-1">Trusted Over the Years</h3>
                                 <p className="text-sm text-muted-foreground">
-                                    With a consistent track record of service and reliability since 1986, we help clients invest with clarity and confidence. Our experience is your advantage in navigating market complexities.
+                                    With a consistent track record of service and reliability since 1987, we help clients invest with clarity and confidence. Our experience is your advantage in navigating market complexities.
                                 </p>
                             </div>
                         </div>

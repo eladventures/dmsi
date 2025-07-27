@@ -71,7 +71,7 @@ export default function FirstNewsPage() {
                                     </p>
                                     <Button
                                         onClick={handleDownload}
-                                        className="bg-[#40739d] hover:bg-[#40739d]/90"
+                                        className="bg-brand-primary hover:bg-brand-primary/90"
                                     >
                                         <Download className="h-4 w-4 mr-2" />
                                         Download Report
@@ -85,7 +85,7 @@ export default function FirstNewsPage() {
                             <div className="border-t bg-muted/30 p-6">
                                 <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
                                     <div className="flex items-center gap-3">
-                                        <FileText className="h-5 w-5 text-[#40739d]" />
+                                        <FileText className="h-5 w-5 text-brand-primary" />
                                         <div>
                                             <h3 className="font-semibold">Daily Market Report</h3>
                                             <p className="text-sm text-muted-foreground">
@@ -95,7 +95,7 @@ export default function FirstNewsPage() {
                                     </div>
                                     <Button
                                         onClick={handleDownload}
-                                        className="bg-[#40739d] hover:bg-[#40739d]/90"
+                                        className="bg-brand-primary hover:bg-brand-primary/90"
                                     >
                                         <Download className="h-4 w-4 mr-2" />
                                         Download PDF
@@ -145,7 +145,7 @@ export default function FirstNewsPage() {
                         </p>
                         <Button
                             variant="outline"
-                            className="border-[#40739d] text-[#40739d] hover:bg-[#40739d] hover:text-white"
+                            className="border-brand-primary text-brand-primary hover:bg-brand-primary hover:text-white"
                         >
                             Request Archive Access
                         </Button>

@@ -34,14 +34,14 @@ const links = [
 
 export function Footer() {
     return (
-        <footer className="bg-[#40739d] text-white pt-20">
+        <footer className="bg-brand-primary text-white pt-20">
             <div className="mx-auto max-w-5xl px-6">
                 <div className="grid gap-12 md:grid-cols-5">
                     <div className="md:col-span-2">
                         <div>
                             <h3 className="text-2xl font-bold mb-4">DA Market Securities</h3>
                             <p className="text-slate-300 mb-6">
-                                Leading Philippine stock brokerage firm serving individual and institutional investors with integrity since 1986
+                                Leading Philippine stock brokerage firm serving individual and institutional investors with integrity since 1987
                             </p>
                         </div>
                     </div>

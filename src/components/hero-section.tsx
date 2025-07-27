@@ -51,7 +51,7 @@ export function HeroSection() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-xl text-muted-foreground max-w-3xl mx-auto mb-10"
         >
-          Serving individual and institutional investors with integrity since 1986.
+          Serving individual and institutional investors with integrity since 1987.
         </motion.p>
 
         {/* CTA Buttons */}
@@ -61,7 +61,7 @@ export function HeroSection() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="flex flex-col sm:flex-row gap-4 justify-center mb-16"
         >
-          <Button asChild size="lg" className="group bg-[#40739d] hover:bg-[#40739d]/90">
+          <Button asChild size="lg" className="group bg-brand-primary hover:bg-brand-primary/90">
             <Link href="/open-account">
               Get Started
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />

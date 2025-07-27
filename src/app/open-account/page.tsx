@@ -36,7 +36,7 @@ export default function OpenAccountPage() {
                         className="bg-muted/30 rounded-2xl border p-8 text-center mb-16"
                     >
                         <div className="flex justify-center mb-6">
-                            <div className="bg-[#40739d] p-4 rounded-full">
+                            <div className="bg-brand-primary p-4 rounded-full">
                                 <FileText className="h-8 w-8 text-white" />
                             </div>
                         </div>
@@ -47,7 +47,7 @@ export default function OpenAccountPage() {
                         <Button
                             onClick={handleFormDownload}
                             size="lg"
-                            className="bg-[#40739d] hover:bg-[#40739d]/90 text-white"
+                            className="bg-brand-primary hover:bg-brand-primary/90 text-white"
                         >
                             <Download className="h-5 w-5 mr-2" />
                             DOWNLOAD FORM
@@ -64,7 +64,7 @@ export default function OpenAccountPage() {
                         <div className="space-y-6">
                             <div className="bg-card rounded-lg border p-6 flex gap-4">
                                 <div className="flex-shrink-0">
-                                    <div className="bg-[#40739d] text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">
+                                    <div className="bg-brand-primary text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">
                                         1
                                     </div>
                                 </div>
@@ -77,7 +77,7 @@ export default function OpenAccountPage() {
 
                             <div className="bg-card rounded-lg border p-6 flex gap-4">
                                 <div className="flex-shrink-0">
-                                    <div className="bg-[#40739d] text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">
+                                    <div className="bg-brand-primary text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">
                                         2
                                     </div>
                                 </div>
@@ -90,7 +90,7 @@ export default function OpenAccountPage() {
 
                             <div className="bg-card rounded-lg border p-6 flex gap-4">
                                 <div className="flex-shrink-0">
-                                    <div className="bg-[#40739d] text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">
+                                    <div className="bg-brand-primary text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">
                                         3
                                     </div>
                                 </div>
@@ -103,7 +103,7 @@ export default function OpenAccountPage() {
 
                             <div className="bg-card rounded-lg border p-6 flex gap-4">
                                 <div className="flex-shrink-0">
-                                    <div className="bg-[#40739d] text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">
+                                    <div className="bg-brand-primary text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">
                                         4
                                     </div>
                                 </div>
@@ -113,7 +113,7 @@ export default function OpenAccountPage() {
                                             Submit the forms and other requirements to DMSI Office:
                                         </p>
                                         <div className="bg-gray-100 border border-gray-200 rounded-lg p-4">
-                                            <div className="text-[#40739d] space-y-1">
+                                            <div className="text-brand-primary space-y-1">
                                                 <p className="font-semibold">DA Market Securities, Inc.</p>
                                                 <div className="flex items-start gap-2">
                                                     <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
@@ -138,7 +138,7 @@ export default function OpenAccountPage() {
 
                             <div className="bg-card rounded-lg border p-6 flex gap-4">
                                 <div className="flex-shrink-0">
-                                    <div className="bg-[#40739d] text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">
+                                    <div className="bg-brand-primary text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">
                                         5
                                     </div>
                                 </div>

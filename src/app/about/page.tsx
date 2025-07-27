@@ -18,7 +18,7 @@ function AboutContentSection() {
                     viewport={{ once: true }}
                     className="relative mx-auto mb-16 max-w-5xl"
                 >
-                    <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                    <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-brand-primary">
                         <img
                             className="w-full h-auto"
                             src="/images/board.png"
@@ -106,7 +106,7 @@ export default function AboutPage() {
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6, delay: index * 0.1 }}
                             viewport={{ once: true }}
-                            className="bg-card rounded-2xl border shadow-sm p-6 text-center group hover:shadow-lg transition-shadow duration-300"
+                            className="bg-card rounded-2xl border-2 border-brand-primary shadow-sm p-6 text-center group hover:shadow-lg transition-shadow duration-300"
                         >
                             <div className="relative mb-6 overflow-hidden rounded-xl">
                                 <img
@@ -129,16 +129,29 @@ export default function AboutPage() {
                 </div>
 
                 <div className="text-center">
-                    <h3 className="mb-2 text-2xl font-bold">Research Team</h3>
-                    <p className="text-muted-foreground text-sm mb-6">Market analysis and strategy</p>
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.6 }}
+                        viewport={{ once: true }}
+                    >
+                        <h3 className="mb-2 text-2xl font-bold">Research Team</h3>
+                        <p className="text-muted-foreground text-sm mb-6">Market analysis and strategy</p>
+                    </motion.div>
                     <div className="flex justify-center border-t py-6">
-                        <div className="text-center">
-                            <div className="bg-background size-48 rounded-full border p-0.5 shadow shadow-zinc-950/5 mx-auto">
-                                <img className="aspect-square rounded-full object-cover" src="/team/nisha-alicer.jpg" alt="Nisha Ma. Nimfa S. Alicer" height="460" width="460" loading="lazy" />
+                        <motion.div 
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.6, delay: 0.2 }}
+                            viewport={{ once: true }}
+                            className="text-center"
+                        >
+                            <div className="bg-background size-48 rounded-full border-4 border-brand-primary p-0.5 shadow shadow-zinc-950/5 mx-auto group">
+                                <img className="aspect-square rounded-full object-cover transition-transform duration-300 group-hover:scale-105" src="/team/nisha-alicer.jpg" alt="Nisha Ma. Nimfa S. Alicer" height="460" width="460" loading="lazy" />
                             </div>
-                            <span className="mt-2 block text-sm">Nisha Ma. Nimfa S. Alicer</span>
-                            <span className="text-muted-foreground block text-xs">Chief Equity Strategist, Certified Equity Securities Salesman</span>
-                        </div>
+                            <span className="mt-2 block text-lg font-semibold">Nisha Ma. Nimfa S. Alicer</span>
+                            <span className="text-muted-foreground block text-sm">Chief Equity Strategist, Certified Equity Securities Salesman</span>
+                        </motion.div>
                     </div>
                 </div>
 
@@ -175,13 +188,20 @@ export default function AboutPage() {
                                 avatar: '/team/abigail-penero.jpg',
                             },
                         ].map((member, index) => (
-                            <div key={index} className="text-center">
-                                <div className="bg-background size-48 rounded-full border p-0.5 shadow shadow-zinc-950/5 mx-auto">
-                                    <img className="aspect-square rounded-full object-cover" src={member.avatar} alt={member.name} height="460" width="460" loading="lazy" />
+                            <motion.div 
+                                key={index} 
+                                initial={{ opacity: 0, y: 20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.6, delay: index * 0.1 }}
+                                viewport={{ once: true }}
+                                className="text-center"
+                            >
+                                <div className="bg-background size-48 rounded-full border-4 border-brand-primary p-0.5 shadow shadow-zinc-950/5 mx-auto group">
+                                    <img className="aspect-square rounded-full object-cover transition-transform duration-300 group-hover:scale-105" src={member.avatar} alt={member.name} height="460" width="460" loading="lazy" />
                                 </div>
-                                <span className="mt-2 block text-sm">{member.name}</span>
-                                <span className="text-muted-foreground block text-xs">{member.role}</span>
-                            </div>
+                                <span className="mt-2 block text-lg font-semibold">{member.name}</span>
+                                <span className="text-muted-foreground block text-sm">{member.role}</span>
+                            </motion.div>
                         ))}
                     </div>
                 </div>
@@ -225,7 +245,7 @@ export default function AboutPage() {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.6, delay: index * 0.1 }}
                                 viewport={{ once: true }}
-                                className="bg-card rounded-2xl border shadow-sm p-6 text-center group hover:shadow-lg transition-shadow duration-300"
+                                className="bg-card rounded-2xl border-2 border-brand-primary shadow-sm p-6 text-center group hover:shadow-lg transition-shadow duration-300"
                             >
                                 <div className="relative mb-4 overflow-hidden rounded-xl">
                                     <img
