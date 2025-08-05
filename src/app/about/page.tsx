@@ -168,11 +168,6 @@ export default function AboutPage() {
                                 avatar: '/team/vani-chua.jpg',
                             },
                             {
-                                name: 'Jose Alejandro P. Claparols',
-                                role: 'Trader',
-                                avatar: '/team/jose-claparols.jpg',
-                            },
-                            {
                                 name: 'Alyssa Marie E. Salazar',
                                 role: 'Trader',
                                 avatar: '/team/alyssa-salazar.jpg',
