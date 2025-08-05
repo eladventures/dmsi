@@ -7,7 +7,7 @@ import { PageHero } from "@/components/page-hero";
 import { SectionWrapper } from "@/components/section-wrapper";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { TrendingUp, Shield, DollarSign, Users, PieChart, Home, Globe } from "lucide-react";
+import { TrendingUp, Shield, DollarSign, Users, PieChart, Home, Globe, CreditCard, GraduationCap, FileText } from "lucide-react";
 
 function VisionContentSection() {
     return (
@@ -72,13 +72,19 @@ function VisionContentSection() {
 }
 
 function ServiceExpansionSection() {
-    const services = [
+    const currentServices = [
         { name: "Fixed Income Instruments", icon: TrendingUp },
         { name: "Securities-Based Lending (SBL)", icon: Shield },
-        { name: "Money Market Interest on Idle Cash", icon: DollarSign },
+        { name: "Money Market Interest on Idle Cash", icon: DollarSign }
+    ];
+
+    const futureServices = [
         { name: "Investment Advisory & Financial Planning", icon: Users },
         { name: "Portfolio Management & Discretionary Services", icon: PieChart },
         { name: "Lending, Protection, and Retirement Solutions", icon: Home },
+        { name: "Insurance Solutions", icon: CreditCard },
+        { name: "Educational Plans", icon: GraduationCap },
+        { name: "Estate Planning Services", icon: FileText },
         { name: "Digital Access for Global & Offshore Clients", icon: Globe }
     ];
 
@@ -95,45 +101,85 @@ function ServiceExpansionSection() {
                     Expanding Our Services
                 </h2>
                 <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-                    Under the leadership of President Jocelyn &ldquo;Joy&rdquo; David-Greenlaw, DA Market is expanding 
-                    its offerings beyond equities trading to include:
+                    Under the leadership of President Jocelyn &ldquo;Joy&rdquo; David-Greenlaw, DA Market is evolving 
+                    from a traditional equities brokerage into a full-service investment platform.
                 </p>
             </motion.div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-2xl mx-auto">
-                {services.map((service, index) => {
-                    const IconComponent = service.icon;
-                    return (
-                        <motion.div
-                            key={index}
-                            initial={{ opacity: 0, y: 20 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.6, delay: index * 0.1 }}
-                            viewport={{ once: true }}
-                            className="bg-card rounded-xl border-2 border-brand-primary shadow-sm p-4 text-center group hover:shadow-lg hover:scale-105 hover:-translate-y-1 transition-all duration-300"
-                        >
-                            <div className="flex items-center justify-center w-10 h-10 bg-brand-primary/10 rounded-full mx-auto mb-3 group-hover:bg-brand-primary/20 transition-colors duration-300">
-                                <IconComponent className="w-5 h-5 text-brand-primary group-hover:scale-110 transition-transform duration-300" />
-                            </div>
-                            <h3 className="text-sm font-semibold leading-tight">{service.name}</h3>
-                        </motion.div>
-                    );
-                })}
-                {/* DA Market Logo Card to balance the last row */}
-                <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6, delay: services.length * 0.1 }}
-                    viewport={{ once: true }}
-                    className="bg-card rounded-xl border-2 border-brand-primary shadow-sm p-4 text-center group hover:shadow-lg hover:scale-105 hover:-translate-y-1 transition-all duration-300 flex items-center justify-center"
-                >
-                    <img 
-                        src="/images/da_market_logo.png" 
-                        alt="DA Market Securities"
-                        className="w-2/3 h-auto object-contain group-hover:scale-110 transition-transform duration-300"
-                    />
-                </motion.div>
-            </div>
+            {/* Current Services Section */}
+            <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6 }}
+                viewport={{ once: true }}
+                className="mb-20"
+            >
+                <h3 className="text-2xl font-bold text-center mb-8">We are currently rolling out key services such as:</h3>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+                    {currentServices.map((service, index) => {
+                        const IconComponent = service.icon;
+                        return (
+                            <motion.div
+                                key={index}
+                                initial={{ opacity: 0, y: 20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.6, delay: index * 0.1 }}
+                                viewport={{ once: true }}
+                                className="bg-card rounded-xl border-2 border-brand-primary shadow-sm p-6 text-center group hover:shadow-lg hover:scale-105 hover:-translate-y-1 transition-all duration-300 h-32 flex flex-col justify-center"
+                            >
+                                <div className="flex items-center justify-center w-10 h-10 bg-brand-primary/10 rounded-full mx-auto mb-3 group-hover:bg-brand-primary/20 transition-colors duration-300">
+                                    <IconComponent className="w-5 h-5 text-brand-primary group-hover:scale-110 transition-transform duration-300" />
+                                </div>
+                                <h3 className="text-sm font-semibold leading-tight">{service.name}</h3>
+                            </motion.div>
+                        );
+                    })}
+                </div>
+            </motion.div>
+
+            {/* Future Services Section */}
+            <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.2 }}
+                viewport={{ once: true }}
+            >
+                <h3 className="text-2xl font-bold text-center mb-8">As part of our long-term strategy, we are also laying the groundwork to offer:</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+                    {futureServices.map((service, index) => {
+                        const IconComponent = service.icon;
+                        return (
+                            <motion.div
+                                key={index}
+                                initial={{ opacity: 0, y: 20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.6, delay: index * 0.1 }}
+                                viewport={{ once: true }}
+                                className="bg-card rounded-xl border-2 border-brand-primary shadow-sm p-6 text-center group hover:shadow-lg hover:scale-105 hover:-translate-y-1 transition-all duration-300 h-32 flex flex-col justify-center"
+                            >
+                                <div className="flex items-center justify-center w-10 h-10 bg-brand-primary/10 rounded-full mx-auto mb-3 group-hover:bg-brand-primary/20 transition-colors duration-300">
+                                    <IconComponent className="w-5 h-5 text-brand-primary group-hover:scale-110 transition-transform duration-300" />
+                                </div>
+                                <h3 className="text-sm font-semibold leading-tight">{service.name}</h3>
+                            </motion.div>
+                        );
+                    })}
+                    {/* DA Market Logo Card to balance the layout */}
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.6, delay: futureServices.length * 0.1 }}
+                        viewport={{ once: true }}
+                        className="bg-card rounded-xl border-2 border-brand-primary shadow-sm p-6 text-center group hover:shadow-lg hover:scale-105 hover:-translate-y-1 transition-all duration-300 h-32 flex items-center justify-center"
+                    >
+                        <img 
+                            src="/images/da_market_logo.png" 
+                            alt="DA Market Securities"
+                            className="w-2/3 h-auto object-contain group-hover:scale-110 transition-transform duration-300"
+                        />
+                    </motion.div>
+                </div>
+            </motion.div>
         </SectionWrapper>
     );
 }

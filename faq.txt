@@ -1,0 +1,401 @@
+iTRADE FAQ - DA Market Securities, Inc. (DMSI)
+====================================================
+
+TABLE OF CONTENTS
+- About Us
+- Opening an Account  
+- Account Funding
+- Trading and Fees
+- Online Trading Process
+- Maintaining my Account
+- Other Services
+
+====================================================
+ABOUT US
+====================================================
+
+Who are we?
+-----------
+Established in 1987, DA Market Securities, Inc. (DMSI) is a traditional and online equities brokerage firm with an affiliate in banking and financing in Central Luzon.
+
+DMSI is a member of the Philippine Stock Exchange and is one of the leading stock brokerage firms in the country. The company is consistently among the top trading participants in terms of value turnover and the market leader on margin facilities.
+
+We create value and provide excellent products and services for our clients through the bulls and bears of the market, growth for our people and meaningful returns to our shareholders. We are dedicated advocates of financial literacy to reach the growing number of Filipino investors seeking to ensure long-term wealth.
+
+What services does iTRADE offer?
+-------------------------------
+- Online Stock Trading
+- Real-time market data and statistics
+- Charting tools
+- Broker Assisted Trading
+- Margin Facility
+
+How do I contact iTRADE?
+-----------------------
+Contact Numbers:
+(02) 8887-5457 / (02) 8887-6407 / (02) 8834-7765
+
+Email Address:
+helpdesk@itrade.ph
+
+Office Address:
+Unit 1105, PSE Tower, 5th Ave. Cor. 28th St. Bonifacio Global City, Taguig City, Philippines, 1634
+
+====================================================
+OPENING AN ACCOUNT
+====================================================
+
+Who can open an account?
+------------------------
+Any one of legal age, local, including OFWs, or foreign, or Corporation so long as the applicant provides all the necessary requirements. Management reserves the right to approve/deny any application as it sees fit based upon its measures of standard.
+
+How can I open an account?
+--------------------------
+1. Download the application form and fill in the required information.
+2. E-mail a digital copy to damarketsecurities@gmail.com for review before submitting the physical copy personally or via courier duly accomplished forms and other requirements to our office at Unit 1105 PSE Tower, 5th Avenue Corner 28th Street, Fort Bonifacio Global City, Taguig City.
+3. Receive an email notification once application is approved.
+4. Fund your account.
+5. Receive the log-in credentials by email within 1-2 business days.
+
+What are the requirements to open an account?
+--------------------------------------------
+1. Fill out a set of application forms: CAIF, Trading Agreement, Signature Card, Data Privacy Form, FATCA
+2. Identity Document (ID) issued by the Philippine Government (e.g. Passport, Driver's License, SSS/GSIS ID, Professional Regulation Commission (PRC) ID, and Comelec Voter's ID) or two (2) secondary IDs (e.g. School ID with Picture, Postal ID, Office ID).
+3. Taxpayer Identification Number (TIN)
+4. Additional Requirements:
+   - For Resident Foreign Citizens – Alien Certificate of Registration (ACR) or Work Permit from DOLE
+   - For Non-resident Foreign Citizens - Authentication of a photocopy of one (1) valid passport
+
+   For Corporate/Partnership Accounts:
+   1. Copy of Articles of Incorporation/Partnership and By-Laws
+   2. Latest General Information Sheet (GIS) which lists the names of directors and principal stockholders owning at least two percent (2%) of the capital stock
+   3. Notarized Board Resolution covering account opening authority, list of officers authorized to sign and their specimen signatures and the signing authority of the signatories
+   4. Copy of latest ITR and Audited Financial Statements
+   5. Secretary's Certificate/Board Resolution naming the person authorized to transact and perform other acts relatives to the account
+   6. Copy of Trust Agreement (if Trust Account)
+   7. Sworn statements as to the existence or non-existence of beneficial owners, if any
+   8. Photocopy of one (1) identity document (ID) issued by the Philippine Government
+
+How will I know if my application was approved?
+-----------------------------------------------
+Once approved, you will receive an e-mail with instructions to fund your account by depositing to any of our bank accounts.
+
+When can I start investing?
+--------------------------
+Once your application is approved and the initial deposit has been made you will receive confirmation in your e-mail within 1-2 working days. Online accounts will also receive log-in details.
+
+Investing in REITS: What is an NoCD?
+-----------------------------------
+In order for you to invest in REITs, a Name on Central Depository or NoCD is a sub-account created on the client's behalf for Real Estate Investment Trust (REIT) in the NoCD facility of the Philippine Depository & Trust Corporation (PDTC) as part of the regulatory requirement.
+
+====================================================
+ACCOUNT FUNDING
+====================================================
+
+How do I fund my account?
+------------------------
+You may fund your account through any of our partner banks. Send the deposit confirmation to helpdesk@itrade.ph with a subject: FUND DEPOSIT
+
+Account Name: DA Market Securities, Inc.
+
+Partner Banks & Account Numbers:
+- BDO: 01-1868-0012-97
+  For BDO Bills payment (This option does not require enrollment)
+  1. Select DA MARKET SECURITIES INC. as the Company/Biller Name
+  2. Fill in details: Under Subscriber Number, input DMSI Account Code (e.g. ABCD001) and under Subscriber Name, input your DMSI Account Name
+
+- BPI: 3541-0031-33
+- Metrobank: 264-7-26481071-6
+- RCBC: 1216-0203-98
+
+What is the minimum investment required to open an account?
+----------------------------------------------------------
+The minimum investment is PHP100,000.00.
+
+Is there a Maintaining Balance for my Account?
+---------------------------------------------
+You will need to maintain PHP100,000.00 in cash or stock/s in your account.
+
+How long does it take before my deposit is reflected on my account?
+------------------------------------------------------------------
+Cash deposits to any of our bank accounts will be reflected on your portfolio the next trading day. Check deposits will reflect on your portfolio after the one (1) day check-clearing period. Cut-off time for deposits is 3:00 PM.
+
+====================================================
+MAINTAINING MY ACCOUNT
+====================================================
+
+What if I forget my Username and Password?
+-----------------------------------------
+Contact us at (02) 8887 5457 or (02) 8834 7765 or (63) 917 863 3119 or send an email to helpdesk@itrade.ph to reset your Username or Password.
+
+What if I want to update my Account details?
+-------------------------------------------
+Contact us at (02) 8887 6407 or (02) 8834 7765 or (63) 917 863 3119 or send an email to helpdesk@itrade.ph to reset your Account details.
+
+What if I want to change my password?
+------------------------------------
+Log in to your account. Under Account, click on "Change Password" and input your new password.
+
+====================================================
+TRADING AND FEES
+====================================================
+
+What types of securities can I trade?
+------------------------------------
+You can trade all non-suspended stocks, exchange traded funds (ETFs) and real estate investment trusts (REITs) that are publicly listed in the Philippine Stock Exchange (PSE). There are times when PSE may suspend stocks from trading due to various reasons such as corporate announcements, SEC/PSE violations, etc.
+
+What are the trading hours?
+--------------------------
+Trading Hours are scheduled between Monday to Friday, effective December 06, 2021:
+
+Time      | Marketing Phase              | Description
+----------|------------------------------|--------------------------------------------
+9:00 AM   | Pre-Open                     | Post, modify, or cancel Orders but no matching of Orders happen
+9:15 AM   | Pre-open No-Cancel           | Post Orders but no cancelling or modifying Orders
+9:30 AM   | Market Open                  | Opening prices are calculated
+9:30 AM   | Continuous Trading           | Post, modify, or cancel Orders for NORMAL and ODDLOT
+12:00 NN  | Market Recess                | No posting, modifying, and cancelling of orders
+1:00 PM   | Market Resumption/Continuous | Post, modify, or cancel Orders for NORMAL and ODDLOT
+2:45 PM   | Pre-Close                    | Post Orders but no cancelling or modifying Orders
+2:50 PM   | Run-Off/Trading At Last      | Closing prices are calculated
+3:00 PM   | Market Close                 | End of the trading session
+
+How much does it cost to buy and sell shares of stock?
+-----------------------------------------------------
+
+Buy Transaction:
+- Commission: 0.25% on the gross value or a minimum commission of PHP 20.00
+- Value Added Tax: 12% is levied on the commission charge
+- PSE fee: 0.005% on the gross value
+- SCCP fee: 0.01% on the gross value
+
+Sell Transaction:
+- Commission: 0.25% on the gross value or a minimum commission of PHP 20.00
+- Value Added Tax: 12% is levied on the commission charge
+- PSE fee: 0.005% on the gross value
+- SCCP fee: 0.01% on the gross value
+- Sales Tax: 0.60% on the gross value
+
+Note: A PDTC Depository Maintenance Fee of PHP 0.00000833 for every Peso market value of your holdings as of month end will also be debited from your account monthly.
+
+What are the related fees to my account?
+---------------------------------------
+For Online Accounts, Management reserves to transfer an online account into a broker-assisted account with a minimum commission fee of PHP 200.00 per transaction and a monthly maintenance fee of P350.00 for dormant account in case there are no transaction for at least 2 years.
+
+====================================================
+ONLINE TRADING PROCESS
+====================================================
+
+How do I read/interpret a stock quote/bid-ask table?
+--------------------------------------------------
+The Order board summarizes the Buyers (Bid) and Sellers (Ask) of a stock. The table shows how much buyers and sellers are willing to buy and sell at different price levels.
+
+- Bids Column: Shows the number of bids/orders at different prices
+- Bid Vol Column: Shows the total number of shares/volume of all interested buyers at different prices
+- Bid Column: Shows the price points of the stock that have interested buyers
+- Asks Column: Shows the number of sell orders at different prices
+- Ask Vol Column: Shows the total number of shares/volume of all interested sellers at different prices
+- Ask Column: Shows the price points of the stock that have interested sellers
+
+How do I place an order?
+-----------------------
+Go to Equities. Input the stock that you want to BUY/SELL. By pressing F6 for (Buy) and F8 for (Sell) Order ticket will pop-out. Enter the order details then click PREVIEW BUY/SELL. A confirmation order box will appear, displaying the summary of your order. Click PROCEED to post your order, or click CANCEL to not proceed.
+
+What are the rules in posting an order?
+--------------------------------------
+Only Limit Orders will be accepted by the system. A Limit Order is an order entered with a specified price and volume. The price of an order should always be within the Trading Thresholds.
+
+There are two kinds of Trading Thresholds: Static and Dynamic
+
+Static Thresholds:
+- Lower Limit (Floor Price): 30% below previous day's trade
+- Upper Limit (Ceiling Price): 50% above previous day's trade
+
+Dynamic Thresholds (as of February 1, 2023):
+Security Cluster | Trade Frequency Qualifier                                    | Dynamic Threshold
+A               | Traded 20 times or less in the past six months              | 20%
+B               | Traded 500 times or less but greater than 20 times          | 15%
+C               | Traded more than 500 times in the past six months           | 10%
+
+What are the validity types of an order?
+---------------------------------------
+1. Day - Orders that remain valid until the end of the Trading day
+2. GTC (Good till cancelled) - Orders that will remain valid for 1 year or until cancelled by the User
+3. IOC (Immediate or cancel) - Orders that will fill all or partially, then cancel any part of the order that was not filled
+4. GTD (Good till date) - Orders that remain valid until the date specified when the Order is entered
+5. Session - Orders that remain valid only for the session in which the order is placed (morning or afternoon)
+6. Iceberg - Order at large quantity broken up into several smaller orders
+
+What is an off-hour order?
+-------------------------
+Off-hour orders are orders placed during Market Recess (12:00NN - 1:00PM) and when market is closed (3:00 PM - 8:59 AM) of the next day during trading days, and the entire day on non-trading days. These orders will be accepted on our platform and sent to the Philippine Stock Exchange (PSE) once the market opens.
+
+Do you impose a minimum volume per trade?
+----------------------------------------
+Trading on the Philippine Stock Exchange (PSE) is done by board lot or round lot system. The minimum number of shares you can buy or sell will depend on the market price of the stock at the time you place your order.
+
+What is a board lot?
+-------------------
+Any amount of shares wholly divisible by a minimum board lot is considered Board Lot.
+
+Board Lot and Price Fluctuation Table:
+Price Range          | Tick Size | Board Lot (Minimum No. of Shares)
+0.0001 to 0.0099    | 0.0001    | 1,000,000
+0.0100 to 0.0490    | 0.001     | 100,000
+0.0500 to 0.2490    | 0.001     | 10,000
+0.2500 to 0.4950    | 0.005     | 10,000
+0.5000 to 4.9900    | 0.01      | 1,000
+5.0000 to 9.9900    | 0.01      | 100
+10.0000 to 19.9800  | 0.02      | 100
+20.0000 to 49.9500  | 0.05      | 100
+50.0000 to 99.9500  | 0.05      | 10
+100.0000 to 199.9000| 0.1       | 10
+200.0000 to 499.8000| 0.2       | 10
+500.0000 to 999.5000| 0.5       | 10
+1,000.000 to 1,999.000| 1       | 5
+2,000.000 to 4,998.000| 2       | 5
+5,000.000 and UP    | 5         | 5
+
+What is an odd lot?
+------------------
+Any amount of shares not wholly divisible by a minimum board lot is considered an Odd Lot and are traded on the Odd Lot board. Rules for Odd Lot Orders:
+- Combining Normal and Odd Lot orders is not allowed
+- Partial matching of odd lot orders will be allowed
+- Odd lot orders will no longer be subjected to minimum commission
+- Odd lot order posting will only be allowed during Continuous Trading Period
+- Odd lot market will have its own closing price but will adopt the price of the Normal market during opening
+
+Is there a limit to what I can trade?
+------------------------------------
+Yes, for Buying orders, you are limited to the amount available in your account balance. For Selling orders, you can only sell stocks that are in your portfolio inventory.
+
+What is a posted order, matched order and a partially filled order?
+------------------------------------------------------------------
+- Posted orders: Current orders sent to the Exchange that have not been filled or have only been partially filled
+- Matched orders: Wholly accomplished trades
+- Partially Matched orders: Uncompleted orders where only a portion of the desired order has been matched
+
+Can I Modify or Cancel an Order?
+-------------------------------
+Yes, orders can be revised or cancelled as long as they are not matched. If an order is partially filled, only the unfilled portion can be revised or cancelled. Editing can only be done during continuous trading phase (9:30 AM - 12:00 NN and 1:00 PM to 3:00 PM).
+
+No orders can be modified or cancelled during Pre-open, No Cancellation Period (9:15 AM - 9:30 AM) and Pre-close, No Cancellation Period (2:45 PM - 2:50 PM).
+
+How do I Modify or Cancel an Order?
+----------------------------------
+Go to Orders. You can modify/cancel all pending orders in the Order Blotter by right-clicking the specific order. Note that you must input the appropriate stock symbol in order for the pending orders for that stock to appear.
+
+Can I sell my stocks on the same day that I bought them?
+------------------------------------------------------
+Yes, all stocks you have bought are reflected in your portfolio and are ready for sale anytime.
+
+Can I sell my stocks use its proceeds to buy another stock during the same day?
+-----------------------------------------------------------------------------
+Yes, the proceeds of your selling transaction are automatically reflected in your cash position. Thus, you may use this to buy another stock on the same day, provided that your total cash position is sufficient.
+
+Can I use the proceeds of a stock sale to buy another stock?
+----------------------------------------------------------
+Yes, you may use the proceeds of a stock sale to purchase another stock immediately right after the sale transaction has been fully/partially filled. If you wish to withdraw the proceeds from a stock sale, you must wait for 2 working days for the clearing and settlement process.
+
+Are there hot keys (keyboard shortcuts) within the trading platform?
+-------------------------------------------------------------------
+In the Equities window, you can use the following:
+
+Key         | Shortcut
+F6          | Buy
+F8          | Sell
+Arrow up    | One Fluctuation up
+Arrow down  | One Fluctuation down
+K           | Multiply your order quantity by 1,000 in the Single Order Entry
+M           | Multiply your order quantity by 1,000,000 in the Single Order Entry
+
+How do I confirm done transactions for the day?
+----------------------------------------------
+You will receive confirmation receipts for all done transactions for the day in your registered email. If you wish to view historical transactions, you may email us at helpdesk@itrade.ph to request for your account ledger.
+
+How many computers can I use to log-in to my iTradePro account?
+-------------------------------------------------------------
+You can register iTradePro on up to 2 laptops/computers. Note however that the two computers cannot be logged-on to the account at the same time. If you wish to register a new computer, send an e-mail to helpdesk@itrade.ph to request.
+
+If I have no access to a computer/internet, can iTRADE execute my orders on my behalf?
+------------------------------------------------------------------------------------
+Yes, you may send your orders via your DMSI-registered email to damarketsecurities@gmail.com or phone message or call our trading desk at +632 88919143, +632 88919144, or +63 917 863 3169, and our in-house broker-dealers can execute your orders on your behalf. Please ensure acknowledgement of your order. There are no additional charges for broker-assisted trades.
+
+====================================================
+OTHER SERVICES
+====================================================
+
+How do I participate in Initial Public Offerings (IPOs), Follow-on Offerings (FOOs) and Stock Rights Offerings (SROs)?
+----------------------------------------------------------------------------------------------------------------------
+You will receive announcements via e-mail and/or phone message every time there is an IPO/FOO. You may reply to that email with the preferred number of shares you wish to reserve.
+
+Please note that order reservations are not guaranteed for full or partial allocation since we allocate shares based on trading volume. In case of oversubscription, shares will be raffled off.
+
+The payment for allocated shares will be debited from your trading account. In case of insufficient cash balance, you will be informed to deposit an additional fund to cover the allocation and participate. Failure to deposit the payment within the indicated deadline will result to forfeited shares.
+
+Do you provide Margin Facilities?
+--------------------------------
+Yes. To find out more about our margin facilities Contact us at (02) 8887 5457 or (02) 8834 7765 or 63 917 863 3119
+
+How do I withdraw from my account?
+---------------------------------
+Please fill out and sign a Fund Withdrawal Form and send an email to helpdesk@itrade.ph with a subject: FUND WITHDRAWAL REQUEST.
+
+Once your request has been processed, you will receive an email confirming your withdrawal. Cut-off time for withdrawal requests is 11:00AM. Funds can be deposited in your bank account or paid in check for pick-up.
+
+Note that you may withdraw the proceeds of a stock sale in two days (T+2) after a stock is sold. Meanwhile, an unused cash balance longer than 2 days in your portfolio can be withdrawn anytime, with a one-day notice for check preparation.
+
+How can I withdraw (or uplift) my stock positions from DA Market Securities?
+--------------------------------------------------------------------------
+Yes, you may submit the following requirements to DA Market Securities, Inc Office at Unit 1105 11th Floor, PSE Tower, 28th Street Corner 5th Avenue, Fort Bonifacio, Global City, Taguig 1634, Metro Manila:
+
+- Duly accomplished Stock Certificate Upliftment Form
+- Photocopy of 2 valid and unexpired government-issued IDs
+- Originally signed specimen signature card per stock/company
+- An Upliftment fee PhP150.00 will be charged per certificate if facilitating transfer office is a bank or P168.00 per certificate if facilitating through a non-bank transfer office
+
+Note: The upliftment process may take a month to be completed, depending on the related transfer office. In some instances, personal appearance might be required by the transfer office. Once ready, the stock certificate/s will be delivered to your registered mailing address unless specified otherwise.
+
+How can I request for a certification of my holdings?
+----------------------------------------------------
+Yes, please submit a duly-accomplished Certification Request Form and send an email to helpdesk@itrade.ph with a subject: CERTIFICATION REQUEST.
+
+You have an option to have the certification picked-up at our office, or delivered through mail or e-mail. Certification Fee is Php100.00
+
+How can I receive my dividend payout?
+------------------------------------
+Your cash dividends or selling proceeds will automatically be credited to your account. You will receive a credit memo to indicate the credit of the cash dividend. The credit of dividends will also be reflected on your Stock Trading Statement of Account (SOA) issued monthly.
+
+How can I deposit (or lodge) my existing stock certificate/s to my DMSI Account?
+------------------------------------------------------------------------------
+Yes, stock certificates can be deposited or "lodged" into your account as long as the name appearing on the stock certificate is the same as the DMSI account name.
+
+- You may submit the duly endorsed stock certificates to our office Unit 1105, PSE Tower, 5th Ave. Cor. 28th St. Bonifacio Global City, Taguig City, Philippines, 1634
+- The certificates will then be submitted to the Transfer Agent for clearing then passed on to the Philippine Depository & Trust Corp (PDTC) for custody
+- Lodgment fees:
+  For bank Transfer Agent: cancellation fee is Php100 plus Php20 per Certificate
+  For Non-bank: transfer and cancellation fee is Php112 plus Php22.40 per Certificate
+
+How can I transfer my stockholdings from another local stockbroker to DMSI?
+-------------------------------------------------------------------------
+If you are an existing client of DMSI, you can transfer your stockholdings to DMSI by giving your other stockbroker a written transfer instruction to do so, a copy of which must be furnished to DMSI.
+
+If your stockholdings are in street name and lodged with the PDTC, the transfer will be done electronically. Electronic transfer can take one or two working days and would entail a cost to the customer of Php 75.00 per stock (regardless of number of shares) will be charged by the issuing broker and by the receiving broker.
+
+How can I transfer my stock positions to another broker from DMSI?
+----------------------------------------------------------------
+To transfer your stockholdings from DMSI to another broker electronically, please download and fill-up the Request for Stock Transfer form from our website and send the original copy to our office Unit 1105, PSE Tower, 5th Ave. Cor. 28th St. Bonifacio Global City, Taguig City, Philippines, 1634.
+
+Electronic transfers are accomplished in one to two working days. A transfer fee of P75.00 per stock (regardless of number of shares) will be charged by the issuing broker and by the receiving broker.
+
+====================================================
+REFERENCES
+====================================================
+
+For more information, refer to:
+- Philippine Stock Exchange (PSE) Trading Rules: https://documents.pse.com.ph/wp-content/uploads/sites/15/2021/04/Revised-Trading-Rules.pdf
+- Regulatory Framework: https://www.pse.com.ph/regulation-trading-participants/
+
+====================================================
+Last updated: Based on content from https://www.itrade.ph/faq
+====================================================
