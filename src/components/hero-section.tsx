@@ -78,7 +78,7 @@ export function HeroSection() {
         >
           <div className="relative rounded-2xl overflow-hidden shadow-2xl">
             <Image
-              src="/images/client.png"
+              src="/images/client.png?v=2"
               alt="DA Market Securities - Professional Financial Services"
               width={1200}
               height={675}

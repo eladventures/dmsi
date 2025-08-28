@@ -213,7 +213,7 @@ function LeadershipSpotlightSection() {
                     <div className="relative rounded-xl overflow-hidden shadow-lg border-2 border-brand-primary group-hover:shadow-xl group-hover:scale-105 transition-all duration-300">
                         <img
                             className="w-full h-auto aspect-[4/5] object-cover"
-                            src="/team/jocelyn-greenlaw.jpg"
+                            src="/team/jocelyn.jpg?v=2"
                             alt="Jocelyn David-Greenlaw"
                             loading="lazy"
                         />

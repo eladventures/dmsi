@@ -21,7 +21,7 @@ function AboutContentSection() {
                     <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-brand-primary">
                         <img
                             className="w-full h-auto"
-                            src="/images/board.png"
+                            src="/images/board.png?v=2"
                             alt="DA Market Securities board"
                             loading="lazy"
                         />
@@ -92,13 +92,13 @@ export default function AboutPage() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {[
-                        { name: "Mario M. Aguas", position: "Chairman, Independent Director, Member Audit and Compliance Committee", image: "/team/mario-aguas.jpg" },
-                        { name: "Jocelyn David Greenlaw", position: "Director, President, Trader", image: "/team/jocelyn-greenlaw.jpg" },
-                        { name: "Nestor S. Aguila", position: "Director, Nominee, Trader", image: "/team/nestor-aguila.jpg" },
-                        { name: "Teresa David Carlos", position: "Director, Treasurer, Member Audit and Compliance Committee", image: "/team/teresa-carlos.jpg" },
-                        { name: "Tomas S. Gomez, IV", position: "Independent Director, Chairman Audit and Compliance Committee", image: "/team/tomas-gomez.jpg" },
-                        { name: "Fe M. Caling", position: "Associated Person, Data Protection Officer", image: "/team/fe-caling.jpg" },
-                        { name: "Morrin Abi P. Mabiog", position: "Corporate Secretary, Settlement Assistant", image: "/team/morrin-mabiog.jpg" }
+                        { name: "Mario M. Aguas", position: "Chairman, Independent Director, Member Audit and Compliance Committee", image: "/team/mario-aguas.jpg?v=2" },
+                        { name: "Jocelyn David Greenlaw", position: "Director, President, Trader", image: "/team/jocelyn-greenlaw.jpg?v=2" },
+                        { name: "Nestor S. Aguila", position: "Director, Nominee, Trader", image: "/team/nestor-aguila.jpg?v=2" },
+                        { name: "Teresa David Carlos", position: "Director, Treasurer, Member Audit and Compliance Committee", image: "/team/teresa-carlos.jpg?v=2" },
+                        { name: "Tomas S. Gomez, IV", position: "Independent Director, Chairman Audit and Compliance Committee", image: "/team/tomas-gomez.jpg?v=2" },
+                        { name: "Fe M. Caling", position: "Associated Person, Data Protection Officer", image: "/team/fe-caling.jpg?v=2" },
+                        { name: "Morrin Abi P. Mabiog", position: "Corporate Secretary, Settlement Assistant", image: "/team/morrin-mabiog.jpg?v=2" }
                     ].map((member, index) => (
                         <motion.div
                             key={index}
@@ -147,7 +147,7 @@ export default function AboutPage() {
                             className="text-center"
                         >
                             <div className="bg-background size-48 rounded-full border-4 border-brand-primary p-0.5 shadow shadow-zinc-950/5 mx-auto group">
-                                <img className="aspect-square rounded-full object-cover transition-transform duration-300 group-hover:scale-105" src="/team/nisha-alicer.jpg" alt="Nisha Ma. Nimfa S. Alicer" height="460" width="460" loading="lazy" />
+                                <img className="aspect-square rounded-full object-cover transition-transform duration-300 group-hover:scale-105" src="/team/nisha-alicer.jpg?v=2" alt="Nisha Ma. Nimfa S. Alicer" height="460" width="460" loading="lazy" />
                             </div>
                             <span className="mt-2 block text-lg font-semibold">Nisha Ma. Nimfa S. Alicer</span>
                             <span className="text-muted-foreground block text-sm">Chief Equity Strategist, Certified Equity Securities Salesman</span>
@@ -163,24 +163,19 @@ export default function AboutPage() {
                     <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3">
                         {[
                             {
-                                name: 'Vani Lion T. Chua',
-                                role: 'Trader',
-                                avatar: '/team/vani-chua.jpg',
-                            },
-                            {
                                 name: 'Alyssa Marie E. Salazar',
                                 role: 'Trader',
-                                avatar: '/team/alyssa-salazar.jpg',
+                                avatar: '/team/alyssa-salazar.jpg?v=2',
                             },
                             {
                                 name: 'Shirley O. Tan',
                                 role: 'Trader',
-                                avatar: '/team/shirley-tan.jpg',
+                                avatar: '/team/shirley-tan.jpg?v=2',
                             },
                             {
                                 name: 'Abigail M. Peñero',
                                 role: 'Telephone Clerk, Flextrade Encoder',
-                                avatar: '/team/abigail-penero.jpg',
+                                avatar: '/team/abigail-penero.jpg?v=2',
                             },
                         ].map((member, index) => (
                             <motion.div 
@@ -211,27 +206,27 @@ export default function AboutPage() {
                             {
                                 name: 'Amalia S. Romualdo',
                                 role: 'Settlement Supervisor',
-                                avatar: '/team/amalia-romualdo.jpg',
+                                avatar: '/team/amalia-romualdo.jpg?v=2',
                             },
                             {
                                 name: 'Joana Marie S. Gomez',
                                 role: 'Accounting Supervisor, Officer-in-charge',
-                                avatar: '/team/joana-gomez.jpg',
+                                avatar: '/team/joana-gomez.jpg?v=2',
                             },
                             {
                                 name: 'Juliet A. Maniling',
                                 role: 'Accounting Assistant II',
-                                avatar: '/team/juliet-maniling.jpg',
+                                avatar: '/team/juliet-maniling.jpg?v=2',
                             },
                             {
                                 name: 'Rosela P. Timario',
                                 role: 'Accounting Assistant',
-                                avatar: '/team/rosela-timario.jpg',
+                                avatar: '/team/rosela-timario.jpg?v=2',
                             },
                             {
                                 name: 'Sherwin C. Serrano',
                                 role: 'Delivery Representative',
-                                avatar: '/team/sherwin-serrano.jpg',
+                                avatar: '/team/sherwin-serrano.jpg?v=2',
                             },
                         ].map((member, index) => (
                             <motion.div
