@@ -162,7 +162,7 @@ export default function AboutPage() {
                         { name: "Teresa David Carlos", position: "Director, Treasurer, Member Audit and Compliance Committee", image: "/team/teresa-carlos.jpg?v=2" },
                         { name: "Tomas S. Gomez, IV", position: "Independent Director, Chairman Audit and Compliance Committee", image: "/team/tomas-gomez.jpg?v=2" },
                         { name: "Fe M. Caling", position: "Associated Person, Data Protection Officer", image: "/team/fe-caling.jpg?v=2" },
-                        { name: "Francesca Ann G. Bascao", position: "Corporate Secretary", image: "/team/morrin-mabiog.jpg?v=2" }
+                        { name: "Francesca Ann G. Bascao", position: "Corporate Secretary", image: "/team/chesca-bascao.jpg?v=2" }
                     ].map((member, index) => (
                         <motion.div
                             key={index}
