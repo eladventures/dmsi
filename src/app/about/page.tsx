@@ -21,7 +21,7 @@ function AboutContentSection() {
                     <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-brand-primary">
                         <img
                             className="w-full h-auto"
-                            src="/images/board.png?v=2"
+                            src="/images/bod.jpg?v=2"
                             alt="DA Market Securities board"
                             loading="lazy"
                         />
