@@ -156,13 +156,13 @@ export default function AboutPage() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {[
-                        { name: "Mario M. Aguas", position: "Chairman, Independent Director, Member Audit and Compliance Committee", image: "/team/mario-aguas.jpg?v=2" },
+                        { name: "Abigail M. Del Rosario", position: "Chairman, Independent Director, Member Audit and Compliance Committee", image: "/team/mario-aguas.jpg?v=2" },
                         { name: "Jocelyn David Greenlaw", position: "Director, President, Trader", image: "/team/jocelyn-greenlaw.jpg?v=2" },
                         { name: "Nestor S. Aguila", position: "Director, Nominee, Trader", image: "/team/nestor-aguila.jpg?v=2" },
                         { name: "Teresa David Carlos", position: "Director, Treasurer, Member Audit and Compliance Committee", image: "/team/teresa-carlos.jpg?v=2" },
                         { name: "Tomas S. Gomez, IV", position: "Independent Director, Chairman Audit and Compliance Committee", image: "/team/tomas-gomez.jpg?v=2" },
                         { name: "Fe M. Caling", position: "Associated Person, Data Protection Officer", image: "/team/fe-caling.jpg?v=2" },
-                        { name: "Morrin Abi P. Mabiog", position: "Corporate Secretary, Settlement Assistant", image: "/team/morrin-mabiog.jpg?v=2" }
+                        { name: "Francesca Ann G. Bascao", position: "Corporate Secretary", image: "/team/morrin-mabiog.jpg?v=2" }
                     ].map((member, index) => (
                         <motion.div
                             key={index}
