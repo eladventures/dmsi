@@ -90,7 +90,7 @@ quality.
 Looking ahead, DA Market remains focused on strengthening its
 capabilities through innovation, technology, talent development,
 and strategic collaborations that enhance value for clients and
-support the Company&apos;s long-term growth objectives. The Company
+support the Company's long-term growth objectives. The Company
 continues to explore opportunities to work with financial
 institutions, technology providers, and other strategic organizations
 that can contribute to the enhancement of its products, services,
@@ -104,7 +104,7 @@ Philippine financial services industry.
                         </p>
 <p className="text-muted-foreground">
 
-DA Market’s long-term vision is to evolve into the Philippines&apos;
+DA Market’s long-term vision is to evolve into the Philippines'
 leading independent full-service brokerage and wealth management
 platform. As part of this vision, the Company seeks to be a
 preferred strategic partner for financial institutions seeking to
@@ -156,7 +156,7 @@ export default function AboutPage() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {[
-                        { name: "Abigail M. Del Rosario", position: "Chairman, Independent Director, Member Audit and Compliance Committee", image: "/team/mario-aguas.jpg?v=2" },
+                        { name: "Abigail M. Del Rosario", position: "Chairman, Independent Director, Member Audit and Compliance Committee", image: "/team/gail-delrosario.jpg?v=2" },
                         { name: "Jocelyn David Greenlaw", position: "Director, President, Trader", image: "/team/jocelyn-greenlaw.jpg?v=2" },
                         { name: "Nestor S. Aguila", position: "Director, Nominee, Trader", image: "/team/nestor-aguila.jpg?v=2" },
                         { name: "Teresa David Carlos", position: "Director, Treasurer, Member Audit and Compliance Committee", image: "/team/teresa-carlos.jpg?v=2" },
