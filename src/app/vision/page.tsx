@@ -21,11 +21,14 @@ function VisionContentSection() {
                     className="text-center"
                 >
                     <h2 className="text-4xl font-medium lg:text-5xl mb-6">
-                        Transforming DA Market into a Full-Service Investment Platform
+                        Transforming DA Market into a Modern Investment Platform
                     </h2>
                     <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-                        DA Market Securities is on a strategic journey - evolving from a traditional equities brokerage into a modern, 
-                        independent, full-service investment firm.
+                        
+DA Market Securities continues to strengthen its capabilities through
+technology, innovation, talent development, and strategic collaborations
+designed to enhance the client experience and support long-term growth.
+
                     </p>
                 </motion.div>
 
@@ -39,13 +42,13 @@ function VisionContentSection() {
                     >
                         <h3 className="text-3xl font-medium">Our Strategic Goal</h3>
                         <p className="text-muted-foreground">
-                            To offer the same breadth of services found at leading U.S. brokerage houses, 
-                            while staying rooted in Philippine regulatory integrity and client trust.
+                            
+To build one of the Philippines' leading independent brokerage and wealth
+management platforms by combining personalized service, modern technology,
+and access to investment solutions that help clients achieve their financial goals.
+
                         </p>
-                        <p className="text-muted-foreground">
-                            We are building a platform where investors - retail, high-net-worth, and institutional - 
-                            can access a full range of wealth services under one roof.
-                        </p>
+                       
                     </motion.div>
                     <motion.div 
                         initial={{ opacity: 0, x: 20 }}
@@ -56,14 +59,40 @@ function VisionContentSection() {
                     >
                         <h3 className="text-3xl font-medium">Our Strategy</h3>
                         <p className="text-muted-foreground">
-                            Combine global wealth management standards with local accessibility - creating a 
-                            trusted financial home for every kind of investor.
+                            
+Leverage our decades of capital markets experience, strategic technology
+partnerships, and relationships with financial institutions to create a trusted
+investment platform for individual, corporate, and institutional investors.
+
                         </p>
                         <p className="text-muted-foreground">
-                            Through strategic partnerships and innovative technology, we aim to democratize access 
-                            to sophisticated financial services while maintaining the personalized attention that 
-                            defines our client relationships.
+                            
+Through innovation and collaboration, we seek to broaden investor access,
+enhance client experience, and support the continued development of the
+Philippine capital markets.
                         </p>
+
+ >
+                        <h3 className="text-3xl font-medium">Building for Future</h3>
+                        <p className="text-muted-foreground">
+                            
+Under the leadership of President Jocelyn "Joy" David-Greenlaw, DA Market
+Securities is focused on strengthening its core brokerage business while
+investing in technology, strategic partnerships, and operational excellence to
+better serve the evolving needs of investors.
+                        </p>
+ >
+                        <h3 className="text-3xl font-medium">Our Areas of Focus</h3>
+                        <p className="text-muted-foreground">
+                            
+• Digital Trading and Investment Technology
+• Enhanced Client Experience and Service
+• Strategic Financial Institution Partnerships
+• Investor Education and Financial Literacy
+• Institutional and Corporate Client Solutions
+• Long-Term Wealth Creation Opportunities
+                        </p>
+
                     </motion.div>
                 </div>
             </div>
@@ -238,29 +267,64 @@ function LeadershipSpotlightSection() {
 
                     <div className="space-y-4">
                         <p className="text-muted-foreground">
-                            Jocelyn David-Greenlaw has dedicated her life to finance, business, and service. Raised alongside her siblings 
-                            in a family of entrepreneurs, she was immersed from childhood in a wide range of ventures — including jewelry 
-                            and pawnshop operations, money changing, foreign remittance and courier services, real estate, rural banking, 
-                            education, and other businesses.
+                            Jocelyn “Joy” David-Greenlaw has dedicated her career to
+financial services, client relationship management, and
+investment operations, building experience across both
+Philippine and U.S. financial markets.
                         </p>
 
                         <p className="text-muted-foreground">
-                            For more than 20 years before moving to the U.S., Jocelyn was actively involved in managing these family businesses — 
-                            gaining hands-on experience across multiple industries and developing a deep understanding of local financial needs 
-                            and client relationships.
+                            Raised in a family of entrepreneurs, Joy was exposed from an
+early age to a diverse range of businesses, including jewelry
+and pawnshop operations, foreign exchange and remittance
+services, real estate, rural banking, education, and other
+entrepreneurial ventures. These experiences provided her with
+a strong foundation in business management, client service,
+and financial stewardship.
                         </p>
 
                         <p className="text-muted-foreground">
-                            She then spent another over two decades in the U.S. financial services industry, holding key client-facing roles at 
-                            institutions such as <strong>Bank of America, Morgan Stanley, Bank of America Investments, Wachovia Securities, and Wells Fargo Advisors</strong>.
+                           Before relocating to the United States, Joy spent more than two
+decades actively involved in managing and supporting these
+family enterprises, gaining valuable insight into the financial
+needs of both individuals and businesses.
                         </p>
 
                         <p className="text-muted-foreground">
-                            Known to most as Joy, she returned to the Philippines and acquired DA Market Securities from her family, as her siblings 
-                            continued to focus on the family&apos;s other core businesses. With a clear vision and a passion for independent financial services, 
-                            Joy stepped forward to lead the transformation of DA Market into a full-service investment platform — grounded in local trust, 
-                            driven by professional standards, and designed to serve both domestic and global investors.
+                           She later built a successful career in the U.S. financial services
+industry, serving clients and supporting financial advisors
+through leading institutions including:
+🏦 Bank of America
+🏦 Morgan Stanley
+🏦 Banc of America Investments
+🏦 Wachovia Securities
+🏦 Wells Fargo Advisors
                         </p>
+
+<p className="text-muted-foreground">
+                         Over more than 20 years, she developed extensive experience
+in client relationship management, investment operations,
+regulatory compliance, account administration, and the
+delivery of wealth management services.
+                        </p>
+<p className="text-muted-foreground">
+                        After returning to the Philippines, Joy acquired DA Market
+Securities, a Philippine Stock Exchange Trading Participant
+established in 1987. With a vision to modernize and expand
+the firm, she now leads its transformation into an independent,
+client-centered financial services platform that combines
+Philippine market expertise with global best practices.
+                        </p>
+
+<p className="text-muted-foreground">
+                        🎯 Her vision is to build one of the Philippines' premier
+independent full-service financial services firms—offering
+investment solutions, fixed income products, lending
+solutions, and personalized financial services designed to help
+clients build, preserve, and transfer wealth across generations.
+                        </p>
+
+
                     </div>
 
                 </motion.div>
@@ -271,10 +335,13 @@ function LeadershipSpotlightSection() {
 
 function PartnershipSection() {
     const partnershipCriteria = [
-        "Strategic capital for growth and expansion",
-        "Infrastructure and technology support",
+        "Strategic growth capital",
+        "Technology and digital infrastructure",
         "Product innovation and global best practices",
-        "Distribution networks or complementary service capabilities"
+        "Wealth management and advisory expertise",
+        "Institutional capabilities and operational support",
+         "Distribution networks and expanded market access" 
+
     ];
 
     return (
@@ -332,12 +399,18 @@ function PartnershipSection() {
                 >
                     <h3 className="text-2xl font-bold mb-4">Ready to Shape the Future?</h3>
                     <p className="text-muted-foreground mb-6">
-                        If you see the opportunity to help shape the future of full-service investing in the Philippines, 
-                        we invite you to start a conversation with us.
-                    </p>
-                    <p className="text-muted-foreground mb-8">
-                        As part of this vision, DA Market is actively seeking a strategic partner who can bring capital, 
-                        infrastructure, and expertise to help scale this model across the Philippine market and beyond.
+                       ✔ Philippine Stock Exchange Trading Participant since 1987
+✔ Fully licensed and regulated securities brokerage firm
+✔ Experienced leadership with both Philippine and U.S.
+financial market expertise
+✔ Established client relationships and trusted market presence
+✔ Positioned for expansion into broader wealth management
+and financial services
+✔ Strong commitment to innovation, compliance, and client
+success
+✔ Opportunity to participate in the growth of an independent
+Philippine financial services platform
+                   
                     </p>
                     <Button asChild size="lg" className="bg-brand-primary hover:bg-brand-primary/90">
                         <a href="/open-account">Start a Conversation</a>
