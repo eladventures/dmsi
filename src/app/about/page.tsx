@@ -53,13 +53,17 @@ Philippine Stock Exchange. Guided by integrity, regulatory
 excellence, and personalized client service, the Company
 combines market expertise and technology-driven
 solutions to help investors achieve their financial goals.
+
                         </p>
+
                         <p className="text-muted-foreground">
-                          DA Market remains focused on innovation, strategic
+                        DA Market remains focused on innovation, strategic
 partnerships, and creating long-term value for clients while
 expanding access to investment opportunities and
 enhancing the client experience.
+
                         </p>
+                   
                     </motion.div>
                 </div>
             </div>
