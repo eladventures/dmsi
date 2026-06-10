@@ -47,14 +47,78 @@ function AboutContentSection() {
                         className="space-y-6"
                     >
                         <p className="text-muted-foreground">
-                            DA Market Securities, Inc. (DMSI) has been in the financial business since 1987. It is a member of the Philippine Stock Exchange and is one of the leading stock brokerage firms in the country.
+                            DA Market Securities, Inc. (DA Market) has been serving investors in
+the Philippine capital markets since 1987. As a member of the
+Philippine Stock Exchange (PSE), DA Market has built a longstanding
+reputation for integrity, professionalism, and personalized
+client service.
                         </p>
+
                         <p className="text-muted-foreground">
-                            As one of the first online platform providers and the market leader on margin facilities at present, DMSI has consistently ranked among the top trading participants in value turnover. We create value and deliver exceptional products and services through all market cycles — providing growth for our people and meaningful returns to our shareholders.
+                          As one of the few independent stock brokerage firms in the
+Philippines, DA Market provides equities brokerage services to
+individual, corporate, and institutional investors. The Company
+combines personalized relationship-based service with modern
+trading technology to help clients achieve their investment
+objectives. 
                         </p>
-                        <p className="text-muted-foreground">
-                            As a traditional and online equities brokerage firm with an affiliate in banking and financing in Central Luzon, we are committed to promoting financial literacy among the growing number of Filipino investors who seek long-term wealth.
+                       
+ <p className="text-muted-foreground">
+                            
+	In line with the evolving needs of investors, DA Market continues to
+enhance its digital capabilities through strategic technology
+partnerships, including its collaboration with InvestaTrade,
+providing clients with greater accessibility and convenience in
+managing their investments. The Company remains committed to
+promoting financial literacy and helping Filipinos build long-term
+wealth through informed investing.
+
                         </p>
+
+ <p className="text-muted-foreground">
+                            
+DA Market is led by professionals with extensive experience in both
+the Philippine and U.S. financial services industries. The Company
+remains committed to the highest standards of regulatory
+compliance, investor protection, operational excellence, and service
+quality.
+
+                        </p>
+
+<p className="text-muted-foreground">
+
+Looking ahead, DA Market remains focused on strengthening its
+capabilities through innovation, technology, talent development,
+and strategic collaborations that enhance value for clients and
+support the Company's long-term growth objectives. The Company
+continues to explore opportunities to work with financial
+institutions, technology providers, and other strategic organizations
+that can contribute to the enhancement of its products, services,
+and client experience. DA Market believes that partnerships between
+established brokerage firms and financial institutions can create
+meaningful opportunities to deliver broader investment solutions,
+expand investor access, and promote innovation within the
+Philippine financial services industry.
+                            
+
+                        </p>
+<p className="text-muted-foreground">
+
+DA Market’s long-term vision is to evolve into the Philippines'
+leading independent full-service brokerage and wealth management
+platform. As part of this vision, the Company seeks to be a
+preferred strategic partner for financial institutions seeking to
+expand their investment and wealth management capabilities
+through a trusted and experienced brokerage platform. Through
+such collaborations, DA Market aims to broaden client access to
+investment solutions while maintaining its commitment to integrity,
+regulatory excellence, investor protection, and personalized client
+service.                            
+
+                        </p>
+
+
+
                     </motion.div>
                 </div>
             </div>
