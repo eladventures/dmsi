@@ -90,7 +90,7 @@ quality.
 Looking ahead, DA Market remains focused on strengthening its
 capabilities through innovation, technology, talent development,
 and strategic collaborations that enhance value for clients and
-support the Company's long-term growth objectives. The Company
+support the Company&apos;s long-term growth objectives. The Company
 continues to explore opportunities to work with financial
 institutions, technology providers, and other strategic organizations
 that can contribute to the enhancement of its products, services,
@@ -104,7 +104,7 @@ Philippine financial services industry.
                         </p>
 <p className="text-muted-foreground">
 
-DA Market’s long-term vision is to evolve into the Philippines'
+DA Market’s long-term vision is to evolve into the Philippines&apos;
 leading independent full-service brokerage and wealth management
 platform. As part of this vision, the Company seeks to be a
 preferred strategic partner for financial institutions seeking to
