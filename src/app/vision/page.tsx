@@ -66,6 +66,13 @@ function VisionContentSection() {
               personalized service, modern technology, and access to investment
               solutions that help clients achieve their financial goals.
             </p>
+
+            <h3 className="text-3xl font-medium">Our Areas of Focus</h3>
+            <ul className="list-disc pl-6 text-muted-foreground space-y-1">
+              {focusAreas.map((area) => (
+                <li key={area}>{area}</li>
+              ))}
+            </ul>
           </motion.div>
 
           <motion.div
@@ -97,12 +104,6 @@ function VisionContentSection() {
               the evolving needs of investors.
             </p>
 
-            <h3 className="text-3xl font-medium">Our Areas of Focus</h3>
-            <ul className="list-disc pl-6 text-muted-foreground space-y-1">
-              {focusAreas.map((area) => (
-                <li key={area}>{area}</li>
-              ))}
-            </ul>
           </motion.div>
         </div>
       </div>
