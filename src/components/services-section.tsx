@@ -1,32 +1,34 @@
-import { Card } from '@/components/ui/card'
-import Image from 'next/image'
-import { motion } from 'framer-motion'
+import { Card } from "@/components/ui/card";
+import Image from "next/image";
+import { motion } from "framer-motion";
 
 const services = [
   {
-    title: 'Trading Platform',
-    description: 'Enhanced Trading Experience (Coming Soon)
-Powered by our partnership with InvestaTrade. Expected launch: July–August 2026.',
-    image: '/images/service-trading.png'
+    title: "Trading Platform",
+    description:
+      "Enhanced Trading Experience (Coming Soon)\nPowered by our partnership with InvestaTrade. Expected launch: July-August 2026.",
+    image: "/images/service-trading.png",
   },
   {
-    title: 'Stock Research',
-    description: 'In-depth equity research and market analysis to help you make informed investment decisions.',
-    image: '/images/service-advisory.png'
+    title: "Stock Research",
+    description:
+      "In-depth equity research and market analysis to help you make informed investment decisions.",
+    image: "/images/service-advisory.png",
   },
   {
-    title: 'Client Support',
-    description: 'Dedicated client service and account management to support your trading and investment needs.',
-    image: '/images/service-wealth.png'
-  }
-]
+    title: "Client Support",
+    description:
+      "Dedicated client service and account management to support your trading and investment needs.",
+    image: "/images/service-wealth.png",
+  },
+];
 
 export function ServicesSection() {
   return (
     <section className="bg-zinc-50 py-16 md:py-32 dark:bg-zinc-900/50">
       <div className="container mx-auto max-w-5xl px-6">
         <div className="text-center">
-          <motion.h2 
+          <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
@@ -42,10 +44,11 @@ export function ServicesSection() {
             viewport={{ once: true }}
             className="text-xl text-muted-foreground mt-4 max-w-3xl mx-auto"
           >
-            Tailored stock market services for individual and institutional investors—built on trust, insight, and personalized support.
+            Tailored stock market services for individual and institutional
+            investors-built on trust, insight, and personalized support.
           </motion.p>
         </div>
-        
+
         <div className="mx-auto mt-8 grid grid-cols-1 md:grid-cols-3 gap-6 md:mt-16 max-w-5xl">
           {services.map((service, index) => (
             <motion.div
@@ -67,8 +70,10 @@ export function ServicesSection() {
                   </div>
                 </div>
                 <div className="p-6 pt-4">
-                  <h3 className="font-semibold text-lg text-center mb-2">{service.title}</h3>
-                  <p className="text-sm text-muted-foreground text-center">
+                  <h3 className="font-semibold text-lg text-center mb-2">
+                    {service.title}
+                  </h3>
+                  <p className="text-sm text-muted-foreground text-center whitespace-pre-line">
                     {service.description}
                   </p>
                 </div>
@@ -78,5 +83,5 @@ export function ServicesSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
