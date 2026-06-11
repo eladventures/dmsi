@@ -5,7 +5,8 @@ import { motion } from 'framer-motion'
 const services = [
   {
     title: 'Trading Platform',
-    description: 'Access our state-of-the-art trading platform with real-time market data and advanced analytics.',
+    description: 'Enhanced Trading Experience (Coming Soon)
+Powered by our partnership with InvestaTrade. Expected launch: July–August 2026.',
     image: '/images/service-trading.png'
   },
   {
