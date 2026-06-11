@@ -72,7 +72,6 @@ enhance client experience, and support the continued development of the
 Philippine capital markets.
                         </p>
 
- >
                         <h3 className="text-3xl font-medium">Building for Future</h3>
                         <p className="text-muted-foreground">
                             
@@ -81,7 +80,7 @@ Securities is focused on strengthening its core brokerage business while
 investing in technology, strategic partnerships, and operational excellence to
 better serve the evolving needs of investors.
                         </p>
- >
+
                         <h3 className="text-3xl font-medium">Our Areas of Focus</h3>
                         <p className="text-muted-foreground">
                             
