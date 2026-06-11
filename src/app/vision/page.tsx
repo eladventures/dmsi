@@ -399,12 +399,9 @@ function PartnershipSection() {
             Ready to Shape the Future?
           </h3>
           <p className="text-muted-foreground mb-6">
-            DA Market Securities, Inc. is a Philippine Stock Exchange Trading
-            Participant since 1987 and a fully licensed securities brokerage
-            firm with a trusted market presence, experienced leadership, and
-            established client relationships. The Company is well-positioned for
-            growth in wealth management and financial services, supported by its
-            commitment to innovation, compliance, and client success.
+            If you see the opportunity to help shape the future of full-service
+            investing in the Philippines, we invite you to start a conversation
+            with us.
           </p>
           <Button
             asChild
