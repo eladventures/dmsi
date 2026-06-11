@@ -60,7 +60,7 @@ partnerships, and creating long-term value for clients while
 expanding access to investment opportunities and
 enhancing the client experience.
                         </p>
-                       </motion.div>
+                    </motion.div>
                 </div>
             </div>
         </SectionWrapper>
