@@ -21,7 +21,7 @@ function AboutContentSection() {
                     <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-brand-primary">
                         <img
                             className="w-full h-auto"
-                            src="/images/board.png?v=2"
+                            src="/images/bod.jpg?v=2"
                             alt="DA Market Securities board"
                             loading="lazy"
                         />
@@ -47,19 +47,33 @@ function AboutContentSection() {
                         className="space-y-6"
                     >
                         <p className="text-muted-foreground">
-                            Since 1987, DA Market Securities, Inc. has provided trusted
+                             Since 1987, DA Market Securities, Inc. has provided trusted
 brokerage services as a privately owned member of the
 Philippine Stock Exchange. Guided by integrity, regulatory
 excellence, and personalized client service, the Company
 combines market expertise and technology-driven
 solutions to help investors achieve their financial goals.
+
                         </p>
+
                         <p className="text-muted-foreground">
-                            DA Market remains focused on innovation, strategic
+                          DA Market remains focused on innovation, strategic
 partnerships, and creating long-term value for clients while
 expanding access to investment opportunities and
 enhancing the client experience.
+
                         </p>
+  
+ <p className="text-muted-foreground">
+                            
+DA Market is led by professionals with extensive experience in both
+the Philippine and U.S. financial services industries. The Company
+remains committed to the highest standards of regulatory
+compliance, investor protection, operational excellence, and service
+quality.
+
+                        </p>
+
                     </motion.div>
                 </div>
             </div>
