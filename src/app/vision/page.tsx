@@ -233,14 +233,6 @@ function ServiceExpansionSection() {
 }
 
 function LeadershipSpotlightSection() {
-  const institutions = [
-    "Bank of America",
-    "Morgan Stanley",
-    "Banc of America Investments",
-    "Wachovia Securities",
-    "Wells Fargo Advisors",
-  ];
-
   return (
     <SectionWrapper>
       <motion.div
@@ -299,62 +291,37 @@ function LeadershipSpotlightSection() {
 
           <div className="space-y-4">
             <p className="text-muted-foreground">
-              Jocelyn &ldquo;Joy&rdquo; David-Greenlaw has dedicated her
-              career to financial services, client relationship management, and
-              investment operations, building experience across both Philippine
-              and U.S. financial markets.
+              Raised in a family of entrepreneurs, Jocelyn &ldquo;Joy&rdquo;
+              David-Greenlaw developed a strong foundation in business, finance,
+              and client service through decades of involvement in banking,
+              foreign exchange, remittance, real estate, education, and other
+              entrepreneurial ventures.
             </p>
 
             <p className="text-muted-foreground">
-              Raised in a family of entrepreneurs, Joy was exposed from an early
-              age to a diverse range of businesses, including jewelry and
-              pawnshop operations, foreign exchange and remittance services,
-              real estate, rural banking, education, and other entrepreneurial
-              ventures. These experiences provided her with a strong foundation
-              in business management, client service, and financial stewardship.
-            </p>
-
-            <p className="text-muted-foreground">
-              Before relocating to the United States, Joy spent more than two
-              decades actively involved in managing and supporting these family
-              enterprises, gaining valuable insight into the financial needs of
-              both individuals and businesses.
-            </p>
-
-            <p className="text-muted-foreground">
-              She later built a successful career in the U.S. financial services
-              industry, serving clients and supporting financial advisors
-              through leading institutions including:
-            </p>
-
-            <ul className="list-disc pl-6 text-muted-foreground space-y-1">
-              {institutions.map((institution) => (
-                <li key={institution}>{institution}</li>
-              ))}
-            </ul>
-
-            <p className="text-muted-foreground">
-              Over more than 20 years, she developed extensive experience in
-              client relationship management, investment operations, regulatory
-              compliance, account administration, and the delivery of wealth
-              management services.
+              She later built a successful career in the U.S. financial
+              services industry, spending more than 20 years serving clients and
+              supporting financial advisors through leading institutions
+              including Bank of America, Morgan Stanley, Wachovia Securities,
+              and Wells Fargo Advisors.
             </p>
 
             <p className="text-muted-foreground">
               After returning to the Philippines, Joy acquired DA Market
               Securities, a Philippine Stock Exchange Trading Participant
-              established in 1987. With a vision to modernize and expand the
-              firm, she now leads its transformation into an independent,
-              client-centered financial services platform that combines
-              Philippine market expertise with global best practices.
+              established in 1987. As President, she is leading the
+              Company&apos;s transformation through technology, innovation, talent
+              development, and strategic partnerships while maintaining the
+              highest standards of integrity, regulatory excellence, investor
+              protection, and personalized client service.
             </p>
 
             <p className="text-muted-foreground">
-              Her vision is to build one of the Philippines&apos; premier
-              independent full-service financial services firms, offering
-              investment solutions, fixed income products, lending solutions,
-              and personalized financial services designed to help clients
-              build, preserve, and transfer wealth across generations.
+              Her vision is to position DA Market as a leading financial
+              services platform that connects investors with innovative
+              investment solutions, strategic opportunities, and trusted
+              guidance&mdash;helping clients build, preserve, and grow wealth
+              across generations.
             </p>
           </div>
         </motion.div>
