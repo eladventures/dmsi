@@ -54,21 +54,34 @@ export function ContentSection() {
                             <div>
                                 <h3 className="text-lg font-semibold mb-1">Licensed and Regulated</h3>
                                 <p className="text-sm text-muted-foreground">
-                                    We are a proud member of the Philippine Stock Exchange (PSE), operating with full compliance under SEC regulations. Our commitment to regulatory standards ensures your investments are protected.
+                                    As a member of the Philippine Stock Exchange (PSE) since
+1987, DA Market Securities operates under the regulatory
+oversight of the Securities and Exchange Commission (SEC)
+and other applicable market institutions. We are committed
+to maintaining the highest standards of compliance,
+transparency, and investor protection.
                                 </p>
                             </div>
                             
                             <div>
                                 <h3 className="text-lg font-semibold mb-1">Client-Centered Approach</h3>
                                 <p className="text-sm text-muted-foreground">
-                                    Every investor is different. We take the time to understand your goals and tailor our service to support your long-term success. Your financial objectives drive our strategies.
+                                    We believe every investor has unique financial goals and
+circumstances. By combining personalized service with
+market expertise, we help clients make informed
+investment decisions and build long-term financial
+confidence.
                                 </p>
                             </div>
                             
                             <div>
                                 <h3 className="text-lg font-semibold mb-1">Trusted Over the Years</h3>
                                 <p className="text-sm text-muted-foreground">
-                                    With a consistent track record of service and reliability since 1987, we help clients invest with clarity and confidence. Our experience is your advantage in navigating market complexities.
+                                    For more than three decades, DA Market Securities has
+served generations of investors through varying market
+cycles. Our long-standing commitment to integrity,
+reliability, and personalized service has earned the trust of
+individual, corporate, and institutional clients alike.
                                 </p>
                             </div>
                         </div>
