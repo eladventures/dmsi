@@ -192,6 +192,10 @@ function ServiceExpansionSection() {
           As part of our long-term strategy, we are also laying the groundwork
           to offer:
         </h3>
+        <p className="text-sm text-muted-foreground text-center max-w-3xl mx-auto mb-8">
+          Future services are subject to regulatory approvals, strategic
+          partnerships, and market conditions.
+        </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           {futureServices.map((service, index) => {
             const IconComponent = service.icon;
