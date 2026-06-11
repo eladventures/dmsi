@@ -114,14 +114,14 @@ function VisionContentSection() {
 
 function ServiceExpansionSection() {
   const currentServices = [
-    { name: "Fixed Income Instruments", icon: TrendingUp },
-    { name: "Securities-Based Lending (SBL)", icon: Shield },
-    { name: "Money Market Interest on Idle Cash", icon: DollarSign },
+    { name: "Fixed Income Solutions (Subject to Regulatory Approval)", icon: TrendingUp },
+    { name: "Enhanced Digital Trading Platform (Coming Soon)", icon: Shield },
+    { name: "Strategic Financial Institution Partnerships", icon: DollarSign },
   ];
 
   const futureServices = [
     { name: "Investment Advisory & Financial Planning", icon: Users },
-    { name: "Portfolio Management & Discretionary Services", icon: PieChart },
+    { name: "Portfolio Advisory & Wealth Planning", icon: PieChart },
     { name: "Lending, Protection, and Retirement Solutions", icon: Home },
     { name: "Insurance Solutions", icon: CreditCard },
     { name: "Educational Plans", icon: GraduationCap },
