@@ -166,7 +166,7 @@ export default function AboutPage() {
                             className="text-center"
                         >
                             <div className="bg-background size-48 rounded-full border-4 border-brand-primary p-0.5 shadow shadow-zinc-950/5 mx-auto group">
-                                <img className="aspect-square rounded-full object-cover transition-transform duration-300 group-hover:scale-105" src="/team/nisha-alicer.jpg?v=2" alt="Nisha Ma. Nimfa S. Alicer" height="460" width="460" loading="lazy" />
+                                <img className="aspect-square rounded-full object-cover transition-transform duration-300 group-hover:scale-105" src="/team/nish-alicer.png?v=2" alt="Nisha Ma. Nimfa S. Alicer" height="460" width="460" loading="lazy" />
                             </div>
                             <span className="mt-2 block text-lg font-semibold">Nisha Ma. Nimfa S. Alicer</span>
                             <span className="text-muted-foreground block text-sm">Chief Equity Strategist, Certified Equity Securities Salesman</span>
