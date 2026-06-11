@@ -189,7 +189,7 @@ export default function AboutPage() {
                             {
                                 name: 'Shirley O. Tan',
                                 role: 'Trader',
-                                avatar: '/team/shir-tan.jpg?v=2',
+                                avatar: '/team/shir-tan.png?v=2',
                             },
                             {
                                 name: 'Abigail M. Peñero',
