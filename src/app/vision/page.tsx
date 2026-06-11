@@ -1,448 +1,471 @@
 "use client";
 
-import React from 'react';
+import React from "react";
 import { HeroHeader } from "@/components/hero-header";
 import { Footer } from "@/components/footer";
 import { PageHero } from "@/components/page-hero";
 import { SectionWrapper } from "@/components/section-wrapper";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { TrendingUp, Shield, DollarSign, Users, PieChart, Home, Globe, CreditCard, GraduationCap, FileText } from "lucide-react";
+import {
+  TrendingUp,
+  Shield,
+  DollarSign,
+  Users,
+  PieChart,
+  Home,
+  Globe,
+  CreditCard,
+  GraduationCap,
+  FileText,
+} from "lucide-react";
 
 function VisionContentSection() {
-    return (
-        <SectionWrapper maxWidth="medium" spacing="small">
-            <div className="space-y-8 md:space-y-12">
-                <motion.div
-                    initial={{ opacity: 0, y: 40, scale: 0.95 }}
-                    whileInView={{ opacity: 1, y: 0, scale: 1 }}
-                    transition={{ duration: 0.8 }}
-                    viewport={{ once: true }}
-                    className="text-center"
-                >
-                    <h2 className="text-4xl font-medium lg:text-5xl mb-6">
-                        Transforming DA Market into a Modern Investment Platform
-                    </h2>
-                    <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-                        
-DA Market Securities continues to strengthen its capabilities through
-technology, innovation, talent development, and strategic collaborations
-designed to enhance the client experience and support long-term growth.
+  const focusAreas = [
+    "Digital Trading and Investment Technology",
+    "Enhanced Client Experience and Service",
+    "Strategic Financial Institution Partnerships",
+    "Investor Education and Financial Literacy",
+    "Institutional and Corporate Client Solutions",
+    "Long-Term Wealth Creation Opportunities",
+  ];
 
-                    </p>
-                </motion.div>
+  return (
+    <SectionWrapper maxWidth="medium" spacing="small">
+      <div className="space-y-8 md:space-y-12">
+        <motion.div
+          initial={{ opacity: 0, y: 40, scale: 0.95 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true }}
+          className="text-center"
+        >
+          <h2 className="text-4xl font-medium lg:text-5xl mb-6">
+            Transforming DA Market into a Modern Investment Platform
+          </h2>
+          <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
+            DA Market Securities continues to strengthen its capabilities
+            through technology, innovation, talent development, and strategic
+            collaborations designed to enhance the client experience and support
+            long-term growth.
+          </p>
+        </motion.div>
 
-                <div className="grid gap-6 md:grid-cols-2 md:gap-12">
-                    <motion.div 
-                        initial={{ opacity: 0, x: -20 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 0.6 }}
-                        viewport={{ once: true }}
-                        className="space-y-6"
-                    >
-                        <h3 className="text-3xl font-medium">Our Strategic Goal</h3>
-                        <p className="text-muted-foreground">
-                            
-To build one of the Philippines' leading independent brokerage and wealth
-management platforms by combining personalized service, modern technology,
-and access to investment solutions that help clients achieve their financial goals.
+        <div className="grid gap-6 md:grid-cols-2 md:gap-12">
+          <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+            className="space-y-6"
+          >
+            <h3 className="text-3xl font-medium">Our Strategic Goal</h3>
+            <p className="text-muted-foreground">
+              To build one of the Philippines&apos; leading independent
+              brokerage and wealth management platforms by combining
+              personalized service, modern technology, and access to investment
+              solutions that help clients achieve their financial goals.
+            </p>
+          </motion.div>
 
-                        </p>
-                       
-                    </motion.div>
-                    <motion.div 
-                        initial={{ opacity: 0, x: 20 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 0.6, delay: 0.2 }}
-                        viewport={{ once: true }}
-                        className="space-y-6"
-                    >
-                        <h3 className="text-3xl font-medium">Our Strategy</h3>
-                        <p className="text-muted-foreground">
-                            
-Leverage our decades of capital markets experience, strategic technology
-partnerships, and relationships with financial institutions to create a trusted
-investment platform for individual, corporate, and institutional investors.
+          <motion.div
+            initial={{ opacity: 0, x: 20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            viewport={{ once: true }}
+            className="space-y-6"
+          >
+            <h3 className="text-3xl font-medium">Our Strategy</h3>
+            <p className="text-muted-foreground">
+              Leverage our decades of capital markets experience, strategic
+              technology partnerships, and relationships with financial
+              institutions to create a trusted investment platform for
+              individual, corporate, and institutional investors.
+            </p>
+            <p className="text-muted-foreground">
+              Through innovation and collaboration, we seek to broaden investor
+              access, enhance client experience, and support the continued
+              development of the Philippine capital markets.
+            </p>
 
-                        </p>
-                        <p className="text-muted-foreground">
-                            
-Through innovation and collaboration, we seek to broaden investor access,
-enhance client experience, and support the continued development of the
-Philippine capital markets.
-                        </p>
+            <h3 className="text-3xl font-medium">Building for the Future</h3>
+            <p className="text-muted-foreground">
+              Under the leadership of President Jocelyn &ldquo;Joy&rdquo;
+              David-Greenlaw, DA Market Securities is focused on strengthening
+              its core brokerage business while investing in technology,
+              strategic partnerships, and operational excellence to better serve
+              the evolving needs of investors.
+            </p>
 
-                        <h3 className="text-3xl font-medium">Building for Future</h3>
-                        <p className="text-muted-foreground">
-                            
-Under the leadership of President Jocelyn "Joy" David-Greenlaw, DA Market
-Securities is focused on strengthening its core brokerage business while
-investing in technology, strategic partnerships, and operational excellence to
-better serve the evolving needs of investors.
-                        </p>
-
-                        <h3 className="text-3xl font-medium">Our Areas of Focus</h3>
-                        <p className="text-muted-foreground">
-                            
-• Digital Trading and Investment Technology
-• Enhanced Client Experience and Service
-• Strategic Financial Institution Partnerships
-• Investor Education and Financial Literacy
-• Institutional and Corporate Client Solutions
-• Long-Term Wealth Creation Opportunities
-                        </p>
-
-                    </motion.div>
-                </div>
-            </div>
-        </SectionWrapper>
-    );
+            <h3 className="text-3xl font-medium">Our Areas of Focus</h3>
+            <ul className="list-disc pl-6 text-muted-foreground space-y-1">
+              {focusAreas.map((area) => (
+                <li key={area}>{area}</li>
+              ))}
+            </ul>
+          </motion.div>
+        </div>
+      </div>
+    </SectionWrapper>
+  );
 }
 
 function ServiceExpansionSection() {
-    const currentServices = [
-        { name: "Fixed Income Instruments", icon: TrendingUp },
-        { name: "Securities-Based Lending (SBL)", icon: Shield },
-        { name: "Money Market Interest on Idle Cash", icon: DollarSign }
-    ];
+  const currentServices = [
+    { name: "Fixed Income Instruments", icon: TrendingUp },
+    { name: "Securities-Based Lending (SBL)", icon: Shield },
+    { name: "Money Market Interest on Idle Cash", icon: DollarSign },
+  ];
 
-    const futureServices = [
-        { name: "Investment Advisory & Financial Planning", icon: Users },
-        { name: "Portfolio Management & Discretionary Services", icon: PieChart },
-        { name: "Lending, Protection, and Retirement Solutions", icon: Home },
-        { name: "Insurance Solutions", icon: CreditCard },
-        { name: "Educational Plans", icon: GraduationCap },
-        { name: "Estate Planning Services", icon: FileText },
-        { name: "Digital Access for Global & Offshore Clients", icon: Globe }
-    ];
+  const futureServices = [
+    { name: "Investment Advisory & Financial Planning", icon: Users },
+    { name: "Portfolio Management & Discretionary Services", icon: PieChart },
+    { name: "Lending, Protection, and Retirement Solutions", icon: Home },
+    { name: "Insurance Solutions", icon: CreditCard },
+    { name: "Educational Plans", icon: GraduationCap },
+    { name: "Estate Planning Services", icon: FileText },
+    { name: "Digital Access for Global & Offshore Clients", icon: Globe },
+  ];
 
-    return (
-        <SectionWrapper background="muted">
-            <motion.div
+  return (
+    <SectionWrapper background="muted">
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: true }}
+        className="text-center mb-16"
+      >
+        <h2 className="text-4xl font-medium lg:text-5xl mb-6">
+          Expanding Our Services
+        </h2>
+        <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
+          Under the leadership of President Jocelyn &ldquo;Joy&rdquo;
+          David-Greenlaw, DA Market is evolving from a traditional equities
+          brokerage into a full-service investment platform.
+        </p>
+      </motion.div>
+
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: true }}
+        className="mb-20"
+      >
+        <h3 className="text-2xl font-bold text-center mb-8">
+          We are currently rolling out key services such as:
+        </h3>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+          {currentServices.map((service, index) => {
+            const IconComponent = service.icon;
+            return (
+              <motion.div
+                key={service.name}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6 }}
+                transition={{ duration: 0.6, delay: index * 0.1 }}
                 viewport={{ once: true }}
-                className="text-center mb-16"
-            >
-                <h2 className="text-4xl font-medium lg:text-5xl mb-6">
-                    Expanding Our Services
-                </h2>
-                <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-                    Under the leadership of President Jocelyn &ldquo;Joy&rdquo; David-Greenlaw, DA Market is evolving 
-                    from a traditional equities brokerage into a full-service investment platform.
-                </p>
-            </motion.div>
-
-            {/* Current Services Section */}
-            <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6 }}
-                viewport={{ once: true }}
-                className="mb-20"
-            >
-                <h3 className="text-2xl font-bold text-center mb-8">We are currently rolling out key services such as:</h3>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-                    {currentServices.map((service, index) => {
-                        const IconComponent = service.icon;
-                        return (
-                            <motion.div
-                                key={index}
-                                initial={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 0.6, delay: index * 0.1 }}
-                                viewport={{ once: true }}
-                                className="bg-card rounded-xl border-2 border-brand-primary shadow-sm p-6 text-center group hover:shadow-lg hover:scale-105 hover:-translate-y-1 transition-all duration-300 h-32 flex flex-col justify-center"
-                            >
-                                <div className="flex items-center justify-center w-10 h-10 bg-brand-primary/10 rounded-full mx-auto mb-3 group-hover:bg-brand-primary/20 transition-colors duration-300">
-                                    <IconComponent className="w-5 h-5 text-brand-primary group-hover:scale-110 transition-transform duration-300" />
-                                </div>
-                                <h3 className="text-sm font-semibold leading-tight">{service.name}</h3>
-                            </motion.div>
-                        );
-                    })}
+                className="bg-card rounded-xl border-2 border-brand-primary shadow-sm p-6 text-center group hover:shadow-lg hover:scale-105 hover:-translate-y-1 transition-all duration-300 h-32 flex flex-col justify-center"
+              >
+                <div className="flex items-center justify-center w-10 h-10 bg-brand-primary/10 rounded-full mx-auto mb-3 group-hover:bg-brand-primary/20 transition-colors duration-300">
+                  <IconComponent className="w-5 h-5 text-brand-primary group-hover:scale-110 transition-transform duration-300" />
                 </div>
-            </motion.div>
+                <h3 className="text-sm font-semibold leading-tight">
+                  {service.name}
+                </h3>
+              </motion.div>
+            );
+          })}
+        </div>
+      </motion.div>
 
-            {/* Future Services Section */}
-            <motion.div
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, delay: 0.2 }}
+        viewport={{ once: true }}
+      >
+        <h3 className="text-2xl font-bold text-center mb-8">
+          As part of our long-term strategy, we are also laying the groundwork
+          to offer:
+        </h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          {futureServices.map((service, index) => {
+            const IconComponent = service.icon;
+            return (
+              <motion.div
+                key={service.name}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.2 }}
+                transition={{ duration: 0.6, delay: index * 0.1 }}
                 viewport={{ once: true }}
-            >
-                <h3 className="text-2xl font-bold text-center mb-8">As part of our long-term strategy, we are also laying the groundwork to offer:</h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-                    {futureServices.map((service, index) => {
-                        const IconComponent = service.icon;
-                        return (
-                            <motion.div
-                                key={index}
-                                initial={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 0.6, delay: index * 0.1 }}
-                                viewport={{ once: true }}
-                                className="bg-card rounded-xl border-2 border-brand-primary shadow-sm p-6 text-center group hover:shadow-lg hover:scale-105 hover:-translate-y-1 transition-all duration-300 h-32 flex flex-col justify-center"
-                            >
-                                <div className="flex items-center justify-center w-10 h-10 bg-brand-primary/10 rounded-full mx-auto mb-3 group-hover:bg-brand-primary/20 transition-colors duration-300">
-                                    <IconComponent className="w-5 h-5 text-brand-primary group-hover:scale-110 transition-transform duration-300" />
-                                </div>
-                                <h3 className="text-sm font-semibold leading-tight">{service.name}</h3>
-                            </motion.div>
-                        );
-                    })}
-                    {/* DA Market Logo Card to balance the layout */}
-                    <motion.div
-                        initial={{ opacity: 0, y: 20 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.6, delay: futureServices.length * 0.1 }}
-                        viewport={{ once: true }}
-                        className="bg-card rounded-xl border-2 border-brand-primary shadow-sm p-6 text-center group hover:shadow-lg hover:scale-105 hover:-translate-y-1 transition-all duration-300 h-32 flex items-center justify-center"
-                    >
-                        <img 
-                            src="/images/da_market_logo.png" 
-                            alt="DA Market Securities"
-                            className="w-2/3 h-auto object-contain group-hover:scale-110 transition-transform duration-300"
-                        />
-                    </motion.div>
+                className="bg-card rounded-xl border-2 border-brand-primary shadow-sm p-6 text-center group hover:shadow-lg hover:scale-105 hover:-translate-y-1 transition-all duration-300 h-32 flex flex-col justify-center"
+              >
+                <div className="flex items-center justify-center w-10 h-10 bg-brand-primary/10 rounded-full mx-auto mb-3 group-hover:bg-brand-primary/20 transition-colors duration-300">
+                  <IconComponent className="w-5 h-5 text-brand-primary group-hover:scale-110 transition-transform duration-300" />
                 </div>
-            </motion.div>
-        </SectionWrapper>
-    );
+                <h3 className="text-sm font-semibold leading-tight">
+                  {service.name}
+                </h3>
+              </motion.div>
+            );
+          })}
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: futureServices.length * 0.1 }}
+            viewport={{ once: true }}
+            className="bg-card rounded-xl border-2 border-brand-primary shadow-sm p-6 text-center group hover:shadow-lg hover:scale-105 hover:-translate-y-1 transition-all duration-300 h-32 flex items-center justify-center"
+          >
+            <img
+              src="/images/da_market_logo.png"
+              alt="DA Market Securities"
+              className="w-2/3 h-auto object-contain group-hover:scale-110 transition-transform duration-300"
+            />
+          </motion.div>
+        </div>
+      </motion.div>
+    </SectionWrapper>
+  );
 }
 
 function LeadershipSpotlightSection() {
-    return (
-        <SectionWrapper>
-            <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6 }}
-                viewport={{ once: true }}
-                className="text-center mb-16"
-            >
-                <h2 className="text-4xl font-medium lg:text-5xl mb-6">
-                    Leadership Spotlight
-                </h2>
-                <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-                    Meet the visionary leader driving DA Market&apos;s transformation
-                </p>
-            </motion.div>
+  const institutions = [
+    "Bank of America",
+    "Morgan Stanley",
+    "Banc of America Investments",
+    "Wachovia Securities",
+    "Wells Fargo Advisors",
+  ];
 
-            <div className="grid gap-12 md:grid-cols-3 items-start">
-                <motion.div
-                    initial={{ opacity: 0, x: -20 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.6 }}
-                    viewport={{ once: true }}
-                    className="relative group"
-                >
-                    <div className="relative rounded-xl overflow-hidden shadow-lg border-2 border-brand-primary group-hover:shadow-xl group-hover:scale-105 transition-all duration-300">
-                        <img
-                            className="w-full h-auto aspect-[4/5] object-cover"
-                            src="/team/jocelyn.jpg?v=2"
-                            alt="Jocelyn David-Greenlaw"
-                            loading="lazy"
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-brand-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                    </div>
-                </motion.div>
+  return (
+    <SectionWrapper>
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: true }}
+        className="text-center mb-16"
+      >
+        <h2 className="text-4xl font-medium lg:text-5xl mb-6">
+          Leadership Spotlight
+        </h2>
+        <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
+          Meet the visionary leader driving DA Market&apos;s transformation
+        </p>
+      </motion.div>
 
-                <motion.div
-                    initial={{ opacity: 0, x: 20 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.6, delay: 0.2 }}
-                    viewport={{ once: true }}
-                    className="space-y-6 md:col-span-2"
-                >
-                    <div>
-                        <h3 className="text-3xl font-bold mb-2">Jocelyn &ldquo;Joy&rdquo; David-Greenlaw</h3>
-                        <p className="text-xl text-brand-primary font-semibold mb-4">President, DA Market Securities, Inc.</p>
-                        <p className="text-lg text-muted-foreground italic">
-                            Entrepreneurial Roots • 20+ Years U.S. Wealth Management Experience • Passionate About Financial Empowerment
-                        </p>
-                    </div>
+      <div className="grid gap-12 md:grid-cols-3 items-start">
+        <motion.div
+          initial={{ opacity: 0, x: -20 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+          className="relative group"
+        >
+          <div className="relative rounded-xl overflow-hidden shadow-lg border-2 border-brand-primary group-hover:shadow-xl group-hover:scale-105 transition-all duration-300">
+            <img
+              className="w-full h-auto aspect-[4/5] object-cover"
+              src="/team/jocelyn.jpg?v=2"
+              alt="Jocelyn David-Greenlaw"
+              loading="lazy"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-brand-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+          </div>
+        </motion.div>
 
-                    <div className="space-y-4">
-                        <p className="text-muted-foreground">
-                            Jocelyn “Joy” David-Greenlaw has dedicated her career to
-financial services, client relationship management, and
-investment operations, building experience across both
-Philippine and U.S. financial markets.
-                        </p>
+        <motion.div
+          initial={{ opacity: 0, x: 20 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          viewport={{ once: true }}
+          className="space-y-6 md:col-span-2"
+        >
+          <div>
+            <h3 className="text-3xl font-bold mb-2">
+              Jocelyn &ldquo;Joy&rdquo; David-Greenlaw
+            </h3>
+            <p className="text-xl text-brand-primary font-semibold mb-4">
+              President, DA Market Securities, Inc.
+            </p>
+            <p className="text-lg text-muted-foreground italic">
+              Entrepreneurial Roots &bull; 20+ Years U.S. Wealth Management
+              Experience &bull; Passionate About Financial Empowerment
+            </p>
+          </div>
 
-                        <p className="text-muted-foreground">
-                            Raised in a family of entrepreneurs, Joy was exposed from an
-early age to a diverse range of businesses, including jewelry
-and pawnshop operations, foreign exchange and remittance
-services, real estate, rural banking, education, and other
-entrepreneurial ventures. These experiences provided her with
-a strong foundation in business management, client service,
-and financial stewardship.
-                        </p>
+          <div className="space-y-4">
+            <p className="text-muted-foreground">
+              Jocelyn &ldquo;Joy&rdquo; David-Greenlaw has dedicated her
+              career to financial services, client relationship management, and
+              investment operations, building experience across both Philippine
+              and U.S. financial markets.
+            </p>
 
-                        <p className="text-muted-foreground">
-                           Before relocating to the United States, Joy spent more than two
-decades actively involved in managing and supporting these
-family enterprises, gaining valuable insight into the financial
-needs of both individuals and businesses.
-                        </p>
+            <p className="text-muted-foreground">
+              Raised in a family of entrepreneurs, Joy was exposed from an early
+              age to a diverse range of businesses, including jewelry and
+              pawnshop operations, foreign exchange and remittance services,
+              real estate, rural banking, education, and other entrepreneurial
+              ventures. These experiences provided her with a strong foundation
+              in business management, client service, and financial stewardship.
+            </p>
 
-                        <p className="text-muted-foreground">
-                           She later built a successful career in the U.S. financial services
-industry, serving clients and supporting financial advisors
-through leading institutions including:
-🏦 Bank of America
-</p>
+            <p className="text-muted-foreground">
+              Before relocating to the United States, Joy spent more than two
+              decades actively involved in managing and supporting these family
+              enterprises, gaining valuable insight into the financial needs of
+              both individuals and businesses.
+            </p>
 
-🏦 Morgan Stanley
-</p>
+            <p className="text-muted-foreground">
+              She later built a successful career in the U.S. financial services
+              industry, serving clients and supporting financial advisors
+              through leading institutions including:
+            </p>
 
-🏦 Banc of America Investments
-</p>
+            <ul className="list-disc pl-6 text-muted-foreground space-y-1">
+              {institutions.map((institution) => (
+                <li key={institution}>{institution}</li>
+              ))}
+            </ul>
 
-🏦 Wachovia Securities
-</p>
+            <p className="text-muted-foreground">
+              Over more than 20 years, she developed extensive experience in
+              client relationship management, investment operations, regulatory
+              compliance, account administration, and the delivery of wealth
+              management services.
+            </p>
 
-🏦 Wells Fargo Advisors
-                        </p>
+            <p className="text-muted-foreground">
+              After returning to the Philippines, Joy acquired DA Market
+              Securities, a Philippine Stock Exchange Trading Participant
+              established in 1987. With a vision to modernize and expand the
+              firm, she now leads its transformation into an independent,
+              client-centered financial services platform that combines
+              Philippine market expertise with global best practices.
+            </p>
 
-<p className="text-muted-foreground">
-                         Over more than 20 years, she developed extensive experience
-in client relationship management, investment operations,
-regulatory compliance, account administration, and the
-delivery of wealth management services.
-                        </p>
-<p className="text-muted-foreground">
-                        After returning to the Philippines, Joy acquired DA Market
-Securities, a Philippine Stock Exchange Trading Participant
-established in 1987. With a vision to modernize and expand
-the firm, she now leads its transformation into an independent,
-client-centered financial services platform that combines
-Philippine market expertise with global best practices.
-                        </p>
-
-<p className="text-muted-foreground">
-                        Her vision is to build one of the Philippines' premier
-independent full-service financial services firms—offering
-investment solutions, fixed income products, lending
-solutions, and personalized financial services designed to help
-clients build, preserve, and transfer wealth across generations.
-                        </p>
-
-
-                    </div>
-
-                </motion.div>
-            </div>
-        </SectionWrapper>
-    );
+            <p className="text-muted-foreground">
+              Her vision is to build one of the Philippines&apos; premier
+              independent full-service financial services firms, offering
+              investment solutions, fixed income products, lending solutions,
+              and personalized financial services designed to help clients
+              build, preserve, and transfer wealth across generations.
+            </p>
+          </div>
+        </motion.div>
+      </div>
+    </SectionWrapper>
+  );
 }
 
 function PartnershipSection() {
-    const partnershipCriteria = [
-        "Strategic growth capital",
-        "Technology and digital infrastructure",
-        "Product innovation and global best practices",
-        "Wealth management and advisory expertise",
-        "Institutional capabilities and operational support",
-         "Distribution networks and expanded market access" 
+  const partnershipCriteria = [
+    "Strategic growth capital",
+    "Technology and digital infrastructure",
+    "Product innovation and global best practices",
+    "Wealth management and advisory expertise",
+    "Institutional capabilities and operational support",
+    "Distribution networks and expanded market access",
+  ];
 
-    ];
+  return (
+    <SectionWrapper background="muted">
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: true }}
+        className="text-center mb-16"
+      >
+        <h2 className="text-4xl font-medium lg:text-5xl mb-6">
+          Partner With Us
+        </h2>
+        <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
+          We are looking for a like-minded institutional partner who shares our
+          belief in the value of independent, client-centered financial services
+          in Southeast Asia.
+        </p>
+      </motion.div>
 
-    return (
-        <SectionWrapper background="muted">
-            <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6 }}
+      <div className="grid gap-12 md:grid-cols-2 items-center">
+        <motion.div
+          initial={{ opacity: 0, x: -20 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+          className="space-y-6"
+        >
+          <h3 className="text-3xl font-bold">The Ideal Partner Will Bring:</h3>
+          <div className="space-y-4">
+            {partnershipCriteria.map((criterion, index) => (
+              <motion.div
+                key={criterion}
+                initial={{ opacity: 0, x: -10 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.6, delay: index * 0.1 }}
                 viewport={{ once: true }}
-                className="text-center mb-16"
-            >
-                <h2 className="text-4xl font-medium lg:text-5xl mb-6">
-                    Partner With Us
-                </h2>
-                <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-                    We are looking for a like-minded institutional partner who shares our belief in the value of 
-                    independent, client-centered financial services in Southeast Asia.
-                </p>
-            </motion.div>
+                className="flex items-start space-x-3"
+              >
+                <div className="w-6 h-6 bg-brand-primary rounded-full flex-shrink-0 mt-1 flex items-center justify-center">
+                  <div className="w-2 h-2 bg-white rounded-full" />
+                </div>
+                <p className="text-muted-foreground">{criterion}</p>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
 
-            <div className="grid gap-12 md:grid-cols-2 items-center">
-                <motion.div
-                    initial={{ opacity: 0, x: -20 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.6 }}
-                    viewport={{ once: true }}
-                    className="space-y-6"
-                >
-                    <h3 className="text-3xl font-bold">The Ideal Partner Will Bring:</h3>
-                    <div className="space-y-4">
-                        {partnershipCriteria.map((criterion, index) => (
-                            <motion.div
-                                key={index}
-                                initial={{ opacity: 0, x: -10 }}
-                                whileInView={{ opacity: 1, x: 0 }}
-                                transition={{ duration: 0.6, delay: index * 0.1 }}
-                                viewport={{ once: true }}
-                                className="flex items-start space-x-3"
-                            >
-                                <div className="w-6 h-6 bg-brand-primary rounded-full flex-shrink-0 mt-1 flex items-center justify-center">
-                                    <div className="w-2 h-2 bg-white rounded-full"></div>
-                                </div>
-                                <p className="text-muted-foreground">{criterion}</p>
-                            </motion.div>
-                        ))}
-                    </div>
-                </motion.div>
-
-                <motion.div
-                    initial={{ opacity: 0, x: 20 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.6, delay: 0.2 }}
-                    viewport={{ once: true }}
-                    className="bg-card rounded-2xl border-2 border-brand-primary shadow-lg p-8 text-center"
-                >
-                    <h3 className="text-2xl font-bold mb-4">Ready to Shape the Future?</h3>
-                    <p className="text-muted-foreground mb-6">
-                       DA Market Securities, Inc. is a Philippine Stock Exchange Trading Participant since 1987 and a fully licensed securities brokerage firm with a trusted market presence, experienced leadership, and established client relationships. The Company is well-positioned for growth in wealth management and financial services, supported by its commitment to innovation, compliance, and client success.
-                    </p>
-                    <Button asChild size="lg" className="bg-brand-primary hover:bg-brand-primary/90">
-                        <a href="/open-account">Start a Conversation</a>
-                    </Button>
-                </motion.div>
-            </div>
-        </SectionWrapper>
-    );
+        <motion.div
+          initial={{ opacity: 0, x: 20 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          viewport={{ once: true }}
+          className="bg-card rounded-2xl border-2 border-brand-primary shadow-lg p-8 text-center"
+        >
+          <h3 className="text-2xl font-bold mb-4">
+            Ready to Shape the Future?
+          </h3>
+          <p className="text-muted-foreground mb-6">
+            DA Market Securities, Inc. is a Philippine Stock Exchange Trading
+            Participant since 1987 and a fully licensed securities brokerage
+            firm with a trusted market presence, experienced leadership, and
+            established client relationships. The Company is well-positioned for
+            growth in wealth management and financial services, supported by its
+            commitment to innovation, compliance, and client success.
+          </p>
+          <Button
+            asChild
+            size="lg"
+            className="bg-brand-primary hover:bg-brand-primary/90"
+          >
+            <a href="/open-account">Start a Conversation</a>
+          </Button>
+        </motion.div>
+      </div>
+    </SectionWrapper>
+  );
 }
 
 export default function VisionPage() {
-    const [mounted, setMounted] = React.useState(false);
+  return (
+    <div className="min-h-screen">
+      <HeroHeader />
 
-    React.useEffect(() => {
-        setMounted(true);
-    }, []);
+      <PageHero
+        title="Our Vision & Strategy"
+        subtitle="Building the future of full-service investing in the Philippines"
+      />
 
-    if (!mounted) {
-        return null;
-    }
+      <VisionContentSection />
+      <ServiceExpansionSection />
+      <LeadershipSpotlightSection />
+      <PartnershipSection />
 
-    return (
-        <div className="min-h-screen">
-            <HeroHeader />
-            
-            <PageHero
-                title="Our Vision & Strategy"
-                subtitle="Building the future of full-service investing in the Philippines"
-            />
-
-            <VisionContentSection />
-            <ServiceExpansionSection />
-            <LeadershipSpotlightSection />
-            <PartnershipSection />
-            
-            <Footer />
-        </div>
-    );
+      <Footer />
+    </div>
+  );
 }
