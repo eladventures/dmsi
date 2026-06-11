@@ -137,7 +137,7 @@ export default function FormsPage() {
               size="lg" 
               variant="outline"
             >
-              <Link href="mailto:admin@damarketsec.com">
+              <Link href="tel:+63288347765">
                 Contact Support
               </Link>
             </Button>
