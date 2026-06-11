@@ -294,9 +294,17 @@ needs of both individuals and businesses.
 industry, serving clients and supporting financial advisors
 through leading institutions including:
 🏦 Bank of America
+</p>
+
 🏦 Morgan Stanley
+</p>
+
 🏦 Banc of America Investments
+</p>
+
 🏦 Wachovia Securities
+</p>
+
 🏦 Wells Fargo Advisors
                         </p>
 
@@ -316,7 +324,7 @@ Philippine market expertise with global best practices.
                         </p>
 
 <p className="text-muted-foreground">
-                        🎯 Her vision is to build one of the Philippines' premier
+                        Her vision is to build one of the Philippines' premier
 independent full-service financial services firms—offering
 investment solutions, fixed income products, lending
 solutions, and personalized financial services designed to help
@@ -398,18 +406,7 @@ function PartnershipSection() {
                 >
                     <h3 className="text-2xl font-bold mb-4">Ready to Shape the Future?</h3>
                     <p className="text-muted-foreground mb-6">
-                       ✔ Philippine Stock Exchange Trading Participant since 1987
-✔ Fully licensed and regulated securities brokerage firm
-✔ Experienced leadership with both Philippine and U.S.
-financial market expertise
-✔ Established client relationships and trusted market presence
-✔ Positioned for expansion into broader wealth management
-and financial services
-✔ Strong commitment to innovation, compliance, and client
-success
-✔ Opportunity to participate in the growth of an independent
-Philippine financial services platform
-                   
+                       DA Market Securities, Inc. is a Philippine Stock Exchange Trading Participant since 1987 and a fully licensed securities brokerage firm with a trusted market presence, experienced leadership, and established client relationships. The Company is well-positioned for growth in wealth management and financial services, supported by its commitment to innovation, compliance, and client success.
                     </p>
                     <Button asChild size="lg" className="bg-brand-primary hover:bg-brand-primary/90">
                         <a href="/open-account">Start a Conversation</a>
