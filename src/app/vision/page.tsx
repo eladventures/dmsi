@@ -46,8 +46,9 @@ function VisionContentSection() {
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
             DA Market Securities continues to strengthen its capabilities
             through technology, innovation, talent development, and strategic
-            collaborations designed to enhance the client experience and support
-            long-term growth.
+            collaborations designed to enhance the client experience
+            <br />
+            and support long-term growth.
           </p>
         </motion.div>
 
@@ -141,9 +142,9 @@ function ServiceExpansionSection() {
           Expanding Our Services
         </h2>
         <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-          Under the leadership of President Jocelyn &ldquo;Joy&rdquo;
-          David-Greenlaw, DA Market is evolving from a traditional equities
-          brokerage into a full-service investment platform.
+          DA Market Securities is expanding beyond traditional stock brokerage
+          by enhancing its digital capabilities, strategic partnerships, and
+          investment solutions to better serve the evolving needs of investors.
         </p>
       </motion.div>
 
