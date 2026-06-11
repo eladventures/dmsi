@@ -6,7 +6,7 @@ const services = [
   {
     title: "Trading Platform",
     description:
-      "Enhanced Trading Experience (Coming Soon)\nPowered by our partnership with InvestaTrade. Expected launch: July-August 2026.",
+      "Enhanced Trading Experience\n(Coming Soon)\nPowered by our partnership with InvestaTrade. Expected launch: July-August 2026.",
     image: "/images/service-trading.png",
   },
   {
