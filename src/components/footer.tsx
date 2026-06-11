@@ -56,7 +56,7 @@ export function Footer() {
                                 <p className="mt-4">
                                     (02) 8834-7765 / (02) 8887-6407 / (02) 8887-5457
                                 </p>
-                                <p>helpdesk@itrade.ph</p>
+                                <p>admin@damarketsec.com</p>
                             </div>
                         </div>
                     </div>
