@@ -65,24 +65,38 @@ export default function FAQPage() {
             {
                 id: 'about-1',
                 question: 'Who are we?',
-                answer: 'Established in 1987, DA Market Securities, Inc. (DA Market) is a traditional and online equities brokerage firm with an affiliate in banking and financing in Central Luzon. DA Market is a member of the Philippine Stock Exchange and serves individual and institutional investors with integrity.',
+                answer: 'Established in 1987, DA Market Securities, Inc. (DA Market) is a traditional and online equities brokerage firm with an affiliate in banking and financing in Central Luzon. DA Market is a member of the Philippine Stock Exchange and serves individual and institutional investors with integrity and professionalism.',
             },
             {
                 id: 'about-2',
                 question: 'What services does DA Market offer?',
-                answer: 'We offer: Online Stock Trading, Real-time market data and statistics, Charting tools, Broker Assisted Trading, and Margin Facility.',
+                answer: `DA Market offers:
+
+• Online stock trading
+• Real-time market data and statistics
+• Charting tools
+• Broker-assisted trading
+• Margin facilities`,
             },
             {
                 id: 'about-3',
                 question: 'How do I contact DA Market?',
-                answer: 'Contact Numbers: (02) 8887-5457 / (02) 8887-6407 / (02) 8834-7765. Email Address: accounts@damarketsec.com. Office Address: Unit 1105, PSE Tower, 5th Ave. Cor. 28th St., Bonifacio Global City, Taguig City 1634, Philippines.',
+                answer: `Contact Numbers:
+(02) 8887-5457 / (02) 8887-6407 / (02) 8834-7765
+
+Email Address:
+accounts@damarketsec.com
+
+Office Address:
+Unit 1105, PSE Tower, 5th Ave. Cor. 28th St.
+Bonifacio Global City, Taguig City 1634, Philippines`,
             },
         ],
         'opening-account': [
             {
                 id: 'opening-1',
                 question: 'Who can open an account?',
-                answer: 'Any individual of legal age, whether local, an OFW, or a foreign national, as well as corporations, may open an account provided all documentary requirements are submitted. DA Market Securities, Inc. reserves the right to approve or deny any application in accordance with its account opening policies and regulatory requirements.',
+                answer: 'Any individual of legal age, whether local, an OFW, or a foreign national, as well as corporations, may open an account, provided all documentary requirements are submitted. DA Market Securities, Inc. reserves the right to approve or deny any application in accordance with its account opening policies and regulatory requirements.',
             },
             {
                 id: 'opening-2',
@@ -91,7 +105,7 @@ export default function FAQPage() {
 
 2. Email the accomplished form and supporting documents to accounts@damarketsec.com for initial review.
 
-3. A DA Market representative will send an email confirming receipt of your documents. Our team will contact you if additional information or documents are required.
+3. You will receive an acknowledgment email confirming receipt of your application. Our team will contact you if additional information or documents are required.
 
 4. Submit the signed original documents personally or via courier to:
 
@@ -100,7 +114,7 @@ Unit 1105, PSE Tower
 5th Avenue corner 28th Street
 Bonifacio Global City, Taguig City 1634, Philippines
 
-5. Receive notification once your application has been approved.
+5. Receive a notification once your application has been approved.
 
 6. Fund your account.
 
@@ -111,7 +125,7 @@ Bonifacio Global City, Taguig City 1634, Philippines
                 question: 'What are the requirements to open an account?',
                 answer: `For Individual Accounts:
 
-• Completed Account Opening Forms, including:
+• Completed account opening forms, including:
   • Customer Account Information Form (CAIF)
   • Trading Agreement
   • Signature Card
@@ -124,7 +138,7 @@ Bonifacio Global City, Taguig City 1634, Philippines
 
 Additional Requirements for Foreign Nationals:
 
-• Valid Passport
+• Valid passport
 
 • Alien Certificate of Registration (ACR), if applicable
 
@@ -176,93 +190,135 @@ DA Market Securities will assist eligible clients in the opening of a NoCD accou
             {
                 id: 'funding-1',
                 question: 'How do I fund my account?',
-                answer: 'You may fund your account through any of our partner banks. Send the deposit confirmation to accounts@damarketsec.com with subject: FUND DEPOSIT. Account Name: DA Market Securities, Inc. Partner Banks: BDO (01-1868-0012-97), BPI (3541-0031-33), Metrobank (264-7-26481071-6), RCBC (1216-0203-98).',
+                answer: `You may fund your account through any of DA Market's partner banks.
+
+Send the deposit confirmation to accounts@damarketsec.com with the subject line: FUND DEPOSIT.
+
+Account Name:
+DA Market Securities, Inc.
+
+Partner Banks:
+• BDO (01-1868-0012-97)
+• BPI (3541-0031-33)
+• Metrobank (264-7-26481071-6)
+• RCBC (1216-0203-98)`,
             },
             {
                 id: 'funding-2',
                 question: 'What is the minimum investment required to open an account?',
-                answer: 'Minimum initial cash or check deposit of PHP 100,000.00 payable to DA Market Securities, Inc.',
+                answer: 'The minimum initial cash or check deposit is PHP 100,000.00, payable to DA Market Securities, Inc.',
             },
             {
                 id: 'funding-3',
-                question: 'Is there a Maintaining Balance for my Account?',
-                answer: 'You will need to maintain PHP100,000.00 in cash or stock/s in your account.',
+                question: 'Is there a maintaining balance for my account?',
+                answer: 'You must maintain at least PHP 100,000.00 in cash or securities in your account.',
             },
             {
                 id: 'funding-4',
                 question: 'How long does it take before my deposit is reflected on my account?',
-                answer: 'Cash deposits to any of our bank accounts will be reflected on your portfolio the next trading day. Check deposits will reflect on your portfolio after the one (1) day check-clearing period. Cut-off time for deposits is 3:00 PM.',
+                answer: 'Cash deposits to any of DA Market Securities\' bank accounts will be reflected in your portfolio on the next trading day. Check deposits will be reflected after the one (1) day check-clearing period. The cut-off time for deposits is 3:00 PM.',
             },
         ],
         'trading-fees': [
             {
                 id: 'fees-1',
                 question: 'What types of securities can I trade?',
-                answer: 'You can trade all non-suspended stocks, exchange traded funds (ETFs) and real estate investment trusts (REITs) that are publicly listed in the Philippine Stock Exchange (PSE).',
+                answer: 'You can trade all non-suspended stocks, exchange-traded funds (ETFs), and real estate investment trusts (REITs) publicly listed on the Philippine Stock Exchange (PSE).',
             },
             {
                 id: 'fees-2',
                 question: 'What are the trading hours?',
-                answer: 'Trading Hours: Monday to Friday - 9:00 AM Pre-Open, 9:15 AM Pre-open No-Cancel, 9:30 AM Market Open/Continuous Trading, 12:00 NN Market Recess, 1:00 PM Market Resumption, 2:45 PM Pre-Close, 2:50 PM Run-Off, 3:00 PM Market Close.',
+                answer: `Trading Hours:
+
+Monday to Friday
+• 9:00 AM - Pre-Open
+• 9:15 AM - Pre-Open No-Cancel
+• 9:30 AM - Market Open / Continuous Trading
+• 12:00 NN - Market Recess
+• 1:00 PM - Market Resumption
+• 2:45 PM - Pre-Close
+• 2:50 PM - Run-Off
+• 3:00 PM - Market Close`,
             },
             {
                 id: 'fees-3',
                 question: 'How much does it cost to buy and sell shares of stock?',
-                answer: 'Buy Transaction: Commission 0.25% (min PHP 20.00), VAT 12%, PSE fee 0.005%, SCCP fee 0.01%. Sell Transaction: Same as buy plus Sales Tax 0.60%. PDTC Depository Maintenance Fee of PHP 0.00000833 per Peso market value monthly.',
+                answer: `Buy Transaction:
+• Commission: 0.25% (minimum PHP 20.00)
+• VAT: 12%
+• PSE fee: 0.005%
+• SCCP fee: 0.01%
+
+Sell Transaction:
+Same as buy transaction, plus 0.60% sales tax.
+
+PDTC Depository Maintenance Fee:
+PHP 0.00000833 per peso market value monthly.`,
             },
             {
                 id: 'fees-4',
                 question: 'What are the related fees to my account?',
-                answer: 'For Online Accounts, Management reserves to transfer an online account into a broker-assisted account with a minimum commission fee of PHP 200.00 per transaction and a monthly maintenance fee of P350.00 for dormant account with no transactions for at least 2 years.',
+                answer: 'For online accounts, DA Market Securities reserves the right to transfer an account to broker-assisted status. Broker-assisted accounts are subject to a minimum commission fee of PHP 200.00 per transaction and a monthly maintenance fee of PHP 350.00 for dormant accounts with no transactions for at least two (2) years.',
             },
             {
                 id: 'fees-5',
                 question: 'Do you provide Margin Facilities?',
-                answer: 'Yes. To find out more about our margin facilities Contact us at (02) 8887 5457 or (02) 8834 7765 or 63 917 863 3119.',
+                answer: 'Yes. To learn more about margin facilities, contact DA Market Securities at (02) 8887-5457, (02) 8834-7765, or +63 917 863 3119.',
             },
         ],
         'online-trading': [
             {
                 id: 'online-1',
                 question: 'How do I place an order?',
-                answer: 'Go to Equities. Input the stock that you want to BUY/SELL. Press F6 for (Buy) and F8 for (Sell). Order ticket will pop-out. Enter the order details then click PREVIEW BUY/SELL. A confirmation order box will appear, click PROCEED to post your order.',
+                answer: 'Go to Equities and enter the stock you want to buy or sell. Press F6 to buy or F8 to sell. When the order ticket appears, enter the order details and click Preview Buy/Sell. Review the confirmation box, then click Proceed to post your order.',
             },
             {
                 id: 'online-2',
                 question: 'What are the rules in posting an order?',
-                answer: 'Only Limit Orders will be accepted. Orders must be within Trading Thresholds: Static (30% below to 50% above previous day\'s trade) and Dynamic (10-20% based on security cluster and trading frequency).',
+                answer: 'Only limit orders are accepted. Orders must be within the applicable trading thresholds: Static Threshold (30% below to 50% above the previous day\'s trade) and Dynamic Threshold (10% to 20%, depending on the security cluster and trading frequency).',
             },
             {
                 id: 'online-3',
                 question: 'What are the validity types of an order?',
-                answer: '1. Day - valid until end of trading day, 2. GTC (Good till cancelled) - valid for 1 year, 3. IOC (Immediate or cancel) - fill partially then cancel, 4. GTD (Good till date) - valid until specified date, 5. Session - valid for current session only, 6. Iceberg - large orders broken into smaller orders.',
+                answer: `1. Day - valid until the end of the trading day.
+2. GTC (Good Till Cancelled) - valid for one (1) year.
+3. IOC (Immediate or Cancel) - fills partially, then cancels any remaining quantity.
+4. GTD (Good Till Date) - valid until the specified date.
+5. Session - valid for the current trading session only.
+6. Iceberg - breaks large orders into smaller visible quantities.`,
             },
             {
                 id: 'online-4',
                 question: 'What is a board lot?',
-                answer: 'Any amount of shares wholly divisible by a minimum board lot. Board lot sizes vary based on price range from 5 shares (for stocks above PHP 5,000) to 1,000,000 shares (for stocks PHP 0.0001-0.0099).',
+                answer: 'A board lot is the minimum number of shares that can be traded for a particular stock. Board lot sizes vary by price range, from 5 shares for stocks above PHP 5,000.00 to 1,000,000 shares for stocks priced from PHP 0.0001 to PHP 0.0099.',
             },
             {
                 id: 'online-5',
-                question: 'Can I Modify or Cancel an Order?',
-                answer: 'Yes, orders can be revised or cancelled as long as they are not matched. Editing can only be done during continuous trading phase (9:30 AM - 12:00 NN and 1:00 PM to 3:00 PM). No modifications during Pre-open and Pre-close No Cancellation Periods.',
+                question: 'Can I modify or cancel an order?',
+                answer: 'Yes. Orders may be revised or cancelled as long as they have not yet been matched. Editing is allowed only during the continuous trading phase (9:30 AM to 12:00 NN and 1:00 PM to 3:00 PM). Modifications are not allowed during the Pre-Open and Pre-Close No-Cancellation periods.',
             },
             {
                 id: 'online-6',
                 question: 'Are there hot keys (keyboard shortcuts) within the trading platform?',
-                answer: 'In the Equities window: F6 (Buy), F8 (Sell), Arrow up (One Fluctuation up), Arrow down (One Fluctuation down), K (Multiply quantity by 1,000), M (Multiply quantity by 1,000,000).',
+                answer: `In the Equities window:
+• F6 - Buy
+• F8 - Sell
+• Arrow Up - One fluctuation up
+• Arrow Down - One fluctuation down
+• K - Multiply quantity by 1,000
+• M - Multiply quantity by 1,000,000`,
             },
         ],
         'maintaining-account': [
             {
                 id: 'maintain-1',
-                question: 'What if I forget my Username and Password?',
-                answer: 'Contact us at (02) 8887 5457 or (02) 8834 7765 or (63) 917 863 3119 or send an email to accounts@damarketsec.com to reset your Username or Password.',
+                question: 'What if I forget my username or password?',
+                answer: 'Contact DA Market Securities at (02) 8887-5457, (02) 8834-7765, or +63 917 863 3119, or send an email to accounts@damarketsec.com to request a username or password reset.',
             },
             {
                 id: 'maintain-2',
-                question: 'What if I want to update my Account details?',
-                answer: 'Contact us at (02) 8887 6407 or (02) 8834 7765 or (63) 917 863 3119 or send an email to accounts@damarketsec.com to update your Account details.',
+                question: 'What if I want to update my account details?',
+                answer: 'Contact DA Market Securities at (02) 8887-6407, (02) 8834-7765, or +63 917 863 3119, or send an email to accounts@damarketsec.com to update your account details.',
             },
             {
                 id: 'maintain-3',
@@ -272,39 +328,39 @@ DA Market Securities will assist eligible clients in the opening of a NoCD accou
             {
                 id: 'maintain-4',
                 question: 'How many computers can I use to log in to my DA Market online trading account?',
-                answer: 'You can register your DA Market online trading account on up to two laptops or computers. The two computers cannot be logged in to the account at the same time. If you wish to register a new computer, send an email to accounts@damarketsec.com to request assistance.',
+                answer: 'You may register your DA Market online trading account on up to two laptops or computers. The two computers cannot be logged in to the account at the same time. To register a new computer, send an email to accounts@damarketsec.com for assistance.',
             },
             {
                 id: 'maintain-5',
-                question: 'How do I confirm done transactions for the day?',
-                answer: 'You will receive confirmation receipts for all done transactions for the day in your registered email. If you wish to view historical transactions, you may email us at accounts@damarketsec.com to request for your account ledger.',
+                question: 'How do I confirm completed transactions for the day?',
+                answer: 'You will receive confirmation receipts for all completed transactions through your registered email. To view historical transactions, email accounts@damarketsec.com and request your account ledger.',
             },
         ],
         'other-services': [
             {
                 id: 'other-1',
                 question: 'How do I participate in Initial Public Offerings (IPOs), Follow-on Offerings (FOOs) and Stock Rights Offerings (SROs)?',
-                answer: 'You will receive announcements via email and/or phone message. You may reply to that email with the preferred number of shares you wish to reserve. Order reservations are not guaranteed due to allocation based on trading volume. Payment will be debited from your trading account.',
+                answer: 'You will receive announcements via email or phone message. You may reply with the preferred number of shares you wish to reserve. Order reservations are not guaranteed and may depend on allocation, trading volume, and availability. Payment will be debited from your trading account.',
             },
             {
                 id: 'other-2',
                 question: 'How do I withdraw from my account?',
-                answer: 'Please fill out and sign a Fund Withdrawal Form and send an email to accounts@damarketsec.com with subject: FUND WITHDRAWAL REQUEST. Cut-off time for withdrawal requests is 11:00AM. You may withdraw proceeds of a stock sale in two days (T+2) after sale.',
+                answer: 'Fill out and sign the Fund Withdrawal Form, then email it to accounts@damarketsec.com with the subject line: FUND WITHDRAWAL REQUEST. The cut-off time for withdrawal requests is 11:00 AM. Proceeds from a stock sale may be withdrawn two (2) trading days after the sale date (T+2).',
             },
             {
                 id: 'other-3',
                 question: 'How can I withdraw (or uplift) my stock positions from DA Market Securities?',
-                answer: 'Submit the Stock Certificate Upliftment Form, photocopy of 2 valid government-issued IDs, originally signed specimen signature card per stock/company. Upliftment fee PhP150.00 per certificate (bank) or P168.00 (non-bank). Process may take a month to complete.',
+                answer: 'Submit the Stock Certificate Upliftment Form, a photocopy of two (2) valid government-issued IDs, and the originally signed specimen signature card for each stock/company. The upliftment fee is PHP 150.00 per certificate for bank stocks and PHP 168.00 per certificate for non-bank stocks. Processing may take up to one (1) month.',
             },
             {
                 id: 'other-4',
                 question: 'How can I transfer my stock positions to another broker from DA Market?',
-                answer: 'Download and fill-up the Request for Stock Transfer form and send the original copy to our office. Electronic transfers take 1-2 working days. Transfer fee of P75.00 per stock charged by both issuing and receiving broker.',
+                answer: 'Download and complete the Request for Stock Transfer Form, then send the original copy to the DA Market office. Electronic transfers usually take one (1) to two (2) working days. A transfer fee of PHP 75.00 per stock is charged by both the issuing and receiving brokers.',
             },
             {
                 id: 'other-5',
-                question: 'If I have no access to a computer/internet, can DA Market execute my orders on my behalf?',
-                answer: 'Yes, you may send your orders via your DA Market-registered email to accounts@damarketsec.com or call our trading desk at +632 88919143, +632 88919144, or +63 917 863 3169. Our in-house broker-dealers can execute orders on your behalf. No additional charges for broker-assisted trades.',
+                question: 'If I have no access to a computer or the internet, can DA Market execute my orders on my behalf?',
+                answer: 'Yes. You may send your orders using your DA Market-registered email to accounts@damarketsec.com or call the trading desk at +632 88919143, +632 88919144, or +63 917 863 3169. DA Market Securities\' in-house broker-dealers can execute orders on your behalf. No additional charges apply for broker-assisted trades.',
             },
         ],
     }
@@ -345,7 +401,7 @@ DA Market Securities will assist eligible clients in the opening of a NoCD accou
                     const [number, ...text] = trimmedLine.split(' ')
 
                     return (
-                        <p key={index} className="flex gap-2 text-base leading-relaxed text-muted-foreground">
+                        <p key={index} className="flex gap-3 text-base leading-relaxed text-muted-foreground">
                             <span className="font-semibold text-foreground">{number}</span>
                             <span>{renderLinkedText(text.join(' '))}</span>
                         </p>
@@ -356,7 +412,7 @@ DA Market Securities will assist eligible clients in the opening of a NoCD accou
                     return (
                         <p
                             key={index}
-                            className={`flex gap-2 text-base leading-relaxed text-muted-foreground ${
+                            className={`flex gap-3 text-base leading-relaxed text-muted-foreground ${
                                 isNestedBullet ? 'ml-5' : ''
                             }`}
                         >
@@ -368,7 +424,7 @@ DA Market Securities will assist eligible clients in the opening of a NoCD accou
 
                 if (trimmedLine.endsWith(':') || trimmedLine === 'DA Market Securities, Inc.') {
                     return (
-                        <p key={index} className="pt-2 text-base font-semibold leading-relaxed text-foreground first:pt-0">
+                        <p key={index} className="pt-3 text-base font-semibold leading-relaxed text-foreground first:pt-0">
                             {trimmedLine}
                         </p>
                     )
@@ -447,7 +503,7 @@ DA Market Securities will assist eligible clients in the opening of a NoCD accou
                                                 </button>
                                                 {openAccordions.includes(item.id) && (
                                                     <div className="px-6 pb-5">
-                                                        <div className="space-y-2">
+                                                        <div className="space-y-2.5">
                                                             {renderFAQAnswer(item.answer)}
                                                         </div>
                                                     </div>
