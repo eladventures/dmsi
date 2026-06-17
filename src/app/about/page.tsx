@@ -109,18 +109,18 @@ export default function AboutPage() {
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6, delay: index * 0.1 }}
                             viewport={{ once: true }}
-                            className="bg-card rounded-lg border shadow-sm p-5 text-center group hover:border-brand-primary/60 hover:shadow-md transition-all duration-300"
+                            className="bg-card rounded-2xl border-2 border-brand-primary shadow-sm p-6 text-center group hover:shadow-lg transition-shadow duration-300"
                         >
-                            <div className="relative mb-5 overflow-hidden rounded-md bg-muted">
+                            <div className="relative mb-6 overflow-hidden rounded-xl">
                                 <img
                                     src={member.image}
                                     alt={member.name}
-                                    className="aspect-[4/5] w-full object-cover object-top transition-transform duration-300 group-hover:scale-[1.02]"
+                                    className="w-full h-96 object-cover transition-transform duration-300 group-hover:scale-105"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                             </div>
                             <h3 className="text-lg font-semibold mb-2">{member.name}</h3>
-                            <p className="text-muted-foreground text-sm leading-relaxed">{member.position}</p>
+                            <p className="text-muted-foreground text-sm">{member.position}</p>
                         </motion.div>
                     ))}
                 </div>
