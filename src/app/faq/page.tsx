@@ -82,7 +82,7 @@ export default function FAQPage() {
             {
                 id: 'opening-1',
                 question: 'Who can open an account?',
-                answer: 'Any one of legal age, local, including OFWs, or foreign, or Corporation so long as the applicant provides all the necessary requirements. Management reserves the right to approve/deny any application as it sees fit based upon its measures of standard.',
+                answer: 'Any individual of legal age, whether local, an OFW, or a foreign national, as well as corporations, may open an account provided all documentary requirements are submitted. DA Market Securities, Inc. reserves the right to approve or deny any application in accordance with its account opening policies and regulatory requirements.',
             },
             {
                 id: 'opening-2',
