@@ -109,7 +109,40 @@ Bonifacio Global City, Taguig City
             {
                 id: 'opening-3',
                 question: 'What are the requirements to open an account?',
-                answer: '1. Fill out application forms: CAIF, Trading Agreement, Signature Card, Data Privacy Form, FATCA. 2. Identity Document (ID) issued by the Philippine Government or two (2) secondary IDs. 3. Taxpayer Identification Number (TIN). 4. Additional Requirements for Foreign Citizens and Corporate accounts include various documents like ACR, passport authentication, Articles of Incorporation, Board Resolutions, etc.',
+                answer: `For Individual Accounts:
+
+• Completed Account Opening Forms, including:
+  • Customer Account Information Form (CAIF)
+  • Trading Agreement
+  • Signature Card
+  • Data Privacy Consent Form
+  • FATCA Declaration (if applicable)
+
+• One (1) valid government-issued ID or two (2) secondary IDs
+
+• Taxpayer Identification Number (TIN)
+
+Additional Requirements for Foreign Individuals:
+
+• Valid Passport
+
+• Alien Certificate of Registration (ACR), if applicable
+
+• Other supporting documents as may be required
+
+Additional Requirements for Corporate Accounts:
+
+• Articles of Incorporation
+
+• SEC Registration Documents
+
+• Board Resolution authorizing the opening of the account
+
+• Secretary's Certificate
+
+• Latest General Information Sheet (GIS)
+
+• Other supporting documents as may be required`,
             },
             {
                 id: 'opening-4',
