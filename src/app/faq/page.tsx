@@ -156,7 +156,9 @@ Our team may also contact you if additional information or documentation is requ
             {
                 id: 'opening-5',
                 question: 'When can I start investing?',
-                answer: 'Once your application is approved and the initial deposit has been made you will receive confirmation in your Email within 1-2 working days. Online accounts will also receive log-in details.',
+                answer: `You may start investing once your account has been approved and your initial deposit has been received and verified by DA Market Securities.
+
+You will receive an email confirmation once your account is activated and ready for trading.`,
             },
             {
                 id: 'opening-6',
