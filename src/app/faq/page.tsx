@@ -147,7 +147,11 @@ Additional Requirements for Corporate Accounts:
             {
                 id: 'opening-4',
                 question: 'How will I know if my application was approved?',
-                answer: 'Once approved, you will receive an Email with instructions to fund your account by depositing to any of our bank accounts.',
+                answer: `Once your application has been approved, you will receive an email notification confirming the approval of your account.
+
+The email will include instructions on how to fund your account using any of DA Market Securities' designated bank accounts.
+
+Our team may also contact you if additional information or documentation is required prior to account activation.`,
             },
             {
                 id: 'opening-5',
