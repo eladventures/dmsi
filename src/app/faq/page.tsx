@@ -75,7 +75,7 @@ export default function FAQPage() {
             {
                 id: 'about-3',
                 question: 'How do I contact iTRADE?',
-                answer: 'Contact Numbers: (02) 8887-5457 / (02) 8887-6407 / (02) 8834-7765. Email Address: helpdesk@itrade.ph. Office Address: Unit 1105, PSE Tower, 5th Ave. Cor. 28th St. Bonifacio Global City, Taguig City, Philippines, 1634.',
+                answer: 'Contact Numbers: (02) 8887-5457 / (02) 8887-6407 / (02) 8834-7765. Email Address: accounts@damarketsec.com. Office Address: Unit 1105, PSE Tower, 5th Ave. Cor. 28th St. Bonifacio Global City, Taguig City, Philippines, 1634.',
             },
         ],
         'opening-account': [
@@ -87,7 +87,24 @@ export default function FAQPage() {
             {
                 id: 'opening-2',
                 question: 'How can I open an account?',
-                answer: '1. Download the application form and fill in the required information. 2. E-mail a digital copy to damarketsecurities@gmail.com for review before submitting the physical copy personally or via courier to our office at Unit 1105 PSE Tower, 5th Avenue Corner 28th Street, Fort Bonifacio Global City, Taguig City. 3. Receive an email notification once application is approved. 4. Fund your account. 5. Receive the log-in credentials by email within 1-2 business days.',
+                answer: `1. Download and complete the Account Opening Form.
+
+2. Email the accomplished form and supporting documents to accounts@damarketsec.com for initial review.
+
+3. You will receive an acknowledgment email confirming receipt of your application. Our team will contact you if additional information or documents are required.
+
+4. Submit the signed original documents personally or via courier to:
+
+DA Market Securities, Inc.
+Unit 1105, PSE Tower
+5th Avenue corner 28th Street
+Bonifacio Global City, Taguig City
+
+5. Receive notification once your application has been approved.
+
+6. Fund your account.
+
+7. Receive your login credentials via email within 1-2 business days.`,
             },
             {
                 id: 'opening-3',
@@ -97,12 +114,12 @@ export default function FAQPage() {
             {
                 id: 'opening-4',
                 question: 'How will I know if my application was approved?',
-                answer: 'Once approved, you will receive an e-mail with instructions to fund your account by depositing to any of our bank accounts.',
+                answer: 'Once approved, you will receive an Email with instructions to fund your account by depositing to any of our bank accounts.',
             },
             {
                 id: 'opening-5',
                 question: 'When can I start investing?',
-                answer: 'Once your application is approved and the initial deposit has been made you will receive confirmation in your e-mail within 1-2 working days. Online accounts will also receive log-in details.',
+                answer: 'Once your application is approved and the initial deposit has been made you will receive confirmation in your Email within 1-2 working days. Online accounts will also receive log-in details.',
             },
             {
                 id: 'opening-6',
@@ -114,7 +131,7 @@ export default function FAQPage() {
             {
                 id: 'funding-1',
                 question: 'How do I fund my account?',
-                answer: 'You may fund your account through any of our partner banks. Send the deposit confirmation to helpdesk@itrade.ph with subject: FUND DEPOSIT. Account Name: DA Market Securities, Inc. Partner Banks: BDO (01-1868-0012-97), BPI (3541-0031-33), Metrobank (264-7-26481071-6), RCBC (1216-0203-98).',
+                answer: 'You may fund your account through any of our partner banks. Send the deposit confirmation to accounts@damarketsec.com with subject: FUND DEPOSIT. Account Name: DA Market Securities, Inc. Partner Banks: BDO (01-1868-0012-97), BPI (3541-0031-33), Metrobank (264-7-26481071-6), RCBC (1216-0203-98).',
             },
             {
                 id: 'funding-2',
@@ -195,12 +212,12 @@ export default function FAQPage() {
             {
                 id: 'maintain-1',
                 question: 'What if I forget my Username and Password?',
-                answer: 'Contact us at (02) 8887 5457 or (02) 8834 7765 or (63) 917 863 3119 or send an email to helpdesk@itrade.ph to reset your Username or Password.',
+                answer: 'Contact us at (02) 8887 5457 or (02) 8834 7765 or (63) 917 863 3119 or send an email to accounts@damarketsec.com to reset your Username or Password.',
             },
             {
                 id: 'maintain-2',
                 question: 'What if I want to update my Account details?',
-                answer: 'Contact us at (02) 8887 6407 or (02) 8834 7765 or (63) 917 863 3119 or send an email to helpdesk@itrade.ph to update your Account details.',
+                answer: 'Contact us at (02) 8887 6407 or (02) 8834 7765 or (63) 917 863 3119 or send an email to accounts@damarketsec.com to update your Account details.',
             },
             {
                 id: 'maintain-3',
@@ -210,24 +227,24 @@ export default function FAQPage() {
             {
                 id: 'maintain-4',
                 question: 'How many computers can I use to log-in to my iTradePro account?',
-                answer: 'You can register iTradePro on up to 2 laptops/computers. Note however that the two computers cannot be logged-on to the account at the same time. If you wish to register a new computer, send an e-mail to helpdesk@itrade.ph to request.',
+                answer: 'You can register iTradePro on up to 2 laptops/computers. Note however that the two computers cannot be logged-on to the account at the same time. If you wish to register a new computer, send an Email to accounts@damarketsec.com to request.',
             },
             {
                 id: 'maintain-5',
                 question: 'How do I confirm done transactions for the day?',
-                answer: 'You will receive confirmation receipts for all done transactions for the day in your registered email. If you wish to view historical transactions, you may email us at helpdesk@itrade.ph to request for your account ledger.',
+                answer: 'You will receive confirmation receipts for all done transactions for the day in your registered email. If you wish to view historical transactions, you may email us at accounts@damarketsec.com to request for your account ledger.',
             },
         ],
         'other-services': [
             {
                 id: 'other-1',
                 question: 'How do I participate in Initial Public Offerings (IPOs), Follow-on Offerings (FOOs) and Stock Rights Offerings (SROs)?',
-                answer: 'You will receive announcements via e-mail and/or phone message. You may reply to that email with the preferred number of shares you wish to reserve. Order reservations are not guaranteed due to allocation based on trading volume. Payment will be debited from your trading account.',
+                answer: 'You will receive announcements via Email and/or phone message. You may reply to that email with the preferred number of shares you wish to reserve. Order reservations are not guaranteed due to allocation based on trading volume. Payment will be debited from your trading account.',
             },
             {
                 id: 'other-2',
                 question: 'How do I withdraw from my account?',
-                answer: 'Please fill out and sign a Fund Withdrawal Form and send an email to helpdesk@itrade.ph with subject: FUND WITHDRAWAL REQUEST. Cut-off time for withdrawal requests is 11:00AM. You may withdraw proceeds of a stock sale in two days (T+2) after sale.',
+                answer: 'Please fill out and sign a Fund Withdrawal Form and send an email to accounts@damarketsec.com with subject: FUND WITHDRAWAL REQUEST. Cut-off time for withdrawal requests is 11:00AM. You may withdraw proceeds of a stock sale in two days (T+2) after sale.',
             },
             {
                 id: 'other-3',
@@ -242,7 +259,7 @@ export default function FAQPage() {
             {
                 id: 'other-5',
                 question: 'If I have no access to a computer/internet, can iTRADE execute my orders on my behalf?',
-                answer: 'Yes, you may send your orders via your DMSI-registered email to damarketsecurities@gmail.com or call our trading desk at +632 88919143, +632 88919144, or +63 917 863 3169. Our in-house broker-dealers can execute orders on your behalf. No additional charges for broker-assisted trades.',
+                answer: 'Yes, you may send your orders via your DMSI-registered email to accounts@damarketsec.com or call our trading desk at +632 88919143, +632 88919144, or +63 917 863 3169. Our in-house broker-dealers can execute orders on your behalf. No additional charges for broker-assisted trades.',
             },
         ],
     }
@@ -314,7 +331,7 @@ export default function FAQPage() {
                                                 </button>
                                                 {openAccordions.includes(item.id) && (
                                                     <div className="px-6 pb-4">
-                                                        <p className="text-base text-muted-foreground">
+                                                        <p className="whitespace-pre-line text-base text-muted-foreground">
                                                             {item.answer}
                                                         </p>
                                                     </div>
