@@ -46,8 +46,8 @@ function VisionContentSection() {
           <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             DA Market Securities continues to strengthen its capabilities
             through technology, innovation, talent development, and strategic
-            collaborations designed to enhance the client experience
-            and support long-term growth.
+            collaborations designed to enhance the client experience and
+            support long-term growth.
           </p>
         </motion.div>
 
@@ -59,18 +59,25 @@ function VisionContentSection() {
             viewport={{ once: true }}
             className="space-y-5"
           >
-            <h3 className="text-2xl font-semibold leading-tight">Our Strategic Goal</h3>
+            <h3 className="text-2xl font-semibold leading-tight">
+              Our Strategic Goal
+            </h3>
             <p className="text-muted-foreground leading-relaxed">
-              To build one of the Philippines&apos; leading independent
-              brokerage and wealth management platforms by combining
+              Our goal is to build one of the Philippines&apos; leading
+              independent brokerage and wealth management platforms by combining
               personalized service, modern technology, and access to investment
               solutions that help clients achieve their financial goals.
             </p>
 
-            <h3 className="text-2xl font-semibold leading-tight pt-2">Our Areas of Focus</h3>
+            <h3 className="text-2xl font-semibold leading-tight pt-2">
+              Our Areas of Focus
+            </h3>
             <ul className="space-y-2 text-muted-foreground">
               {focusAreas.map((area) => (
-                <li key={area} className="flex items-start gap-3 leading-relaxed">
+                <li
+                  key={area}
+                  className="flex items-start gap-3 leading-relaxed"
+                >
                   <span className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-brand-primary" />
                   <span>{area}</span>
                 </li>
@@ -85,9 +92,11 @@ function VisionContentSection() {
             viewport={{ once: true }}
             className="space-y-5"
           >
-            <h3 className="text-2xl font-semibold leading-tight">Our Strategy</h3>
+            <h3 className="text-2xl font-semibold leading-tight">
+              Our Strategy
+            </h3>
             <p className="text-muted-foreground leading-relaxed">
-              Leverage our decades of capital markets experience, strategic
+              We leverage decades of capital markets experience, strategic
               technology partnerships, and relationships with financial
               institutions to create a trusted investment platform for
               individual, corporate, and institutional investors.
@@ -98,7 +107,9 @@ function VisionContentSection() {
               development of the Philippine capital markets.
             </p>
 
-            <h3 className="text-2xl font-semibold leading-tight pt-2">Building for the Future</h3>
+            <h3 className="text-2xl font-semibold leading-tight pt-2">
+              Building for the Future
+            </h3>
             <p className="text-muted-foreground leading-relaxed">
               Under the leadership of President Jocelyn &ldquo;Joy&rdquo;
               David-Greenlaw, DA Market Securities is focused on strengthening
@@ -115,9 +126,20 @@ function VisionContentSection() {
 
 function ServiceExpansionSection() {
   const currentServices = [
-    { name: "Fixed Income Solutions (Subject to Regulatory Approval)", icon: TrendingUp },
-    { name: "Enhanced Digital Trading Platform (Coming Soon)", icon: Shield },
-    { name: "Strategic Financial Institution Partnerships", icon: DollarSign },
+    {
+      name: "Fixed Income Solutions",
+      note: "Subject to Regulatory Approval",
+      icon: TrendingUp,
+    },
+    {
+      name: "Enhanced Digital Trading Platform",
+      note: "Coming Soon",
+      icon: Shield,
+    },
+    {
+      name: "Strategic Financial Institution Partnerships",
+      icon: DollarSign,
+    },
   ];
 
   const futureServices = [
@@ -157,7 +179,7 @@ function ServiceExpansionSection() {
         className="mb-14"
       >
         <h3 className="text-xl md:text-2xl font-semibold text-center mb-6">
-          We are currently rolling out key services such as:
+          Key services currently being introduced
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-4xl mx-auto">
           {currentServices.map((service, index) => {
@@ -169,14 +191,21 @@ function ServiceExpansionSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 viewport={{ once: true }}
-                className="bg-card rounded-lg border shadow-sm p-5 text-center group hover:border-brand-primary/60 hover:shadow-md transition-all duration-300 min-h-32 flex flex-col justify-center"
+                className="bg-card rounded-lg border shadow-sm p-5 group hover:border-brand-primary/60 hover:shadow-md transition-all duration-300 min-h-28 flex items-start gap-4"
               >
-                <div className="flex items-center justify-center w-10 h-10 bg-brand-primary/10 rounded-full mx-auto mb-3 group-hover:bg-brand-primary/20 transition-colors duration-300">
+                <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-brand-primary/10 group-hover:bg-brand-primary/20 transition-colors duration-300">
                   <IconComponent className="w-5 h-5 text-brand-primary" />
                 </div>
-                <h3 className="text-sm font-semibold leading-snug">
-                  {service.name}
-                </h3>
+                <div className="min-w-0 text-left">
+                  <h3 className="text-sm font-semibold leading-snug">
+                    {service.name}
+                  </h3>
+                  {"note" in service && service.note && (
+                    <p className="mt-1 text-xs leading-snug text-muted-foreground">
+                      {service.note}
+                    </p>
+                  )}
+                </div>
               </motion.div>
             );
           })}
@@ -190,8 +219,7 @@ function ServiceExpansionSection() {
         viewport={{ once: true }}
       >
         <h3 className="text-xl md:text-2xl font-semibold text-center mb-3">
-          As part of our long-term strategy, we are also laying the groundwork
-          to offer:
+          Services being prepared for future rollout
         </h3>
         <p className="text-sm text-muted-foreground text-center max-w-3xl mx-auto mb-6">
           Future services are subject to regulatory approvals, strategic
@@ -207,12 +235,12 @@ function ServiceExpansionSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 viewport={{ once: true }}
-                className="bg-card rounded-lg border shadow-sm p-5 text-center group hover:border-brand-primary/60 hover:shadow-md transition-all duration-300 min-h-32 flex flex-col justify-center"
+                className="bg-card rounded-lg border shadow-sm p-5 group hover:border-brand-primary/60 hover:shadow-md transition-all duration-300 min-h-28 flex items-start gap-4"
               >
-                <div className="flex items-center justify-center w-10 h-10 bg-brand-primary/10 rounded-full mx-auto mb-3 group-hover:bg-brand-primary/20 transition-colors duration-300">
+                <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-brand-primary/10 group-hover:bg-brand-primary/20 transition-colors duration-300">
                   <IconComponent className="w-5 h-5 text-brand-primary" />
                 </div>
-                <h3 className="text-sm font-semibold leading-snug">
+                <h3 className="min-w-0 text-left text-sm font-semibold leading-snug">
                   {service.name}
                 </h3>
               </motion.div>
@@ -252,7 +280,7 @@ function LeadershipSpotlightSection() {
           Leadership Spotlight
         </h2>
         <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-          Meet the visionary leader driving DA Market&apos;s transformation
+          Meet the leader guiding DA Market&apos;s transformation.
         </p>
       </motion.div>
 
@@ -373,7 +401,9 @@ function PartnershipSection() {
           viewport={{ once: true }}
           className="space-y-5"
         >
-          <h3 className="text-2xl md:text-3xl font-semibold leading-tight">The Ideal Partner Will Bring:</h3>
+          <h3 className="text-2xl md:text-3xl font-semibold leading-tight">
+            The Ideal Partner Will Bring:
+          </h3>
           <div className="space-y-3">
             {partnershipCriteria.map((criterion, index) => (
               <motion.div
@@ -387,7 +417,9 @@ function PartnershipSection() {
                 <div className="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-brand-primary/10">
                   <div className="h-2 w-2 rounded-full bg-brand-primary" />
                 </div>
-                <p className="text-muted-foreground leading-relaxed">{criterion}</p>
+                <p className="text-muted-foreground leading-relaxed">
+                  {criterion}
+                </p>
               </motion.div>
             ))}
           </div>
