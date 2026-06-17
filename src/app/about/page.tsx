@@ -10,17 +10,17 @@ import { motion } from "framer-motion";
 function AboutContentSection() {
     return (
         <SectionWrapper maxWidth="medium" spacing="small">
-            <div className="space-y-8 md:space-y-12">
+            <div className="space-y-10">
                 <motion.div
                     initial={{ opacity: 0, y: 40, scale: 0.95 }}
                     whileInView={{ opacity: 1, y: 0, scale: 1 }}
                     transition={{ duration: 0.8 }}
                     viewport={{ once: true }}
-                    className="relative mx-auto mb-16 max-w-5xl"
+                    className="relative mx-auto max-w-5xl"
                 >
-                    <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-brand-primary">
+                    <div className="relative overflow-hidden rounded-lg border shadow-sm">
                         <img
-                            className="w-full h-auto"
+                            className="h-auto w-full object-contain"
                             src="/images/bod.jpg?v=2"
                             alt="DA Market Securities board"
                             loading="lazy"
@@ -29,13 +29,13 @@ function AboutContentSection() {
                     </div>
                 </motion.div>
 
-                <div className="grid gap-6 md:grid-cols-2 md:gap-12">
+                <div className="grid gap-8 md:grid-cols-2 md:gap-10">
                     <motion.h2 
                         initial={{ opacity: 0, x: -20 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.6 }}
                         viewport={{ once: true }}
-                        className="text-4xl font-medium"
+                        className="text-3xl font-semibold leading-tight md:text-4xl"
                     >
                         DA Market Securities brings together expertise, innovation, and personalized service.
                     </motion.h2>
@@ -44,34 +44,18 @@ function AboutContentSection() {
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.6, delay: 0.2 }}
                         viewport={{ once: true }}
-                        className="space-y-6"
+                        className="space-y-4"
                     >
-                        <p className="text-muted-foreground">
-                             Since 1987, DA Market Securities, Inc. has provided trusted
-brokerage services as a privately owned member of the
-Philippine Stock Exchange. Guided by integrity, regulatory
-excellence, and personalized client service, the Company
-combines market expertise and technology-driven
-solutions to help investors achieve their financial goals.
-
+                        <p className="text-muted-foreground leading-relaxed">
+                            Since 1987, DA Market Securities, Inc. has provided trusted brokerage services as a privately owned member of the Philippine Stock Exchange. Guided by integrity, regulatory excellence, and personalized client service, the Company combines market expertise and technology-driven solutions to help investors achieve their financial goals.
                         </p>
 
-                        <p className="text-muted-foreground">
-                          DA Market remains focused on innovation, strategic
-partnerships, and creating long-term value for clients while
-expanding access to investment opportunities and
-enhancing the client experience.
-
+                        <p className="text-muted-foreground leading-relaxed">
+                            DA Market remains focused on innovation, strategic partnerships, and creating long-term value for clients while expanding access to investment opportunities and enhancing the client experience.
                         </p>
   
- <p className="text-muted-foreground">
-                            
-DA Market is led by professionals with extensive experience in both
-the Philippine and U.S. financial services industries. The Company
-remains committed to the highest standards of regulatory
-compliance, investor protection, operational excellence, and service
-quality.
-
+                        <p className="text-muted-foreground leading-relaxed">
+                            DA Market is led by professionals with extensive experience in both the Philippine and U.S. financial services industries. The Company remains committed to the highest standards of regulatory compliance, investor protection, operational excellence, and service quality.
                         </p>
 
                     </motion.div>
@@ -88,7 +72,7 @@ export default function AboutPage() {
             
             <PageHero
                 title="Who We Are"
-                subtitle="Proudly Filipino, professionally driven—serving investors with personalized attention."
+                subtitle="Proudly Filipino, professionally driven, and committed to serving investors with personalized attention."
             />
 
             <AboutContentSection />
@@ -99,17 +83,17 @@ export default function AboutPage() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6 }}
                     viewport={{ once: true }}
-                    className="text-center mb-16"
+                    className="text-center mb-12"
                 >
-                    <h2 className="text-4xl font-medium lg:text-5xl mb-6">
+                    <h2 className="text-3xl font-semibold leading-tight md:text-4xl lg:text-5xl mb-4">
                         Board of Directors and Officers
                     </h2>
-                    <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
+                    <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
                         Meet the experienced leaders guiding DA Market Securities with vision and integrity.
                     </p>
                 </motion.div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
                     {[
                         { name: "Abigail M. Del Rosario", position: "Chairman, Independent Director, Member Audit and Compliance Committee", image: "/team/gail-delrosario.jpg?v=2" },
                         { name: "Jocelyn David Greenlaw", position: "Director, President, Trader", image: "/team/joy-greenlaw.jpg?v=2" },
@@ -125,26 +109,26 @@ export default function AboutPage() {
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6, delay: index * 0.1 }}
                             viewport={{ once: true }}
-                            className="bg-card rounded-2xl border-2 border-brand-primary shadow-sm p-6 text-center group hover:shadow-lg transition-shadow duration-300"
+                            className="bg-card rounded-lg border shadow-sm p-5 text-center group hover:border-brand-primary/60 hover:shadow-md transition-all duration-300"
                         >
-                            <div className="relative mb-6 overflow-hidden rounded-xl">
+                            <div className="relative mb-5 overflow-hidden rounded-md bg-muted">
                                 <img
                                     src={member.image}
                                     alt={member.name}
-                                    className="w-full h-96 object-cover transition-transform duration-300 group-hover:scale-105"
+                                    className="aspect-[4/5] w-full object-cover object-top transition-transform duration-300 group-hover:scale-[1.02]"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                             </div>
                             <h3 className="text-lg font-semibold mb-2">{member.name}</h3>
-                            <p className="text-muted-foreground text-sm">{member.position}</p>
+                            <p className="text-muted-foreground text-sm leading-relaxed">{member.position}</p>
                         </motion.div>
                     ))}
                 </div>
             </SectionWrapper>
 
             <SectionWrapper background="muted">
-                <div className="text-center mb-16">
-                    <h2 className="text-4xl font-medium lg:text-5xl mb-6">Our Team</h2>
+                <div className="text-center mb-12">
+                    <h2 className="text-3xl font-semibold leading-tight md:text-4xl lg:text-5xl mb-4">Our Team</h2>
                 </div>
 
                 <div className="text-center">
@@ -154,7 +138,7 @@ export default function AboutPage() {
                         transition={{ duration: 0.6 }}
                         viewport={{ once: true }}
                     >
-                        <h3 className="mb-2 text-2xl font-bold">Research Team</h3>
+                        <h3 className="mb-2 text-2xl font-semibold">Research Team</h3>
                         <p className="text-muted-foreground text-sm mb-6">Market analysis and strategy</p>
                     </motion.div>
                     <div className="flex justify-center border-t py-6">
@@ -165,18 +149,18 @@ export default function AboutPage() {
                             viewport={{ once: true }}
                             className="text-center"
                         >
-                            <div className="bg-background size-48 rounded-full border-4 border-brand-primary p-0.5 shadow shadow-zinc-950/5 mx-auto group">
-                                <img className="aspect-square rounded-full object-cover transition-transform duration-300 group-hover:scale-105" src="/team/nish-alicer.png?v=2" alt="Nisha Ma. Nimfa S. Alicer" height="460" width="460" loading="lazy" />
+                            <div className="bg-background size-40 rounded-full border p-1 shadow-sm mx-auto group sm:size-48">
+                                <img className="aspect-square rounded-full object-cover object-top transition-transform duration-300 group-hover:scale-[1.02]" src="/team/nish-alicer.png?v=2" alt="Nisha Ma. Nimfa S. Alicer" height="460" width="460" loading="lazy" />
                             </div>
                             <span className="mt-2 block text-lg font-semibold">Nisha Ma. Nimfa S. Alicer</span>
-                            <span className="text-muted-foreground block text-sm">Chief Equity Strategist, Certified Equity Securities Salesman</span>
+                            <span className="text-muted-foreground block text-sm leading-relaxed">Chief Equity Strategist, Certified Equity Securities Salesman</span>
                         </motion.div>
                     </div>
                 </div>
 
                 <div className="mt-12 text-center">
                     <div className="border-t pt-6">
-                        <h3 className="mb-2 text-2xl font-bold">Sales and Trading Team</h3>
+                        <h3 className="mb-2 text-2xl font-semibold">Sales and Trading Team</h3>
                         <p className="text-muted-foreground text-sm mb-6">Execution and client services</p>
                     </div>
                     <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3">
@@ -205,11 +189,11 @@ export default function AboutPage() {
                                 viewport={{ once: true }}
                                 className="text-center"
                             >
-                                <div className="bg-background size-48 rounded-full border-4 border-brand-primary p-0.5 shadow shadow-zinc-950/5 mx-auto group">
-                                    <img className="aspect-square rounded-full object-cover transition-transform duration-300 group-hover:scale-105" src={member.avatar} alt={member.name} height="460" width="460" loading="lazy" />
+                                <div className="bg-background size-40 rounded-full border p-1 shadow-sm mx-auto group sm:size-48">
+                                    <img className="aspect-square rounded-full object-cover object-top transition-transform duration-300 group-hover:scale-[1.02]" src={member.avatar} alt={member.name} height="460" width="460" loading="lazy" />
                                 </div>
                                 <span className="mt-2 block text-lg font-semibold">{member.name}</span>
-                                <span className="text-muted-foreground block text-sm">{member.role}</span>
+                                <span className="text-muted-foreground block text-sm leading-relaxed">{member.role}</span>
                             </motion.div>
                         ))}
                     </div>
@@ -217,10 +201,10 @@ export default function AboutPage() {
 
                 <div className="mt-12 text-center">
                     <div className="border-t pt-6">
-                        <h3 className="mb-2 text-2xl font-bold">Backroom Team</h3>
+                        <h3 className="mb-2 text-2xl font-semibold">Backroom Team</h3>
                         <p className="text-muted-foreground text-sm mb-6">Operations and accounting</p>
                     </div>
-                    <div className="grid grid-cols-5 gap-8">
+                    <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-5">
                         {[
                             {
                                 name: 'Amalia S. Romualdo',
@@ -254,18 +238,18 @@ export default function AboutPage() {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.6, delay: index * 0.1 }}
                                 viewport={{ once: true }}
-                                className="bg-card rounded-2xl border-2 border-brand-primary shadow-sm p-6 text-center group hover:shadow-lg transition-shadow duration-300"
+                                className="bg-card rounded-lg border shadow-sm p-5 text-center group hover:border-brand-primary/60 hover:shadow-md transition-all duration-300"
                             >
-                                <div className="relative mb-4 overflow-hidden rounded-xl">
+                                <div className="relative mb-4 overflow-hidden rounded-md bg-muted">
                                     <img
                                         src={member.avatar}
                                         alt={member.name}
-                                        className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+                                        className="aspect-[4/5] w-full object-cover object-top transition-transform duration-300 group-hover:scale-[1.02]"
                                     />
                                     <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                                 </div>
                                 <h3 className="text-lg font-semibold mb-2">{member.name}</h3>
-                                <p className="text-muted-foreground text-sm">{member.role}</p>
+                                <p className="text-muted-foreground text-sm leading-relaxed">{member.role}</p>
                             </motion.div>
                         ))}
                     </div>
