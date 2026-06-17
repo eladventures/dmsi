@@ -162,8 +162,12 @@ You will receive an email confirmation once your account is activated and ready 
             },
             {
                 id: 'opening-6',
-                question: 'Investing in REITS: What is an NoCD?',
-                answer: 'In order for you to invest in REITs, a Name on Central Depository or NoCD is a sub-account created on the client\'s behalf for Real Estate Investment Trust (REIT) in the NoCD facility of the Philippine Depository & Trust Corporation (PDTC) as part of the regulatory requirement.',
+                question: 'Investing in REITs: What is a NoCD?',
+                answer: `A Name on Central Depository (NoCD) is a securities account created in the client's name and maintained through the Philippine Depository & Trust Corp. (PDTC).
+
+Under current regulations, investors in Real Estate Investment Trusts (REITs) are required to have a NoCD account so that their REIT holdings are recorded directly in their own name.
+
+DA Market Securities will assist eligible clients in the opening of a NoCD account when required.`,
             },
         ],
         'account-funding': [
@@ -266,7 +270,7 @@ You will receive an email confirmation once your account is activated and ready 
             {
                 id: 'maintain-4',
                 question: 'How many computers can I use to log-in to my iTradePro account?',
-                answer: 'You can register iTradePro on up to 2 laptops/computers. Note however that the two computers cannot be logged-on to the account at the same time. If you wish to register a new computer, send an Email to accounts@damarketsec.com to request.',
+                answer: 'You can register iTradePro on up to 2 laptops/computers. Note however that the two computers cannot be logged-on to the account at the same time. If you wish to register a new computer, send an email to accounts@damarketsec.com to request.',
             },
             {
                 id: 'maintain-5',
@@ -278,7 +282,7 @@ You will receive an email confirmation once your account is activated and ready 
             {
                 id: 'other-1',
                 question: 'How do I participate in Initial Public Offerings (IPOs), Follow-on Offerings (FOOs) and Stock Rights Offerings (SROs)?',
-                answer: 'You will receive announcements via Email and/or phone message. You may reply to that email with the preferred number of shares you wish to reserve. Order reservations are not guaranteed due to allocation based on trading volume. Payment will be debited from your trading account.',
+                answer: 'You will receive announcements via email and/or phone message. You may reply to that email with the preferred number of shares you wish to reserve. Order reservations are not guaranteed due to allocation based on trading volume. Payment will be debited from your trading account.',
             },
             {
                 id: 'other-2',
@@ -304,6 +308,58 @@ You will receive an email confirmation once your account is activated and ready 
     }
 
     const currentFAQs = faqContent[activeCategory] || []
+
+    const renderFAQAnswer = (answer: string) => {
+        const bullet = '\u2022'
+
+        return answer
+            .split('\n')
+            .map((line) => line.trimEnd())
+            .filter((line) => line.trim().length > 0)
+            .map((line, index) => {
+                const trimmedLine = line.trim()
+                const isNestedBullet = line.startsWith(`  ${bullet}`)
+
+                if (/^\d+\.\s/.test(trimmedLine)) {
+                    const [number, ...text] = trimmedLine.split(' ')
+
+                    return (
+                        <p key={index} className="flex gap-2 text-base leading-relaxed text-muted-foreground">
+                            <span className="font-semibold text-foreground">{number}</span>
+                            <span>{text.join(' ')}</span>
+                        </p>
+                    )
+                }
+
+                if (trimmedLine.startsWith(bullet)) {
+                    return (
+                        <p
+                            key={index}
+                            className={`flex gap-2 text-base leading-relaxed text-muted-foreground ${
+                                isNestedBullet ? 'ml-5' : ''
+                            }`}
+                        >
+                            <span className="text-foreground">{bullet}</span>
+                            <span>{trimmedLine.replace(/^\u2022\s*/, '')}</span>
+                        </p>
+                    )
+                }
+
+                if (trimmedLine.endsWith(':') || trimmedLine === 'DA Market Securities, Inc.') {
+                    return (
+                        <p key={index} className="pt-2 text-base font-semibold leading-relaxed text-foreground first:pt-0">
+                            {trimmedLine}
+                        </p>
+                    )
+                }
+
+                return (
+                    <p key={index} className="text-base leading-relaxed text-muted-foreground">
+                        {trimmedLine}
+                    </p>
+                )
+            })
+    }
 
     return (
         <div className="min-h-screen">
@@ -369,10 +425,10 @@ You will receive an email confirmation once your account is activated and ready 
                                                     />
                                                 </button>
                                                 {openAccordions.includes(item.id) && (
-                                                    <div className="px-6 pb-4">
-                                                        <p className="whitespace-pre-line text-base text-muted-foreground">
-                                                            {item.answer}
-                                                        </p>
+                                                    <div className="px-6 pb-5">
+                                                        <div className="space-y-2">
+                                                            {renderFAQAnswer(item.answer)}
+                                                        </div>
                                                     </div>
                                                 )}
                                             </div>
