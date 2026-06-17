@@ -65,17 +65,17 @@ export default function FAQPage() {
             {
                 id: 'about-1',
                 question: 'Who are we?',
-                answer: 'Established in 1987, DA Market Securities, Inc. (DMSI) is a traditional and online equities brokerage firm with an affiliate in banking and financing in Central Luzon. DMSI is a member of the Philippine Stock Exchange and is one of the leading stock brokerage firms in the country. The company is consistently among the top trading participants in terms of value turnover and the market leader on margin facilities.',
+                answer: 'Established in 1987, DA Market Securities, Inc. (DA Market) is a traditional and online equities brokerage firm with an affiliate in banking and financing in Central Luzon. DA Market is a member of the Philippine Stock Exchange and serves individual and institutional investors with integrity.',
             },
             {
                 id: 'about-2',
-                question: 'What services does iTRADE offer?',
+                question: 'What services does DA Market offer?',
                 answer: 'We offer: Online Stock Trading, Real-time market data and statistics, Charting tools, Broker Assisted Trading, and Margin Facility.',
             },
             {
                 id: 'about-3',
-                question: 'How do I contact iTRADE?',
-                answer: 'Contact Numbers: (02) 8887-5457 / (02) 8887-6407 / (02) 8834-7765. Email Address: accounts@damarketsec.com. Office Address: Unit 1105, PSE Tower, 5th Ave. Cor. 28th St. Bonifacio Global City, Taguig City, Philippines, 1634.',
+                question: 'How do I contact DA Market?',
+                answer: 'Contact Numbers: (02) 8887-5457 / (02) 8887-6407 / (02) 8834-7765. Email Address: accounts@damarketsec.com. Office Address: Unit 1105, PSE Tower, 5th Ave. Cor. 28th St., Bonifacio Global City, Taguig City 1634, Philippines.',
             },
         ],
         'opening-account': [
@@ -91,20 +91,20 @@ export default function FAQPage() {
 
 2. Email the accomplished form and supporting documents to accounts@damarketsec.com for initial review.
 
-3. You will receive an acknowledgment email confirming receipt of your application. Our team will contact you if additional information or documents are required.
+3. A DA Market representative will send an email confirming receipt of your documents. Our team will contact you if additional information or documents are required.
 
 4. Submit the signed original documents personally or via courier to:
 
 DA Market Securities, Inc.
 Unit 1105, PSE Tower
 5th Avenue corner 28th Street
-Bonifacio Global City, Taguig City
+Bonifacio Global City, Taguig City 1634, Philippines
 
 5. Receive notification once your application has been approved.
 
 6. Fund your account.
 
-7. Receive your login credentials via email within 1-2 business days.`,
+7. Once your application is approved, you will receive an email containing your username and temporary password.`,
             },
             {
                 id: 'opening-3',
@@ -122,7 +122,7 @@ Bonifacio Global City, Taguig City
 
 • Taxpayer Identification Number (TIN)
 
-Additional Requirements for Foreign Individuals:
+Additional Requirements for Foreign Nationals:
 
 • Valid Passport
 
@@ -142,7 +142,9 @@ Additional Requirements for Corporate Accounts:
 
 • Latest General Information Sheet (GIS)
 
-• Other supporting documents as may be required`,
+• Other supporting documents as may be required
+
+Know Your Customer (KYC) verification and additional supporting documents may be requested as part of regulatory requirements.`,
             },
             {
                 id: 'opening-4',
@@ -179,7 +181,7 @@ DA Market Securities will assist eligible clients in the opening of a NoCD accou
             {
                 id: 'funding-2',
                 question: 'What is the minimum investment required to open an account?',
-                answer: 'The minimum investment is PHP100,000.00.',
+                answer: 'Minimum initial cash or check deposit of PHP 100,000.00 payable to DA Market Securities, Inc.',
             },
             {
                 id: 'funding-3',
@@ -269,8 +271,8 @@ DA Market Securities will assist eligible clients in the opening of a NoCD accou
             },
             {
                 id: 'maintain-4',
-                question: 'How many computers can I use to log-in to my iTradePro account?',
-                answer: 'You can register iTradePro on up to 2 laptops/computers. Note however that the two computers cannot be logged-on to the account at the same time. If you wish to register a new computer, send an email to accounts@damarketsec.com to request.',
+                question: 'How many computers can I use to log in to my DA Market online trading account?',
+                answer: 'You can register your DA Market online trading account on up to two laptops or computers. The two computers cannot be logged in to the account at the same time. If you wish to register a new computer, send an email to accounts@damarketsec.com to request assistance.',
             },
             {
                 id: 'maintain-5',
@@ -296,13 +298,13 @@ DA Market Securities will assist eligible clients in the opening of a NoCD accou
             },
             {
                 id: 'other-4',
-                question: 'How can I transfer my stock positions to another broker from DMSI?',
+                question: 'How can I transfer my stock positions to another broker from DA Market?',
                 answer: 'Download and fill-up the Request for Stock Transfer form and send the original copy to our office. Electronic transfers take 1-2 working days. Transfer fee of P75.00 per stock charged by both issuing and receiving broker.',
             },
             {
                 id: 'other-5',
-                question: 'If I have no access to a computer/internet, can iTRADE execute my orders on my behalf?',
-                answer: 'Yes, you may send your orders via your DMSI-registered email to accounts@damarketsec.com or call our trading desk at +632 88919143, +632 88919144, or +63 917 863 3169. Our in-house broker-dealers can execute orders on your behalf. No additional charges for broker-assisted trades.',
+                question: 'If I have no access to a computer/internet, can DA Market execute my orders on my behalf?',
+                answer: 'Yes, you may send your orders via your DA Market-registered email to accounts@damarketsec.com or call our trading desk at +632 88919143, +632 88919144, or +63 917 863 3169. Our in-house broker-dealers can execute orders on your behalf. No additional charges for broker-assisted trades.',
             },
         ],
     }
