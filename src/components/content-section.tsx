@@ -5,18 +5,26 @@ export function ContentSection() {
     const trustPoints = [
         {
             title: 'Licensed and Regulated',
-            description:
-                'DA Market Securities has been a member of the Philippine Stock Exchange (PSE) since 1987 and operates under the oversight of the Securities and Exchange Commission (SEC) and other applicable market institutions.',
+            description: [
+                'DA Market Securities has been a member of the Philippine Stock Exchange (PSE) since 1987',
+                'and operates under the oversight of the Securities and Exchange Commission (SEC)',
+                'and other applicable market institutions.',
+            ].join(' '),
         },
         {
             title: 'Client-Centered Service',
-            description:
-                'We combine personalized service with market expertise to help clients make informed investment decisions aligned with their financial goals.',
+            description: [
+                'We combine personalized service with market expertise to help clients make informed',
+                'investment decisions aligned with their financial goals and circumstances.',
+            ].join(' '),
         },
         {
             title: 'Built on Long-Term Trust',
-            description:
-                'For more than three decades, DA Market Securities has served individual, corporate, and institutional clients through changing market cycles with integrity and reliability.',
+            description: [
+                'For more than three decades, DA Market Securities has served individual, corporate,',
+                'and institutional clients through changing market conditions with integrity,',
+                'reliability, and care.',
+            ].join(' '),
         },
     ]
 
@@ -40,7 +48,8 @@ export function ContentSection() {
                         viewport={{ once: true }}
                         className="mt-4 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg"
                     >
-                        Confidence built through regulatory discipline, experienced guidance, and consistent client service.
+                        Confidence built through regulatory discipline, experienced guidance,
+                        and consistent client service.
                     </motion.p>
                 </div>
                 <div className="grid items-center gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:gap-14">
@@ -53,9 +62,9 @@ export function ContentSection() {
                     >
                         <div className="relative aspect-[4/3] overflow-hidden rounded-lg border bg-card shadow-sm">
                             <Image 
-                                src="/images/trusted.png" 
-                                className="object-cover" 
-                                alt="DA Market Securities client service" 
+                                src="/images/ecosystem.png" 
+                                className="object-contain p-4" 
+                                alt="DA Market Securities investment ecosystem" 
                                 fill
                                 sizes="(min-width: 1024px) 42vw, 100vw"
                             />
