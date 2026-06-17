@@ -309,6 +309,25 @@ DA Market Securities will assist eligible clients in the opening of a NoCD accou
 
     const currentFAQs = faqContent[activeCategory] || []
 
+    const renderLinkedText = (text: string) => {
+        const formLabel = 'Account Opening Form'
+        const formIndex = text.indexOf(formLabel)
+
+        if (formIndex === -1) {
+            return text
+        }
+
+        return (
+            <>
+                {text.slice(0, formIndex)}
+                <Link href="/forms" className="font-medium text-brand-primary hover:underline">
+                    {formLabel}
+                </Link>
+                {text.slice(formIndex + formLabel.length)}
+            </>
+        )
+    }
+
     const renderFAQAnswer = (answer: string) => {
         const bullet = '\u2022'
 
@@ -326,7 +345,7 @@ DA Market Securities will assist eligible clients in the opening of a NoCD accou
                     return (
                         <p key={index} className="flex gap-2 text-base leading-relaxed text-muted-foreground">
                             <span className="font-semibold text-foreground">{number}</span>
-                            <span>{text.join(' ')}</span>
+                            <span>{renderLinkedText(text.join(' '))}</span>
                         </p>
                     )
                 }
@@ -340,7 +359,7 @@ DA Market Securities will assist eligible clients in the opening of a NoCD accou
                             }`}
                         >
                             <span className="text-foreground">{bullet}</span>
-                            <span>{trimmedLine.replace(/^\u2022\s*/, '')}</span>
+                            <span>{renderLinkedText(trimmedLine.replace(/^\u2022\s*/, ''))}</span>
                         </p>
                     )
                 }
@@ -355,7 +374,7 @@ DA Market Securities will assist eligible clients in the opening of a NoCD accou
 
                 return (
                     <p key={index} className="text-base leading-relaxed text-muted-foreground">
-                        {trimmedLine}
+                        {renderLinkedText(trimmedLine)}
                     </p>
                 )
             })
@@ -444,7 +463,7 @@ DA Market Securities will assist eligible clients in the opening of a NoCD accou
                                     <p className="text-muted-foreground">
                                         Can&apos;t find what you&apos;re looking for? Contact our{' '}
                                         <Link
-                                            href="#"
+                                            href="mailto:accounts@damarketsec.com?subject=FAQ%20Support%20Inquiry"
                                             className="text-brand-primary font-medium hover:underline"
                                         >
                                             customer support team
