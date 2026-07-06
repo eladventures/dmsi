@@ -21,32 +21,32 @@ const allForms = [
   {
     title: "Corporate Forms - Online",
     description: "Digital forms for corporate account management",
-    filename: "corporate_forms_online.pdf"
+    filename: "new_corporate_forms_online.pdf"
   },
   {
     title: "Corporate Forms - Broker Assisted",
     description: "Broker-assisted forms for corporate accounts",
-    filename: "corporate_forms_broker_assisted.pdf"
+    filename: "new_corporate_forms_broker_assisted.pdf"
   },
   {
     title: "Request for Certification",
     description: "Form to request account certification documents",
-    filename: "request_for_certification.pdf"
+    filename: "new_request_for_certification.pdf"
   },
   {
     title: "Request for Stock Transfer",
     description: "Form to request transfer of stock holdings",
-    filename: "request_for_stock_transfer.pdf"
+    filename: "new_request_for_stock_transfer.pdf"
   },
   {
     title: "Request for Upliftment of Stock Certificates",
     description: "Form to request upliftment of physical stock certificates",
-    filename: "request_for_upliftment_of_stok_certificate.pdf"
+    filename: "new_request_for_upliftment_of_stok_certificate.pdf"
   },
   {
     title: "Request for Withdrawal of Funds",
     description: "Form to request withdrawal from your account",
-    filename: "request_for_withdrawal_of_funds.pdf"
+    filename: "new_request_for_withdrawal_of_funds.pdf"
   },
   {
     title: "NOCD Consent Form",
