@@ -13,6 +13,10 @@ const links = [
                 href: '/about',
             },
             {
+                title: 'Vision',
+                href: '/vision',
+            },
+            {
                 title: 'First News',
                 href: '/first-news',
             },
@@ -23,10 +27,7 @@ const links = [
             {
                 title: 'Forms',
                 href: '/forms',
-            },
-            {
-                title: 'Privacy Policy',
-                href: '/privacy',
+            
             },
         ],
     },
