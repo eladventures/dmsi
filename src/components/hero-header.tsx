@@ -13,7 +13,7 @@ const menuItems = [
     { name: 'First News', href: '/first-news' },
     { name: 'FAQ', href: '/faq' },
     { name: 'Forms', href: '/forms' },
-    { name: 'Privacy', href: '/privacy' },
+    { name: 'Privacy Policy', href: '/privacy' },
 ]
 
 export const HeroHeader = () => {
