@@ -33,11 +33,11 @@ export default function PrivacyPage() {
                         <section className="mb-8">
                             <h2 className="text-2xl font-bold mb-4">1. Introduction</h2>
                             <p className="text-muted-foreground mb-4">
-                                DA Market Securities, Inc. (&quot;DMSI,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) is committed to protecting your privacy in accordance with the Data Privacy Act of 2012 (Republic Act No. 10173) and its implementing rules and regulations. This Privacy Policy explains how we collect, use, and protect your personal information.
+                                DA Market Securities, Inc. (&quot;DA Market,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) is committed to protecting your privacy in accordance with the Data Privacy Act of 2012 (Republic Act No. 10173) and its implementing rules and regulations. This Privacy Policy explains how we collect, use, and protect your personal information.
                             </p>
                             <p className="text-muted-foreground">
                                 <strong>Data Protection Officer:</strong> Fe M. Caling<br />
-                                <strong>Contact:</strong> helpdesk@itrade.ph | (02) 8887-5457
+                                <strong>Contact:</strong> admin@damarketsec.com | (02) 8887-5457
                             </p>
                         </section>
 
@@ -123,7 +123,7 @@ export default function PrivacyPage() {
                                 <li><strong>Data portability</strong> in electronic format</li>
                             </ul>
                             <p className="text-muted-foreground">
-                                To exercise these rights, contact our Data Protection Officer at helpdesk@itrade.ph.
+                                To exercise these rights, contact our Data Protection Officer at admin@damarketsec.com.
                             </p>
                         </section>
 
@@ -154,7 +154,7 @@ export default function PrivacyPage() {
                                 <p className="text-muted-foreground">
                                     <strong>Data Protection Officer:</strong> Fe M. Caling<br />
                                     <strong>Address:</strong> Unit 1105, PSE Tower, 5th Ave. Cor. 28th St. BGC, Taguig City 1634<br />
-                                    <strong>Email:</strong> helpdesk@itrade.ph<br />
+                                    <strong>Email:</strong> admin@damarketsec.com<br />
                                     <strong>Phone:</strong> (02) 8887-5457 / (02) 8887-6407 / (02) 8834-7765
                                 </p>
                             </div>
