@@ -1,4 +1,4 @@
-iTRADE FAQ - DA Market Securities, Inc. (DMSI)
+DA Market Securities, Inc. (DA Market)
 ====================================================
 
 TABLE OF CONTENTS
@@ -16,13 +16,13 @@ ABOUT US
 
 Who are we?
 -----------
-Established in 1987, DA Market Securities, Inc. (DMSI) is a traditional and online equities brokerage firm with an affiliate in banking and financing in Central Luzon.
+Established in 1987, DA Market Securities, Inc. (DA Market) is a traditional and online equities brokerage firm with an affiliate in banking and financing in Central Luzon.
 
-DMSI is a member of the Philippine Stock Exchange and is one of the leading stock brokerage firms in the country. The company is consistently among the top trading participants in terms of value turnover and the market leader on margin facilities.
+DA Market is a member of the Philippine Stock Exchange and is one of the leading stock brokerage firms in the country. The company is consistently among the top trading participants in terms of value turnover and the market leader on margin facilities.
 
 We create value and provide excellent products and services for our clients through the bulls and bears of the market, growth for our people and meaningful returns to our shareholders. We are dedicated advocates of financial literacy to reach the growing number of Filipino investors seeking to ensure long-term wealth.
 
-What services does iTRADE offer?
+What services does DA Market offer?
 -------------------------------
 - Online Stock Trading
 - Real-time market data and statistics
@@ -30,13 +30,13 @@ What services does iTRADE offer?
 - Broker Assisted Trading
 - Margin Facility
 
-How do I contact iTRADE?
+How do I contact DA Market?
 -----------------------
 Contact Numbers:
 (02) 8887-5457 / (02) 8887-6407 / (02) 8834-7765
 
 Email Address:
-helpdesk@itrade.ph
+admin@damarketsec.com
 
 Office Address:
 Unit 1105, PSE Tower, 5th Ave. Cor. 28th St. Bonifacio Global City, Taguig City, Philippines, 1634
@@ -52,7 +52,7 @@ Any one of legal age, local, including OFWs, or foreign, or Corporation so long 
 How can I open an account?
 --------------------------
 1. Download the application form and fill in the required information.
-2. E-mail a digital copy to damarketsecurities@gmail.com for review before submitting the physical copy personally or via courier duly accomplished forms and other requirements to our office at Unit 1105 PSE Tower, 5th Avenue Corner 28th Street, Fort Bonifacio Global City, Taguig City.
+2. E-mail a digital copy to admin@damarketsec.com for review before submitting the physical copy personally or via courier duly accomplished forms and other requirements to our office at Unit 1105 PSE Tower, 5th Avenue Corner 28th Street, Fort Bonifacio Global City, Taguig City.
 3. Receive an email notification once application is approved.
 4. Fund your account.
 5. Receive the log-in credentials by email within 1-2 business days.
@@ -102,7 +102,7 @@ Partner Banks & Account Numbers:
 - BDO: 01-1868-0012-97
   For BDO Bills payment (This option does not require enrollment)
   1. Select DA MARKET SECURITIES INC. as the Company/Biller Name
-  2. Fill in details: Under Subscriber Number, input DMSI Account Code (e.g. ABCD001) and under Subscriber Name, input your DMSI Account Name
+  2. Fill in details: Under Subscriber Number, input DA Market Account Code (e.g. ABCD001) and under Subscriber Name, input your DA Market Account Name
 
 - BPI: 3541-0031-33
 - Metrobank: 264-7-26481071-6
@@ -126,11 +126,11 @@ MAINTAINING MY ACCOUNT
 
 What if I forget my Username and Password?
 -----------------------------------------
-Contact us at (02) 8887 5457 or (02) 8834 7765 or (63) 917 863 3119 or send an email to helpdesk@itrade.ph to reset your Username or Password.
+Contact us at (02) 8887 5457 or (02) 8834 7765 or (63) 917 863 3119 or send an email to admin@damarketsec.com to reset your Username or Password.
 
 What if I want to update my Account details?
 -------------------------------------------
-Contact us at (02) 8887 6407 or (02) 8834 7765 or (63) 917 863 3119 or send an email to helpdesk@itrade.ph to reset your Account details.
+Contact us at (02) 8887 6407 or (02) 8834 7765 or (63) 917 863 3119 or send an email to admin@damarketsec.com to reset your Account details.
 
 What if I want to change my password?
 ------------------------------------
@@ -311,15 +311,15 @@ M           | Multiply your order quantity by 1,000,000 in the Single Order Entr
 
 How do I confirm done transactions for the day?
 ----------------------------------------------
-You will receive confirmation receipts for all done transactions for the day in your registered email. If you wish to view historical transactions, you may email us at helpdesk@itrade.ph to request for your account ledger.
+You will receive confirmation receipts for all done transactions for the day in your registered email. If you wish to view historical transactions, you may email us at admin@damarketsec.com to request for your account ledger.
 
-How many computers can I use to log-in to my iTradePro account?
+How many computers can I use to log-in to my DA Market account?
 -------------------------------------------------------------
-You can register iTradePro on up to 2 laptops/computers. Note however that the two computers cannot be logged-on to the account at the same time. If you wish to register a new computer, send an e-mail to helpdesk@itrade.ph to request.
+You can register iTradePro on up to 2 laptops/computers. Note however that the two computers cannot be logged-on to the account at the same time. If you wish to register a new computer, send an e-mail to admin@damarketsec.com to request.
 
 If I have no access to a computer/internet, can iTRADE execute my orders on my behalf?
 ------------------------------------------------------------------------------------
-Yes, you may send your orders via your DMSI-registered email to damarketsecurities@gmail.com or phone message or call our trading desk at +632 88919143, +632 88919144, or +63 917 863 3169, and our in-house broker-dealers can execute your orders on your behalf. Please ensure acknowledgement of your order. There are no additional charges for broker-assisted trades.
+Yes, you may send your orders via your DA Market-registered email to damarketsecurities@gmail.com or phone message or call our trading desk at +632 88919143, +632 88919144, or +63 917 863 3169, and our in-house broker-dealers can execute your orders on your behalf. Please ensure acknowledgement of your order. There are no additional charges for broker-assisted trades.
 
 ====================================================
 OTHER SERVICES
@@ -339,7 +339,7 @@ Yes. To find out more about our margin facilities Contact us at (02) 8887 5457 o
 
 How do I withdraw from my account?
 ---------------------------------
-Please fill out and sign a Fund Withdrawal Form and send an email to helpdesk@itrade.ph with a subject: FUND WITHDRAWAL REQUEST.
+Please fill out and sign a Fund Withdrawal Form and send an email to admin@damarketsec.com with a subject: FUND WITHDRAWAL REQUEST.
 
 Once your request has been processed, you will receive an email confirming your withdrawal. Cut-off time for withdrawal requests is 11:00AM. Funds can be deposited in your bank account or paid in check for pick-up.
 
@@ -358,7 +358,7 @@ Note: The upliftment process may take a month to be completed, depending on the 
 
 How can I request for a certification of my holdings?
 ----------------------------------------------------
-Yes, please submit a duly-accomplished Certification Request Form and send an email to helpdesk@itrade.ph with a subject: CERTIFICATION REQUEST.
+Yes, please submit a duly-accomplished Certification Request Form and send an email to admin@damarketsec.com with a subject: CERTIFICATION REQUEST.
 
 You have an option to have the certification picked-up at our office, or delivered through mail or e-mail. Certification Fee is Php100.00
 
@@ -366,9 +366,9 @@ How can I receive my dividend payout?
 ------------------------------------
 Your cash dividends or selling proceeds will automatically be credited to your account. You will receive a credit memo to indicate the credit of the cash dividend. The credit of dividends will also be reflected on your Stock Trading Statement of Account (SOA) issued monthly.
 
-How can I deposit (or lodge) my existing stock certificate/s to my DMSI Account?
+How can I deposit (or lodge) my existing stock certificate/s to my DA Market Account?
 ------------------------------------------------------------------------------
-Yes, stock certificates can be deposited or "lodged" into your account as long as the name appearing on the stock certificate is the same as the DMSI account name.
+Yes, stock certificates can be deposited or "lodged" into your account as long as the name appearing on the stock certificate is the same as the DA Market account name.
 
 - You may submit the duly endorsed stock certificates to our office Unit 1105, PSE Tower, 5th Ave. Cor. 28th St. Bonifacio Global City, Taguig City, Philippines, 1634
 - The certificates will then be submitted to the Transfer Agent for clearing then passed on to the Philippine Depository & Trust Corp (PDTC) for custody
@@ -376,15 +376,15 @@ Yes, stock certificates can be deposited or "lodged" into your account as long a
   For bank Transfer Agent: cancellation fee is Php100 plus Php20 per Certificate
   For Non-bank: transfer and cancellation fee is Php112 plus Php22.40 per Certificate
 
-How can I transfer my stockholdings from another local stockbroker to DMSI?
+How can I transfer my stockholdings from another local stockbroker to DA Market?
 -------------------------------------------------------------------------
-If you are an existing client of DMSI, you can transfer your stockholdings to DMSI by giving your other stockbroker a written transfer instruction to do so, a copy of which must be furnished to DMSI.
+If you are an existing client of DA Market, you can transfer your stockholdings to DA Market by giving your other stockbroker a written transfer instruction to do so, a copy of which must be furnished to DA Market.
 
 If your stockholdings are in street name and lodged with the PDTC, the transfer will be done electronically. Electronic transfer can take one or two working days and would entail a cost to the customer of Php 75.00 per stock (regardless of number of shares) will be charged by the issuing broker and by the receiving broker.
 
-How can I transfer my stock positions to another broker from DMSI?
+How can I transfer my stock positions to another broker from DA Market?
 ----------------------------------------------------------------
-To transfer your stockholdings from DMSI to another broker electronically, please download and fill-up the Request for Stock Transfer form from our website and send the original copy to our office Unit 1105, PSE Tower, 5th Ave. Cor. 28th St. Bonifacio Global City, Taguig City, Philippines, 1634.
+To transfer your stockholdings from DA Market to another broker electronically, please download and fill-up the Request for Stock Transfer form from our website and send the original copy to our office Unit 1105, PSE Tower, 5th Ave. Cor. 28th St. Bonifacio Global City, Taguig City, Philippines, 1634.
 
 Electronic transfers are accomplished in one to two working days. A transfer fee of P75.00 per stock (regardless of number of shares) will be charged by the issuing broker and by the receiving broker.
 
@@ -397,5 +397,5 @@ For more information, refer to:
 - Regulatory Framework: https://www.pse.com.ph/regulation-trading-participants/
 
 ====================================================
-Last updated: Based on content from https://www.itrade.ph/faq
+Last updated: Based on content from https://www.damarketsec.com/faq
 ====================================================
