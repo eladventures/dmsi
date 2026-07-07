@@ -12,7 +12,7 @@ import { motion } from 'framer-motion';
 export default function OpenAccountPage() {
     const handleFormDownload = () => {
         const link = document.createElement('a');
-        link.href = '/forms/individual_or_joint_forms_online.pdf';
+        link.href = '/forms/new_Individual or Joint Forms - Online.pdf';
         link.download = 'DA-Market-Securities-Account-Opening-Form.pdf';
         document.body.appendChild(link);
         link.click();
@@ -128,7 +128,7 @@ export default function OpenAccountPage() {
                                                 </div>
                                                 <div className="flex items-center gap-2">
                                                     <Mail className="h-4 w-4" />
-                                                    <p>Email address: accounts@damarketsec.com</p>
+                                                    <p>Email address: admin@damarketsec.com</p>
                                                 </div>
                                             </div>
                                         </div>
