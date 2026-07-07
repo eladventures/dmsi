@@ -33,7 +33,7 @@ export default function PrivacyPage() {
                         <section className="mb-8">
                             <h2 className="text-2xl font-bold mb-4">1. Introduction</h2>
                             <p className="text-muted-foreground mb-4">
-                                DA Market Securities, Inc. (&quot;DMSI,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) is committed to protecting your privacy in accordance with the Data Privacy Act of 2012 (Republic Act No. 10173) and its implementing rules and regulations. This Privacy Policy explains how we collect, use, and protect your personal information.
+                                DA Market Securities, Inc. (&quot;DA Market,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) is committed to protecting your privacy in accordance with the Data Privacy Act of 2012 (Republic Act No. 10173) and its implementing rules and regulations. This Privacy Policy explains how we collect, use, and protect your personal information.
                             </p>
                             <p className="text-muted-foreground">
                                 <strong>Data Protection Officer:</strong> Fe M. Caling<br />
