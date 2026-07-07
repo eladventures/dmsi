@@ -27,7 +27,10 @@ const links = [
             {
                 title: 'Forms',
                 href: '/forms',
-            
+            },
+            {
+                title: 'Privacy Policy',
+                href: '/privacy-policy',
             },
         ],
     },
