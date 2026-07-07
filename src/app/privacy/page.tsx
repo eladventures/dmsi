@@ -27,7 +27,7 @@ export default function PrivacyPage() {
                     <div className="bg-card rounded-2xl border p-8 md:p-12 shadow-sm">
                         <p className="text-muted-foreground mb-8">
                             <strong>Effective Date:</strong> January 1, 2024<br />
-                            <strong>Last Updated:</strong> January 1, 2024
+                            <strong>Last Updated:</strong> January 1, 2026
                         </p>
 
                         <section className="mb-8">
