@@ -11,12 +11,12 @@ const allForms = [
   {
     title: "Individual or Joint Forms - Online",
     description: "Digital forms for individual and joint account management",
-    filename: "Individual or Joint Forms - Online.pdf"
+    filename: "new_Individual or Joint Forms - Online.pdf"
   },
   {
     title: "Individual or Joint Forms - Broker Assisted",
     description: "Broker-assisted forms for individual and joint accounts",
-    filename: "Individual or Joint Forms - Broker Assisted.pdf"
+    filename: "new_Individual or Joint Forms - Broker Assisted.pdf"
   },
   {
     title: "Corporate Forms - Online",
