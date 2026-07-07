@@ -30,7 +30,7 @@ const links = [
             },
             {
                 title: 'Privacy Policy',
-                href: '/privacy-policy',
+                href: '/privacy',
             },
         ],
     },
