@@ -45,7 +45,7 @@ export default function PrivacyPage() {
                             <h2 className="text-2xl font-bold mb-4">2. Information We Collect</h2>
                             <p className="text-muted-foreground mb-4">We collect personal information necessary to provide brokerage services, including:</p>
                             <ul className="text-muted-foreground mb-4 list-disc pl-6">
-                                <li><strong>Identity Information:</strong> Name, address, date of birth, government IDs, TIN</li>
+                                <li><strong>Identity Information:</strong> Name, address, date of birth, gender, civil status, government IDs, TIN</li>
                                 <li><strong>Financial Information:</strong> Income, bank details, transaction history, trading records</li>
                                 <li><strong>Contact Information:</strong> Phone numbers, email addresses</li>
                                 <li><strong>Technical Information:</strong> IP addresses, device information, website usage data</li>
@@ -80,7 +80,7 @@ export default function PrivacyPage() {
                             <h2 className="text-2xl font-bold mb-4">5. Information Sharing</h2>
                             <p className="text-muted-foreground mb-4">We may share your information with:</p>
                             <ul className="text-muted-foreground mb-4 list-disc pl-6">
-                                <li><strong>Regulatory authorities</strong> (SEC, PSE, BSP, AMLC, BIR) as required by law</li>
+                                <li><strong>Regulatory authorities</strong> (SEC, PSE, CMIC, BSP, AMLC, BIR) as required by law</li>
                                 <li><strong>Market infrastructure</strong> (PDTC, SCCP) for trade settlement</li>
                                 <li><strong>Service providers</strong> (banks, IT vendors) under strict confidentiality agreements</li>
                                 <li><strong>Legal authorities</strong> when required by court order or law</li>
@@ -166,8 +166,8 @@ export default function PrivacyPage() {
                                 For privacy complaints, contact us directly or file with the National Privacy Commission:
                             </p>
                             <ul className="text-muted-foreground list-disc pl-6">
-                                <li><strong>Website:</strong> <a href="https://privacy.gov.ph" className="text-brand-primary hover:underline">privacy.gov.ph</a></li>
-                                <li><strong>Hotline:</strong> (02) 8234-2228</li>
+                                <li><strong>Website:</strong> <a href="https://complaints@privacy.gov.ph" className="text-brand-primary hover:underline">privacy.gov.ph</a></li>
+                                <li><strong>Hotline:</strong> (+632) 5322-1322 local 114 and 115 </li>
                             </ul>
                         </section>
                     </div>
