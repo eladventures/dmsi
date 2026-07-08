@@ -58,7 +58,7 @@ export default function PrivacyPage() {
                             <ul className="text-muted-foreground mb-4 list-disc pl-6">
                                 <li>Open and maintain your trading account</li>
                                 <li>Execute trades and process transactions</li>
-                                <li>Comply with regulatory requirements (SEC, PSE, BSP, AMLC, BIR)</li>
+                                <li>Comply with regulatory requirements (SEC, PSE, CMIC, BSP, AMLC, BIR)</li>
                                 <li>Provide customer service and support</li>
                                 <li>Prevent fraud and ensure security</li>
                                 <li>Send important account notifications</li>
@@ -123,7 +123,7 @@ export default function PrivacyPage() {
                                 <li><strong>Data portability</strong> in electronic format</li>
                             </ul>
                             <p className="text-muted-foreground">
-                                To exercise these rights, contact our Data Protection Officer at helpdesk@itrade.ph.
+                                To exercise these rights, contact our Data Protection Officer at compliance@damarketsec.com
                             </p>
                         </section>
 
