@@ -166,7 +166,7 @@ export default function PrivacyPage() {
                                 For privacy complaints, contact us directly or file with the National Privacy Commission:
                             </p>
                             <ul className="text-muted-foreground list-disc pl-6">
-                                <li><strong>Website:</strong> <a href="https://complaints@privacy.gov.ph" className="text-brand-primary hover:underline">privacy.gov.ph</a></li>
+                                <li><strong>Website:</strong> <a href= complaints@privacy.gov.ph className="text-brand-primary hover:underline">privacy.gov.ph</a></li>
                                 <li><strong>Hotline:</strong> (+632) 5322-1322 local 114 and 115 </li>
                             </ul>
                         </section>
