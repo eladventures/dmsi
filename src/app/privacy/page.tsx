@@ -154,7 +154,7 @@ export default function PrivacyPage() {
                                 <p className="text-muted-foreground">
                                     <strong>Data Protection Officer:</strong> Fe M. Caling<br />
                                     <strong>Address:</strong> Unit 1105, PSE Tower, 5th Ave. Cor. 28th St. BGC, Taguig City 1634<br />
-                                    <strong>Email:</strong> compliance@damarketsec,com<br />
+                                    <strong>Email:</strong> compliance@damarketsec.com<br />
                                     <strong>Phone:</strong> (02) 8887-5457 / (0917) 863 3119
                                 </p>
                             </div>
