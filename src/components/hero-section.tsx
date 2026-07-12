@@ -39,7 +39,7 @@ export function HeroSection() {
         >
           Invest with Confidence.
           <br />
-          <span className="bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
+          <span className="text-brand-primary">
             Trade with a Trusted Name.
           </span>
         </motion.h1>
