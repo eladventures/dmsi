@@ -99,7 +99,7 @@ export function Footer() {
                                 </svg>
                             </Link>
                             <Link
-                                href="#"
+                                href="https://www.facebook.com/damarketsecinc/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="Facebook"
@@ -109,7 +109,7 @@ export function Footer() {
                                 </svg>
                             </Link>
                             <Link
-                                href="#"
+                                href="https://x.com/DAMarket_Sec"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="X/Twitter"
