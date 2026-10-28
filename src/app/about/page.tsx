@@ -37,7 +37,7 @@ function AboutContentSection() {
                         viewport={{ once: true }}
                         className="text-3xl font-semibold leading-tight md:text-4xl"
                     >
-                        DA Market Securities brings together Expertise, Innovation and Personalized Service.
+                        DA Market Securities brings together expertise, innovation and personalized Service.
                     </motion.h2>
                     <motion.div 
                         initial={{ opacity: 0, x: 20 }}
