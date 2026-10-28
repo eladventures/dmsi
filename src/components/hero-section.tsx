@@ -51,7 +51,7 @@ export function HeroSection() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-xl text-muted-foreground max-w-3xl mx-auto mb-10"
         >
-          Serving individual and institutional investors with integrity since 1987.
+          Serving Individual and Institutional Investors with Integrity Since 1987.
         </motion.p>
 
         {/* CTA Buttons */}
