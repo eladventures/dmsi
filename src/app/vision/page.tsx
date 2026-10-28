@@ -63,10 +63,11 @@ function VisionContentSection() {
               Our Strategic Goal
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              Our goal is to build one of the Philippines&apos; leading
-              independent brokerage and wealth management platforms by combining
-              personalized service, modern technology, and access to investment
-              solutions that help clients achieve their financial goals.
+             To be a leading independent Philippine investment access
+             and distribution platform, connecting investors with trusted
+             financial institutions, innovative investment solutions,
+             and opportunities that help build, preserve, and grow wealth
+             across generations.
              
             </p>
 
