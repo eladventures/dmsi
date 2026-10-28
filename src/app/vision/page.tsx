@@ -79,7 +79,7 @@ function VisionContentSection() {
              investment products and services through personalized service,
              modern technology, strategic partnerships and responsible financial
              guidance -while maintaining the highest standards of integrity,
-             compliance, and investor protection
+             compliance, and investor protection.
             
             </p>
 
