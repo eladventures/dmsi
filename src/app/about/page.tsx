@@ -89,7 +89,7 @@ export default function AboutPage() {
                         Board of Directors and Officers
                     </h2>
                     <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-                        Meet the experienced leaders guiding DA Market Securities with vision and integrity.
+                        Meet the Experienced Leaders Guiding DA Market Securities with Vision and Integrity.
                     </p>
                 </motion.div>
 
@@ -139,7 +139,7 @@ export default function AboutPage() {
                         viewport={{ once: true }}
                     >
                         <h3 className="mb-2 text-2xl font-semibold">Research Team</h3>
-                        <p className="text-muted-foreground text-sm mb-6">Market analysis and strategy</p>
+                        <p className="text-muted-foreground text-sm mb-6">Market Analysis and Strategy</p>
                     </motion.div>
                     <div className="flex justify-center border-t py-6">
                         <motion.div 
@@ -161,7 +161,7 @@ export default function AboutPage() {
                 <div className="mt-12 text-center">
                     <div className="border-t pt-6">
                         <h3 className="mb-2 text-2xl font-semibold">Sales and Trading Team</h3>
-                        <p className="text-muted-foreground text-sm mb-6">Execution and client services</p>
+                        <p className="text-muted-foreground text-sm mb-6">Execution and Client Services</p>
                     </div>
                     <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3">
                         {[
@@ -202,7 +202,7 @@ export default function AboutPage() {
                 <div className="mt-12 text-center">
                     <div className="border-t pt-6">
                         <h3 className="mb-2 text-2xl font-semibold">Backroom Team</h3>
-                        <p className="text-muted-foreground text-sm mb-6">Operations and accounting</p>
+                        <p className="text-muted-foreground text-sm mb-6">Operations and Accounting</p>
                     </div>
                     <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-5">
                         {[
