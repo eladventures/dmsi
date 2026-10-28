@@ -72,7 +72,7 @@ export default function AboutPage() {
             
             <PageHero
                 title="Who We Are"
-                subtitle="Proudly Filipino, Professionally driven, and Committed to Serving Investors with Personalized Attention."
+                subtitle="Proudly Filipino, Professionally Driven, and Committed to Serving Investors with Personalized Attention."
             />
 
             <AboutContentSection />
