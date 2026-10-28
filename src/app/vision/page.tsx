@@ -67,6 +67,7 @@ function VisionContentSection() {
               independent brokerage and wealth management platforms by combining
               personalized service, modern technology, and access to investment
               solutions that help clients achieve their financial goals.
+              -Democratizing access to capital markets
             </p>
 
             <h3 className="text-2xl font-semibold leading-tight pt-2">
