@@ -71,6 +71,18 @@ function VisionContentSection() {
              
             </p>
 
+            <h3 className="text-2xl font-semibold leading-tight">
+              Our Strategic Direction
+            </h3>
+            <p className="text-muted-foreground leading-relaxed">
+             To provide clients with trusted access to a broad range of
+             investment products and services through personalized service,
+             modern technology, strategic partnerships and responsible financial
+             guidance -while maintaining the highest standards of integrity,
+             compliance, and investor protection
+            
+            </p>
+
             <h3 className="text-2xl font-semibold leading-tight pt-2">
               Our Areas of Focus
             </h3>
