@@ -45,7 +45,7 @@ export function ServicesSection() {
             className="text-xl text-muted-foreground mt-4 max-w-3xl mx-auto"
           >
             Tailored Stock Market Services for Individual and Institutional
-            Investors-built on trust, Insight, and Personalized Support.
+            Investors-Built on Trust, Insight, and Personalized Support.
           </motion.p>
         </div>
 
