@@ -45,7 +45,7 @@ export function Footer() {
                         <div>
                             <h3 className="text-2xl font-bold mb-4">DA Market Securities</h3>
                             <p className="text-slate-300 mb-6">
-                                Leading Philippine stock brokerage firm serving individual and institutional investors with integrity since 1987
+                                Leading Philippine Stock Brokerage Firm Serving Individual and Institutional Investors with Integrity since 1987
                             </p>
                         </div>
                     </div>
