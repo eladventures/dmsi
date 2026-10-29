@@ -13,7 +13,7 @@ const links = [
                 href: '/about',
             },
             {
-                title: 'Vision',
+                title: 'Mission & Vision',
                 href: '/vision',
             },
             {
