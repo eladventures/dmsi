@@ -6,19 +6,19 @@ const services = [
   {
     title: "Trading Platform",
     description:
-      "Enhanced Trading Experience\n(Coming Soon)\nPowered by our partnership with InvestaTrade. Expected launch: July-August 2026.",
+      "Enhanced Trading Experience\n(Coming Soon)\nPowered by our Partnership with InvestaTrade. Expected Launch: July-August 2026.",
     image: "/images/service-trading.png",
   },
   {
     title: "Stock Research",
     description:
-      "In-depth equity research and market analysis to help you make informed investment decisions.",
+      "In-depth Equity Research and Market Analysis to help you make Informed Investment Decisions.",
     image: "/images/service-advisory.png",
   },
   {
     title: "Client Support",
     description:
-      "Dedicated client service and account management to support your trading and investment needs.",
+      "Dedicated Client Service and Account Management to Support your Trading and Investment Needs.",
     image: "/images/service-wealth.png",
   },
 ];
@@ -44,8 +44,8 @@ export function ServicesSection() {
             viewport={{ once: true }}
             className="text-xl text-muted-foreground mt-4 max-w-3xl mx-auto"
           >
-            Tailored stock market services for individual and institutional
-            investors-built on trust, insight, and personalized support.
+            Tailored Stock Market Services for Individual and Institutional
+            Investors-built on trust, Insight, and Personalized Support.
           </motion.p>
         </div>
 
